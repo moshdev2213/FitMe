@@ -11,4 +11,6 @@
     <color name="shimmerLight">#E5E7EB</color>
     <color name="shimmerMain">#D1D5DB</color>
     <!--shimmer colors ensd here    -->
+
+    <color name="cardBorder">#AAABAE</color>
 </resources>
