@@ -2,4 +2,13 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <color name="primary">#7047EB</color>
+    <color name="primaryLight">#F1EDFD</color>
+    <color name="secondary">#F9FAFB</color>
+
+    <!--shimmer colors    -->
+    <color name="shimmerLight">#E5E7EB</color>
+    <color name="shimmerMain">#D1D5DB</color>
+    <!--shimmer colors ensd here    -->
 </resources>
