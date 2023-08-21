@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.Payment">
+
+    <TextView
+        android:id="@+id/textView45"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
+        android:fontFamily="@font/montserrat_medium"
+        android:text="Payment"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/btnBackReservation2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView45"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView45"
+        app:srcCompat="@drawable/baseline_arrow_back_24" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="0dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView45"
+        app:srcCompat="@drawable/paynow" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/etSignInEmail2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:alpha="0.8"
+        android:background="@drawable/custom_input"
+        android:ems="10"
+        android:fontFamily="@font/montserrat_medium"
+        android:hint="Card Holder Name"
+        android:inputType="text|textPersonName"
+        android:padding="16dp"
+        android:textColor="@color/cardBorder"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/etSignInEmail3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:alpha="0.8"
+        android:background="@drawable/custom_input"
+        android:ems="10"
+        android:fontFamily="@font/montserrat_medium"
+        android:hint="Card Number"
+        android:inputType="text"
+        android:maxLength="16"
+        android:padding="16dp"
+        android:textColor="@color/cardBorder"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etSignInEmail2" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/etSignInEmail4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:alpha="0.8"
+        android:background="@drawable/custom_input"
+        android:ems="10"
+        android:fontFamily="@font/montserrat_medium"
+        android:hint="Expiry Date"
+        android:inputType="datetime|date"
+        android:maxLength="5"
+        android:padding="16dp"
+        android:textColor="@color/cardBorder"
+        app:layout_constraintBottom_toBottomOf="@+id/etSignInEmail5"
+        app:layout_constraintEnd_toStartOf="@+id/etSignInEmail5"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/etSignInEmail5" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/etSignInEmail5"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:alpha="0.8"
+        android:background="@drawable/custom_input"
+        android:ems="10"
+        android:fontFamily="@font/montserrat_medium"
+        android:hint="CVC Number"
+        android:inputType="datetime"
+        android:maxLength="3"
+        android:padding="16dp"
+        android:textColor="@color/cardBorder"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/etSignInEmail4"
+        app:layout_constraintTop_toBottomOf="@+id/etSignInEmail3" />
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/cvSignBtn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="16dp"
+        android:clickable="true"
+        app:cardBackgroundColor="@color/primary"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etSignInEmail5">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="12dp"
+                android:fontFamily="@font/montserrat_medium"
+                android:text="Proceed Payment"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -13,32 +13,44 @@
         android:theme="@style/Theme.FitMe"
         tools:targetApi="31">
         <activity
+            android:name=".Activity.Success"
+            android:exported="true">
+
+        </activity>
+        <activity
+            android:name=".Activity.Payment"
+            android:exported="true">
+
+        </activity>
+        <activity
             android:name=".Activity.Reservation"
             android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity
             android:name=".Activity.Home"
             android:exported="true">
+
+        </activity>
+        <activity
+            android:name=".Activity.SignUp"
+            android:exported="true" >
+
+        </activity>
+        <activity
+            android:name=".Activity.SignInOTP"
+            android:exported="true" >
+
+        </activity>
+        <activity
+            android:name=".Activity.SignIn"
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".Activity.SignUp"
-            android:exported="true"></activity>
-        <activity
-            android:name=".Activity.SignInOTP"
-            android:exported="true"></activity>
-        <activity
-            android:name=".Activity.SignIn"
-            android:exported="true"></activity>
         <activity
             android:name=".MainActivity"
             android:exported="true"
