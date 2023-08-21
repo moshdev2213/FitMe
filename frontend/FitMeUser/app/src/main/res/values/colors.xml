@@ -6,7 +6,9 @@
     <color name="primary">#7047EB</color>
     <color name="primaryLight">#F1EDFD</color>
     <color name="secondary">#F9FAFB</color>
-
+    <color name="bg_warning">#BFFFBF00</color>
+<!--    <color name="bg_warning">#80FFBF00</color>-->
+    <color name="bg_danger">#FF6262</color>
     <!--shimmer colors    -->
     <color name="shimmerLight">#E5E7EB</color>
     <color name="shimmerMain">#D1D5DB</color>
