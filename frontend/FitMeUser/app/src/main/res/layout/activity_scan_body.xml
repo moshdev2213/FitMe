@@ -22,18 +22,46 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <ImageView
+        android:id="@+id/imageView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView62"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView62"
+        app:srcCompat="@drawable/baseline_arrow_back_24" />
+
     <ScrollView
         android:layout_width="0dp"
         android:layout_height="0dp"
+        android:fillViewport="true"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        android:fillViewport="true"
         app:layout_constraintTop_toBottomOf="@+id/textView62">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent">
+
+            <com.facebook.shimmer.ShimmerFrameLayout
+                android:id="@+id/shimmerActivityEyeSCan"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                app:layout_constraintBottom_toTopOf="@+id/cvScanAgainPic"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/materialCardView7">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <include layout="@layout/shimmer_activity_scan_body"></include>
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </com.facebook.shimmer.ShimmerFrameLayout>
 
             <com.google.android.material.card.MaterialCardView
                 android:id="@+id/materialCardView7"
@@ -106,7 +134,7 @@
             </com.google.android.material.card.MaterialCardView>
 
             <com.google.android.material.imageview.ShapeableImageView
-                android:id="@+id/imageView22"
+                android:id="@+id/imgPlaceHolderScan"
                 android:layout_width="0dp"
                 android:layout_height="0dp"
                 android:layout_marginStart="16dp"
@@ -115,7 +143,7 @@
                 android:layout_marginBottom="16dp"
                 android:scaleType="centerCrop"
                 android:visibility="gone"
-                app:layout_constraintBottom_toTopOf="@+id/materialCardView8"
+                app:layout_constraintBottom_toTopOf="@+id/cvScanAgainPic"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/materialCardView7"
@@ -123,12 +151,13 @@
                 app:srcCompat="@drawable/scanimg" />
 
             <com.google.android.material.card.MaterialCardView
-                android:id="@+id/materialCardView9"
+                android:id="@+id/cvBodyScanMain"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
                 android:layout_marginTop="16dp"
                 android:layout_marginEnd="16dp"
+                android:visibility="gone"
                 app:cardBackgroundColor="@color/cardBorder"
                 app:cardCornerRadius="10dp"
                 app:cardElevation="0dp"
@@ -318,7 +347,7 @@
             </com.google.android.material.card.MaterialCardView>
 
             <TextView
-                android:id="@+id/textView73"
+                android:id="@+id/tvFitSuggest01"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
@@ -326,26 +355,28 @@
                 android:fontFamily="@font/montserrat_medium"
                 android:text="FitMe Suggestions For You"
                 android:textColor="@color/black"
-                app:layout_constraintEnd_toStartOf="@+id/imageView27"
+                android:visibility="gone"
+                app:layout_constraintEnd_toStartOf="@+id/imgFitSuggest03"
                 app:layout_constraintHorizontal_bias="0.5"
                 app:layout_constraintHorizontal_chainStyle="spread_inside"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/materialCardView9" />
+                app:layout_constraintTop_toBottomOf="@+id/cvBodyScanMain" />
 
             <ImageView
-                android:id="@+id/imageView27"
+                android:id="@+id/imgFitSuggest03"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="16dp"
-                app:layout_constraintBottom_toBottomOf="@+id/textView73"
+                android:visibility="gone"
+                app:layout_constraintBottom_toBottomOf="@+id/tvFitSuggest01"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.5"
-                app:layout_constraintStart_toEndOf="@+id/textView73"
-                app:layout_constraintTop_toTopOf="@+id/textView73"
+                app:layout_constraintStart_toEndOf="@+id/tvFitSuggest01"
+                app:layout_constraintTop_toTopOf="@+id/tvFitSuggest01"
                 app:srcCompat="@drawable/baseline_fastfood_24" />
 
             <TextView
-                android:id="@+id/textView74"
+                android:id="@+id/tvFitSuggest02"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
@@ -355,25 +386,27 @@
                 android:text="Experience a holistic transformation through custom meal plans and skilled trainers recommended by your scan results. Elevate your fitness journey with us."
                 android:textColor="@color/cardBorderText"
                 android:textSize="14sp"
+                android:visibility="gone"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_chainStyle="spread_inside"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/textView73" />
+                app:layout_constraintTop_toBottomOf="@+id/tvFitSuggest01" />
 
             <com.google.android.material.card.MaterialCardView
-                android:id="@+id/cvIndexMeals"
+                android:id="@+id/cvScanMeals"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
                 android:layout_marginTop="16dp"
                 android:layout_marginEnd="16dp"
                 android:clickable="false"
+                android:visibility="gone"
                 app:cardBackgroundColor="@color/secondary"
                 app:cardCornerRadius="10dp"
                 app:cardElevation="0dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/textView74"
+                app:layout_constraintTop_toBottomOf="@+id/tvFitSuggest02"
                 app:strokeColor="@color/shimmerMain"
                 app:strokeWidth="0.8dp">
 
@@ -437,7 +470,7 @@
             </com.google.android.material.card.MaterialCardView>
 
             <com.google.android.material.card.MaterialCardView
-                android:id="@+id/cvIndexTrainee"
+                android:id="@+id/cvScanTrainee"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
@@ -445,13 +478,14 @@
                 android:layout_marginEnd="16dp"
                 android:layout_marginBottom="16dp"
                 android:clickable="false"
+                android:visibility="gone"
                 app:cardBackgroundColor="@color/secondary"
                 app:cardCornerRadius="10dp"
                 app:cardElevation="0dp"
-                app:layout_constraintBottom_toTopOf="@+id/materialCardView8"
+                app:layout_constraintBottom_toTopOf="@+id/cvScanAgainPic"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/cvIndexMeals"
+                app:layout_constraintTop_toBottomOf="@+id/cvScanMeals"
                 app:strokeColor="@color/shimmerMain"
                 app:strokeWidth="0.8dp">
 
@@ -515,12 +549,13 @@
             </com.google.android.material.card.MaterialCardView>
 
             <com.google.android.material.card.MaterialCardView
-                android:id="@+id/materialCardView8"
+                android:id="@+id/cvScanAgainPic"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
                 android:layout_marginEnd="16dp"
                 android:layout_marginBottom="16dp"
+                android:visibility="gone"
                 app:cardBackgroundColor="@color/cardBorder"
                 app:cardCornerRadius="10dp"
                 app:cardElevation="0dp"
@@ -610,15 +645,5 @@
 
         </androidx.constraintlayout.widget.ConstraintLayout>
     </ScrollView>
-
-    <ImageView
-        android:id="@+id/imageView19"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        app:layout_constraintBottom_toBottomOf="@+id/textView62"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/textView62"
-        app:srcCompat="@drawable/baseline_arrow_back_24" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
