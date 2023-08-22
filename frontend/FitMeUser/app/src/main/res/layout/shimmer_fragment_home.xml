@@ -1,29 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".Fragment.IndexFragment">
 
-    <com.facebook.shimmer.ShimmerFrameLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:id="@+id/shimmerIndexFrag">
-
-        <androidx.constraintlayout.widget.ConstraintLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
-            <include layout="@layout/shimmer_fragment_home"></include>
-        </androidx.constraintlayout.widget.ConstraintLayout>
-
-    </com.facebook.shimmer.ShimmerFrameLayout>
 
     <androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:visibility="gone"
-        android:id="@+id/fragmentMainClayout">
+        android:layout_height="match_parent">
 
         <TextView
             android:id="@+id/textView6"
@@ -32,8 +15,9 @@
             android:layout_marginStart="16dp"
             android:layout_marginTop="16dp"
             android:fontFamily="@font/montserrat_medium"
-            android:text="Hello There 👋"
-            android:textColor="@color/black"
+            android:text="Hello There "
+            android:background="@drawable/rounded_back"
+            android:textColor="@color/shimmerMain"
             android:textSize="24sp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -43,22 +27,25 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/rounded_back"
             android:fontFamily="@font/montserrat"
             android:text="08 Fri 2023"
-            android:textColor="@color/cardBorderText"
+            android:textColor="@color/shimmerMain"
             android:textSize="16sp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView6" />
 
-        <ImageView
+        <com.google.android.material.imageview.ShapeableImageView
             android:id="@+id/imageView4"
             android:layout_width="60dp"
             android:layout_height="60dp"
             android:layout_marginTop="16dp"
             android:layout_marginEnd="16dp"
-            android:src="@drawable/icon"
+            android:src="@color/shimmerMain"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent"
+            app:shapeAppearance="@style/roundedImageView"/>
 
         <ScrollView
             android:layout_width="match_parent"
@@ -74,7 +61,7 @@
                 android:layout_height="match_parent">
 
                 <com.google.android.material.card.MaterialCardView
-                    android:id="@+id/cvIndexTrainer"
+                    android:id="@+id/cvShimmerIndexTrainer"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="16dp"
@@ -104,7 +91,8 @@
                             android:layout_marginTop="8dp"
                             android:fontFamily="@font/montserrat"
                             android:text="Experinced Trainers"
-                            android:textColor="@color/black"
+                            android:background="@drawable/rounded_back"
+                            android:textColor="@color/shimmerMain"
                             android:textSize="14sp"
                             app:layout_constraintBottom_toTopOf="@+id/textView13"
                             app:layout_constraintStart_toStartOf="parent"
@@ -118,7 +106,8 @@
                             android:layout_marginBottom="8dp"
                             android:fontFamily="@font/montserrat"
                             android:text="From The Best Standards"
-                            android:textColor="@color/cardBorderText"
+                            android:background="@drawable/rounded_back"
+                            android:textColor="@color/shimmerMain"
                             android:textSize="12sp"
                             app:layout_constraintBottom_toBottomOf="parent"
                             app:layout_constraintStart_toStartOf="parent" />
@@ -128,7 +117,7 @@
                             android:layout_width="0dp"
                             android:layout_height="150dp"
                             android:scaleType="centerCrop"
-                            android:src="@drawable/trainerbannner"
+                            android:src="@color/shimmerLight"
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintStart_toStartOf="parent"
                             app:layout_constraintTop_toTopOf="parent"
@@ -141,10 +130,12 @@
                             android:layout_marginTop="8dp"
                             android:layout_marginEnd="8dp"
                             android:layout_marginBottom="8dp"
-                            android:backgroundTint="@color/primary"
+                            android:backgroundTint="@color/shimmerMain"
                             android:elevation="0dp"
+                            android:enabled="false"
                             android:fontFamily="@font/montserrat_bold"
                             android:text="BOOK NOW"
+                            android:textColor="@color/shimmerMain"
                             app:layout_constraintBottom_toBottomOf="parent"
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintTop_toBottomOf="@+id/imageView7" />
@@ -152,7 +143,7 @@
                 </com.google.android.material.card.MaterialCardView>
 
                 <com.google.android.material.card.MaterialCardView
-                    android:id="@+id/cvIndexMeals"
+                    android:id="@+id/cvShimmerIndexMeals"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="16dp"
@@ -165,7 +156,7 @@
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/textView10"
-                    app:strokeColor="@color/shimmerMain"
+                    app:strokeColor="@color/shimmerLight"
                     app:strokeWidth="0.8dp">
 
                     <androidx.constraintlayout.widget.ConstraintLayout
@@ -178,9 +169,10 @@
                             android:layout_height="wrap_content"
                             android:layout_marginStart="8dp"
                             android:layout_marginTop="8dp"
+                            android:background="@drawable/rounded_back"
                             android:fontFamily="@font/montserrat"
                             android:text="Quality Meal Preps"
-                            android:textColor="@color/black"
+                            android:textColor="@color/shimmerMain"
                             android:textSize="14sp"
                             app:layout_constraintBottom_toTopOf="@+id/textView13"
                             app:layout_constraintStart_toStartOf="parent"
@@ -192,9 +184,10 @@
                             android:layout_height="wrap_content"
                             android:layout_marginStart="8dp"
                             android:layout_marginBottom="8dp"
+                            android:background="@drawable/rounded_back"
                             android:fontFamily="@font/montserrat"
                             android:text="From The Best Standards"
-                            android:textColor="@color/cardBorderText"
+                            android:textColor="@color/shimmerMain"
                             android:textSize="12sp"
                             app:layout_constraintBottom_toBottomOf="parent"
                             app:layout_constraintStart_toStartOf="parent" />
@@ -204,7 +197,7 @@
                             android:layout_width="0dp"
                             android:layout_height="150dp"
                             android:scaleType="centerCrop"
-                            android:src="@drawable/meal"
+                            android:src="@color/shimmerMain"
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintStart_toStartOf="parent"
                             app:layout_constraintTop_toTopOf="parent"
@@ -217,10 +210,12 @@
                             android:layout_marginTop="8dp"
                             android:layout_marginEnd="8dp"
                             android:layout_marginBottom="8dp"
-                            android:backgroundTint="@color/primary"
+                            android:backgroundTint="@color/shimmerMain"
                             android:elevation="0dp"
+                            android:enabled="false"
                             android:fontFamily="@font/montserrat_bold"
                             android:text="BUY NOW"
+                            android:textColor="@color/shimmerMain"
                             app:layout_constraintBottom_toBottomOf="parent"
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintTop_toBottomOf="@+id/imageView7" />
@@ -234,8 +229,9 @@
                     android:layout_marginStart="16dp"
                     android:layout_marginTop="16dp"
                     android:layout_marginEnd="16dp"
+                    android:backgroundTint="@color/shimmerMain"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/banner"
+                    android:src="@color/shimmerLight"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
@@ -247,10 +243,11 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="16dp"
                     android:layout_marginTop="24dp"
+                    android:background="@drawable/rounded_back"
                     android:fontFamily="@font/montserrat_bold"
                     android:text="TryOut Our\nNew AI  \nTools For Quick\nFit Test"
                     android:textAlignment="textStart"
-                    android:textColor="@color/white"
+                    android:textColor="@color/shimmerMain"
                     android:textSize="24sp"
                     app:layout_constraintStart_toStartOf="@+id/imageView6"
                     app:layout_constraintTop_toTopOf="@+id/imageView6" />
@@ -263,7 +260,8 @@
                     android:layout_marginTop="24dp"
                     android:fontFamily="@font/montserrat_medium"
                     android:text="Featuring Workouts"
-                    android:textColor="@color/black"
+                    android:background="@drawable/rounded_back"
+                    android:textColor="@color/shimmerMain"
                     android:textSize="16sp"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/imageView6" />
@@ -276,10 +274,11 @@
                     android:layout_marginTop="16dp"
                     android:fontFamily="@font/montserrat_medium"
                     android:text="Featuring Meals"
-                    android:textColor="@color/black"
+                    android:background="@drawable/rounded_back"
+                    android:textColor="@color/shimmerMain"
                     android:textSize="16sp"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/cvIndexBackWrk" />
+                    app:layout_constraintTop_toBottomOf="@+id/cvShimmerIndexBackWrk" />
 
                 <TextView
                     android:id="@+id/textView14"
@@ -289,112 +288,91 @@
                     android:layout_marginTop="16dp"
                     android:fontFamily="@font/montserrat_medium"
                     android:text="Popular Trainers"
-                    android:textColor="@color/black"
+                    android:background="@drawable/rounded_back"
+                    android:textColor="@color/shimmerMain"
                     android:textSize="16sp"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/cvIndexMeals" />
+                    app:layout_constraintTop_toBottomOf="@+id/cvShimmerIndexMeals" />
 
                 <TextView
-                    android:id="@+id/tvMoreWrkOut"
+                    android:id="@+id/tvShimmerMoreWrkOut"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="24dp"
                     android:layout_marginEnd="16dp"
                     android:fontFamily="@font/montserrat"
                     android:text="See All"
-                    android:textColor="@color/primary"
+                    android:background="@drawable/rounded_back"
+                    android:textColor="@color/shimmerMain"
                     android:textSize="16sp"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/imageView6" />
 
                 <TextView
-                    android:id="@+id/tvFtrMeal"
+                    android:id="@+id/tvShimmerFtrMeal"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="16dp"
                     android:layout_marginEnd="16dp"
                     android:fontFamily="@font/montserrat"
                     android:text="See All"
-                    android:textColor="@color/primary"
+                    android:background="@drawable/rounded_back"
+                    android:textColor="@color/shimmerMain"
                     android:textSize="16sp"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/cvIndexABSWrk" />
+                    app:layout_constraintTop_toBottomOf="@+id/cvShimmerIndexABSWrk" />
 
                 <TextView
-                    android:id="@+id/tvSeeTrainer"
+                    android:id="@+id/tvShimmerSeeTrainer"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="16dp"
                     android:layout_marginEnd="16dp"
                     android:fontFamily="@font/montserrat"
                     android:text="See All"
-                    android:textColor="@color/primary"
+                    android:background="@drawable/rounded_back"
+                    android:textColor="@color/shimmerMain"
                     android:textSize="16sp"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/cvIndexMeals" />
+                    app:layout_constraintTop_toBottomOf="@+id/cvShimmerIndexMeals" />
 
                 <com.google.android.material.card.MaterialCardView
-                    android:id="@+id/cvIndexChestWrk"
+                    android:id="@+id/cvShimerIndexChestWrk"
                     android:layout_width="0dp"
                     android:layout_height="100dp"
                     android:layout_marginStart="16dp"
                     android:layout_marginTop="16dp"
                     android:layout_marginEnd="16dp"
                     android:clickable="true"
+                    app:cardBackgroundColor="@color/shimmerMain"
                     app:cardCornerRadius="10dp"
                     app:cardElevation="0dp"
-                    app:layout_constraintEnd_toStartOf="@+id/cvIndexArmWrk"
+                    app:layout_constraintEnd_toStartOf="@+id/cvShimmerIndexArmWrk"
                     app:layout_constraintHorizontal_bias="0.5"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/textView8"
                     app:strokeColor="@color/shimmerMain"
-                    app:strokeWidth="0.8dp" >
+                    app:strokeWidth="0.8dp">
 
                     <androidx.constraintlayout.widget.ConstraintLayout
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent">
-
-                        <ImageView
-                            android:id="@+id/imageView8"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:scaleType="centerCrop"
-                            android:src="@drawable/chest"
-                            app:layout_constraintBottom_toBottomOf="parent"
-                            app:layout_constraintEnd_toEndOf="parent"
-                            app:layout_constraintStart_toStartOf="parent"
-                            app:layout_constraintTop_toTopOf="parent" />
-
-                        <TextView
-                            android:id="@+id/textView17"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginStart="16dp"
-                            android:layout_marginEnd="16dp"
-                            android:fontFamily="@font/montserrat_medium"
-                            android:text="CHEST"
-                            android:textAlignment="textStart"
-                            android:textColor="@color/white"
-                            android:textSize="20sp"
-                            app:layout_constraintBottom_toBottomOf="parent"
-                            app:layout_constraintEnd_toEndOf="@+id/imageView8"
-                            app:layout_constraintStart_toStartOf="parent" />
-                    </androidx.constraintlayout.widget.ConstraintLayout>
+                        android:layout_height="match_parent" />
                 </com.google.android.material.card.MaterialCardView>
 
                 <com.google.android.material.card.MaterialCardView
-                    android:id="@+id/cvIndexArmWrk"
+                    android:id="@+id/cvShimmerIndexArmWrk"
                     android:layout_width="0dp"
                     android:layout_height="100dp"
                     android:layout_marginEnd="16dp"
                     android:clickable="true"
+                    app:cardBackgroundColor="@color/shimmerMain"
                     app:cardCornerRadius="10dp"
                     app:cardElevation="0dp"
-                    app:layout_constraintBottom_toBottomOf="@+id/cvIndexChestWrk"
-                    app:layout_constraintEnd_toStartOf="@+id/cvIndexLegWrk"
+                    app:layout_constraintBottom_toBottomOf="@+id/cvShimerIndexChestWrk"
+                    app:layout_constraintEnd_toStartOf="@+id/cvShimmerIndexLegWrk"
                     app:layout_constraintHorizontal_bias="0.5"
-                    app:layout_constraintStart_toEndOf="@+id/cvIndexChestWrk"
-                    app:layout_constraintTop_toTopOf="@+id/cvIndexChestWrk"
+                    app:layout_constraintStart_toEndOf="@+id/cvShimerIndexChestWrk"
+                    app:layout_constraintTop_toTopOf="@+id/cvShimerIndexChestWrk"
                     app:strokeColor="@color/shimmerMain"
                     app:strokeWidth="0.8dp">
 
@@ -404,223 +382,105 @@
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toTopOf="parent">
-
-                        <ImageView
-                            android:id="@+id/imageView9"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:scaleType="centerCrop"
-                            android:src="@drawable/bisceps"
-                            app:layout_constraintBottom_toBottomOf="parent"
-                            app:layout_constraintEnd_toEndOf="parent"
-                            app:layout_constraintStart_toStartOf="parent"
-                            app:layout_constraintTop_toTopOf="parent" />
-
-                        <TextView
-                            android:id="@+id/textView18"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:fontFamily="@font/montserrat_medium"
-                            android:text="ARMS"
-                            android:textAlignment="textStart"
-                            android:textColor="@color/white"
-                            android:textSize="20sp"
-                            app:layout_constraintBottom_toBottomOf="parent"
-                            app:layout_constraintEnd_toEndOf="parent"
-                            app:layout_constraintStart_toStartOf="parent" />
-                    </androidx.constraintlayout.widget.ConstraintLayout>
+                        app:layout_constraintTop_toTopOf="parent" />
                 </com.google.android.material.card.MaterialCardView>
 
                 <com.google.android.material.card.MaterialCardView
-                    android:id="@+id/cvIndexLegWrk"
+                    android:id="@+id/cvShimmerIndexLegWrk"
                     android:layout_width="0dp"
                     android:layout_height="100dp"
                     android:layout_marginEnd="16dp"
                     android:clickable="true"
+                    app:cardBackgroundColor="@color/shimmerMain"
                     app:cardCornerRadius="10dp"
                     app:cardElevation="0dp"
-                    app:layout_constraintBottom_toBottomOf="@+id/cvIndexArmWrk"
+                    app:layout_constraintBottom_toBottomOf="@+id/cvShimmerIndexArmWrk"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.5"
-                    app:layout_constraintStart_toEndOf="@+id/cvIndexArmWrk"
-                    app:layout_constraintTop_toTopOf="@+id/cvIndexArmWrk"
-                    app:strokeColor="@color/shimmerMain"
-                    app:strokeWidth="0.8dp" >
-
-                    <androidx.constraintlayout.widget.ConstraintLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent">
-
-                        <ImageView
-                            android:id="@+id/imageView10"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:scaleType="centerCrop"
-                            android:src="@drawable/leg"
-                            app:layout_constraintBottom_toBottomOf="parent"
-                            app:layout_constraintEnd_toEndOf="parent"
-                            app:layout_constraintHorizontal_bias="0.0"
-                            app:layout_constraintStart_toStartOf="parent"
-                            app:layout_constraintTop_toTopOf="parent"
-                            app:layout_constraintVertical_bias="0.0" />
-
-                        <TextView
-                            android:id="@+id/textView19"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:fontFamily="@font/montserrat_medium"
-                            android:text="LEGS"
-                            android:textAlignment="textStart"
-                            android:textColor="@color/white"
-                            android:textSize="20sp"
-                            app:layout_constraintBottom_toBottomOf="parent"
-                            app:layout_constraintEnd_toEndOf="parent"
-                            app:layout_constraintStart_toStartOf="parent" />
-                    </androidx.constraintlayout.widget.ConstraintLayout>
-                </com.google.android.material.card.MaterialCardView>
-
-                <com.google.android.material.card.MaterialCardView
-                    android:id="@+id/cvIndexBackWrk"
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    android:layout_marginStart="16dp"
-                    android:layout_marginTop="16dp"
-                    android:clickable="true"
-                    app:cardCornerRadius="10dp"
-                    app:cardElevation="0dp"
-                    app:layout_constraintEnd_toStartOf="@+id/cvIndexTrapWrk"
-                    app:layout_constraintHorizontal_bias="0.5"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/cvIndexChestWrk"
-                    app:strokeColor="@color/shimmerMain"
-                    app:strokeWidth="0.8dp" >
-
-                    <androidx.constraintlayout.widget.ConstraintLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent">
-
-                        <ImageView
-                            android:id="@+id/imageView11"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:scaleType="centerCrop"
-                            android:src="@drawable/back"
-                            app:layout_constraintBottom_toBottomOf="parent"
-                            app:layout_constraintEnd_toEndOf="parent"
-                            app:layout_constraintStart_toStartOf="parent"
-                            app:layout_constraintTop_toTopOf="parent" />
-
-                        <TextView
-                            android:id="@+id/textView21"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:fontFamily="@font/montserrat_medium"
-                            android:text="BACK"
-                            android:textAlignment="textStart"
-                            android:textColor="@color/white"
-                            android:textSize="20sp"
-                            app:layout_constraintBottom_toBottomOf="parent"
-                            app:layout_constraintEnd_toEndOf="parent"
-                            app:layout_constraintStart_toStartOf="parent" />
-                    </androidx.constraintlayout.widget.ConstraintLayout>
-                </com.google.android.material.card.MaterialCardView>
-
-                <com.google.android.material.card.MaterialCardView
-                    android:id="@+id/cvIndexTrapWrk"
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    android:clickable="true"
-                    app:cardCornerRadius="10dp"
-                    app:cardElevation="0dp"
-                    app:layout_constraintBottom_toBottomOf="@+id/cvIndexBackWrk"
-                    app:layout_constraintEnd_toStartOf="@+id/cvIndexABSWrk"
-                    app:layout_constraintHorizontal_bias="0.5"
-                    app:layout_constraintStart_toEndOf="@+id/cvIndexBackWrk"
+                    app:layout_constraintStart_toEndOf="@+id/cvShimmerIndexArmWrk"
+                    app:layout_constraintTop_toTopOf="@+id/cvShimmerIndexArmWrk"
                     app:strokeColor="@color/shimmerMain"
                     app:strokeWidth="0.8dp">
 
                     <androidx.constraintlayout.widget.ConstraintLayout
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent">
-
-                        <ImageView
-                            android:id="@+id/imageView12"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:scaleType="centerCrop"
-                            android:src="@drawable/shoulder"
-                            app:layout_constraintBottom_toBottomOf="parent"
-                            app:layout_constraintEnd_toEndOf="parent"
-                            app:layout_constraintStart_toStartOf="parent"
-                            app:layout_constraintTop_toTopOf="parent" />
-
-                        <TextView
-                            android:id="@+id/textView22"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:fontFamily="@font/montserrat_bold"
-                            android:text="TRAPS"
-                            android:textAlignment="textStart"
-                            android:textColor="@color/white"
-                            android:textSize="20sp"
-                            app:layout_constraintBottom_toBottomOf="parent"
-                            app:layout_constraintEnd_toEndOf="parent"
-                            app:layout_constraintStart_toStartOf="parent" />
-                    </androidx.constraintlayout.widget.ConstraintLayout>
+                        android:layout_height="match_parent" />
                 </com.google.android.material.card.MaterialCardView>
 
                 <com.google.android.material.card.MaterialCardView
-                    android:id="@+id/cvIndexABSWrk"
+                    android:id="@+id/cvShimmerIndexBackWrk"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:clickable="true"
+                    app:cardBackgroundColor="@color/shimmerMain"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="0dp"
+                    app:layout_constraintEnd_toStartOf="@+id/cvShimmerIndexTrapWrk"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/cvShimerIndexChestWrk"
+                    app:strokeColor="@color/shimmerMain"
+                    app:strokeWidth="0.8dp">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+                </com.google.android.material.card.MaterialCardView>
+
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/cvShimmerIndexTrapWrk"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:clickable="true"
+                    app:cardBackgroundColor="@color/shimmerMain"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="0dp"
+                    app:layout_constraintBottom_toBottomOf="@+id/cvShimmerIndexBackWrk"
+                    app:layout_constraintEnd_toStartOf="@+id/cvShimmerIndexABSWrk"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toEndOf="@+id/cvShimmerIndexBackWrk"
+                    app:strokeColor="@color/shimmerMain"
+                    app:strokeWidth="0.8dp">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+                </com.google.android.material.card.MaterialCardView>
+
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/cvShimmerIndexABSWrk"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
                     android:layout_marginEnd="16dp"
                     android:clickable="true"
+                    app:cardBackgroundColor="@color/shimmerMain"
                     app:cardCornerRadius="10dp"
                     app:cardElevation="0dp"
-                    app:layout_constraintBottom_toBottomOf="@+id/cvIndexTrapWrk"
+                    app:layout_constraintBottom_toBottomOf="@+id/cvShimmerIndexTrapWrk"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.5"
-                    app:layout_constraintStart_toEndOf="@+id/cvIndexTrapWrk"
+                    app:layout_constraintStart_toEndOf="@+id/cvShimmerIndexTrapWrk"
                     app:strokeColor="@color/shimmerMain"
-                    app:strokeWidth="0.8dp" >
+                    app:strokeWidth="0.8dp">
 
                     <androidx.constraintlayout.widget.ConstraintLayout
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent">
-
-                        <ImageView
-                            android:id="@+id/imageView13"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:scaleType="centerCrop"
-                            android:src="@drawable/absw" />
-
-                        <TextView
-                            android:id="@+id/textView20"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:fontFamily="@font/montserrat_medium"
-                            android:text="ABS"
-                            android:textAlignment="textStart"
-                            android:textColor="@color/white"
-                            android:textSize="20sp"
-                            app:layout_constraintBottom_toBottomOf="parent"
-                            app:layout_constraintEnd_toEndOf="parent"
-                            app:layout_constraintStart_toStartOf="parent" />
-                    </androidx.constraintlayout.widget.ConstraintLayout>
+                        android:layout_height="match_parent" />
                 </com.google.android.material.card.MaterialCardView>
 
                 <Button
-                    android:id="@+id/btnScanBody"
+                    android:id="@+id/btnShimmerScanBody"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="16dp"
                     android:layout_marginBottom="16dp"
-                    android:backgroundTint="@color/white"
+                    android:backgroundTint="@color/shimmerMain"
+                    android:enabled="false"
                     android:fontFamily="@font/montserrat_bold"
                     android:text="SCAN NOW"
-                    android:textColor="@color/black"
+                    android:textColor="@color/shimmerMain"
                     app:layout_constraintBottom_toBottomOf="@+id/imageView6"
                     app:layout_constraintEnd_toEndOf="@+id/imageView6"
                     app:layout_constraintTop_toBottomOf="@+id/textView16" />
@@ -628,4 +488,3 @@
         </ScrollView>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
-</FrameLayout>

@@ -6,9 +6,24 @@
     android:layout_height="match_parent"
     tools:context=".Fragment.ProfileFragment">
 
+    <com.facebook.shimmer.ShimmerFrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/shimmerProfileFrag">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <include layout="@layout/shimmer_fragment_profile"></include>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </com.facebook.shimmer.ShimmerFrameLayout>
+
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:id="@+id/fragmentProfileClayout"
+        android:visibility="gone">
 
         <TextView
             android:id="@+id/textView11"
@@ -71,7 +86,7 @@
             android:layout_marginTop="16dp"
             android:layout_marginEnd="16dp"
             android:clickable="false"
-            app:cardBackgroundColor="@color/card_bg"
+            app:cardBackgroundColor="@color/cardBorder"
             app:cardCornerRadius="10dp"
             app:cardElevation="0dp"
             app:layout_constraintEnd_toStartOf="@+id/cvFacts02"
@@ -138,7 +153,7 @@
             android:layout_height="wrap_content"
             android:layout_marginEnd="16dp"
             android:clickable="false"
-            app:cardBackgroundColor="@color/card_bg"
+            app:cardBackgroundColor="@color/cardBorder"
             app:cardCornerRadius="10dp"
             app:cardElevation="0dp"
             app:layout_constraintBottom_toBottomOf="@+id/cvFacts01"
@@ -206,7 +221,7 @@
             android:layout_marginTop="8dp"
             android:layout_marginEnd="16dp"
             android:clickable="false"
-            app:cardBackgroundColor="@color/card_bg"
+            app:cardBackgroundColor="@color/cardBorder"
             app:cardCornerRadius="10dp"
             app:cardElevation="0dp"
             app:layout_constraintEnd_toStartOf="@+id/cvFacts04"
@@ -271,7 +286,7 @@
             android:layout_height="wrap_content"
             android:layout_marginEnd="16dp"
             android:clickable="false"
-            app:cardBackgroundColor="@color/card_bg"
+            app:cardBackgroundColor="@color/cardBorder"
             app:cardCornerRadius="10dp"
             app:cardElevation="0dp"
             app:layout_constraintBottom_toBottomOf="@+id/cvFacts03"
@@ -388,7 +403,7 @@
             android:layout_marginTop="24dp"
             android:layout_marginEnd="16dp"
             android:clickable="false"
-            app:cardBackgroundColor="@color/card_bg"
+            app:cardBackgroundColor="@color/cardBorder"
             app:cardCornerRadius="10dp"
             app:cardElevation="0dp"
             app:layout_constraintEnd_toEndOf="parent"
@@ -454,7 +469,7 @@
             android:layout_marginTop="16dp"
             android:layout_marginEnd="16dp"
             android:clickable="true"
-            app:cardBackgroundColor="@color/card_bg"
+            app:cardBackgroundColor="@color/cardBorder"
             app:cardCornerRadius="10dp"
             app:cardElevation="0dp"
             app:cardMaxElevation="0dp"
