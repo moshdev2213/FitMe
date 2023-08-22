@@ -7,23 +7,25 @@
     tools:context=".Fragment.IndexFragment">
 
     <com.facebook.shimmer.ShimmerFrameLayout
+        android:id="@+id/shimmerIndexFrag"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:id="@+id/shimmerIndexFrag">
+        android:visibility="visible">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent">
+
             <include layout="@layout/shimmer_fragment_home"></include>
         </androidx.constraintlayout.widget.ConstraintLayout>
 
     </com.facebook.shimmer.ShimmerFrameLayout>
 
     <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/fragmentMainClayout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:visibility="gone"
-        android:id="@+id/fragmentMainClayout">
+        android:visibility="gone">
 
         <TextView
             android:id="@+id/textView6"
@@ -348,7 +350,7 @@
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/textView8"
                     app:strokeColor="@color/shimmerMain"
-                    app:strokeWidth="0.8dp" >
+                    app:strokeWidth="0.8dp">
 
                     <androidx.constraintlayout.widget.ConstraintLayout
                         android:layout_width="match_parent"
@@ -446,7 +448,7 @@
                     app:layout_constraintStart_toEndOf="@+id/cvIndexArmWrk"
                     app:layout_constraintTop_toTopOf="@+id/cvIndexArmWrk"
                     app:strokeColor="@color/shimmerMain"
-                    app:strokeWidth="0.8dp" >
+                    app:strokeWidth="0.8dp">
 
                     <androidx.constraintlayout.widget.ConstraintLayout
                         android:layout_width="match_parent"
@@ -494,7 +496,7 @@
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/cvIndexChestWrk"
                     app:strokeColor="@color/shimmerMain"
-                    app:strokeWidth="0.8dp" >
+                    app:strokeWidth="0.8dp">
 
                     <androidx.constraintlayout.widget.ConstraintLayout
                         android:layout_width="match_parent"
@@ -583,7 +585,7 @@
                     app:layout_constraintHorizontal_bias="0.5"
                     app:layout_constraintStart_toEndOf="@+id/cvIndexTrapWrk"
                     app:strokeColor="@color/shimmerMain"
-                    app:strokeWidth="0.8dp" >
+                    app:strokeWidth="0.8dp">
 
                     <androidx.constraintlayout.widget.ConstraintLayout
                         android:layout_width="match_parent"
