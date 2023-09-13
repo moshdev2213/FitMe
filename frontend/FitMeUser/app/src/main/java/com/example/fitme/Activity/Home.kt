@@ -2,6 +2,7 @@ package com.example.fitme.Activity
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
 import androidx.fragment.app.Fragment
 import com.example.fitme.Fragment.IndexFragment
 import com.example.fitme.Fragment.MealFragment
@@ -16,6 +17,8 @@ class Home : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        Thread.sleep(2000)
+        installSplashScreen()
         setContentView(R.layout.activity_home)
 
         bottomNavigationView = findViewById(R.id.bottomNavigationView)
