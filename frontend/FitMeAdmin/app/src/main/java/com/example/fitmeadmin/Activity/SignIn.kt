@@ -1,13 +1,15 @@
-package com.example.fitme
+package com.example.fitmeadmin.Activity
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
+import com.example.fitmeadmin.R
 
-class MainActivity : AppCompatActivity() {
+class SignIn : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-
-        setContentView(R.layout.activity_main)
+        Thread.sleep(2000)
+        installSplashScreen()
+        setContentView(R.layout.activity_sign_in)
     }
 }
