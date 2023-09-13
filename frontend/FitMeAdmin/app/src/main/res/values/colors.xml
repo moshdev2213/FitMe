@@ -8,6 +8,7 @@
     <color name="primaryLight">#F1EDFD</color>
     <color name="secondary">#F9FAFB</color>
     <color name="bg_warning">#BFFFBF00</color>
+    <color name="bg_warning_opa">#80FFBF00</color>
     <!--    <color name="bg_warning">#80FFBF00</color>-->
     <color name="bg_danger">#FF6262</color>
     <color name="card_bg">#F9FAFB</color>

@@ -28,7 +28,7 @@
         android:testOnly="true"
         android:theme="@style/Theme.FitMeAdmin" >
         <activity
-            android:name="com.example.fitmeadmin.Activity.ForgotPassword"
+            android:name="com.example.fitmeadmin.Activity.Home"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -37,9 +37,12 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.example.fitmeadmin.Activity.SignIn"
+            android:name="com.example.fitmeadmin.Activity.ForgotPassword"
             android:exported="true" >
         </activity>
+        <activity
+            android:name="com.example.fitmeadmin.Activity.SignIn"
+            android:exported="true" />
 
         <meta-data
             android:name="preloaded_fonts"

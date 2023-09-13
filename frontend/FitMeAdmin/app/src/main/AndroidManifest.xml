@@ -13,7 +13,7 @@
         android:theme="@style/Theme.FitMeAdmin"
         tools:targetApi="31">
         <activity
-            android:name=".Activity.ForgotPassword"
+            android:name=".Activity.Home"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -22,10 +22,13 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".Activity.SignIn"
+            android:name=".Activity.ForgotPassword"
             android:exported="true">
 
         </activity>
+        <activity
+            android:name=".Activity.SignIn"
+            android:exported="true"></activity>
 
         <meta-data
             android:name="preloaded_fonts"
