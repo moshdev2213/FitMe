@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="Home"
+        android:id="@+id/home"
+        android:icon="@drawable/baseline_home_24"/>
+    <item
+        android:title="Users"
+        android:id="@+id/users"
+        android:icon="@drawable/baseline_supervised_user_circle_24"/>
+    <item
+        android:title="Workouts"
+        android:id="@+id/meals"
+        android:icon="@drawable/baseline_fitness_center_24"/>
+
+    <item
+        android:title="Payments"
+        android:id="@+id/payment"
+        android:icon="@drawable/baseline_payments_24"/>
+
+    <item
+        android:title="Profile"
+        android:id="@+id/profile"
+        android:icon="@drawable/baseline_person_pin_24"/>
+</menu>
