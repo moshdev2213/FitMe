@@ -1,5 +1,7 @@
 R_DEF: Internal format may change without notice
 local
+anim slide_in_bottom
+anim slide_out_bottom
 array com_google_android_gms_fonts_certs
 array com_google_android_gms_fonts_certs_dev
 array com_google_android_gms_fonts_certs_prod
@@ -29,6 +31,7 @@ drawable baseline_arrow_forward_ios_24
 drawable baseline_arrow_forward_ios_24_white
 drawable baseline_bar_chart_24
 drawable baseline_bubble_chart_24
+drawable baseline_close_24
 drawable baseline_email_24
 drawable baseline_error_24
 drawable baseline_fitness_center_24
@@ -45,6 +48,7 @@ drawable baseline_supervised_user_circle_24
 drawable bisceps
 drawable bisceps01
 drawable bottom_check
+drawable bottom_sheet_bg
 drawable burger
 drawable chest
 drawable chest01
@@ -71,12 +75,15 @@ id barChartUsersFrag
 id bottomNavigationView
 id btnBookTrainer
 id btnBookTrainer2
+id button
+id button2
+id button3
 id cardView
 id cardView02
 id cardView03
 id cardView04
 id constraintLayout4
-id cvDeleteAct
+id cvDeleteActTest
 id cvHandleProfile
 id cvLogoutUser
 id cvSignUpFb
@@ -87,7 +94,6 @@ id general
 id home
 id horizontalScrollView
 id imageView
-id imageView10
 id imageView11
 id imageView12
 id imageView13
@@ -100,6 +106,7 @@ id imageView19
 id imageView2
 id imageView20
 id imageView21
+id imageView22
 id imageView3
 id imageView4
 id imageView5
@@ -115,6 +122,7 @@ id materialCardView4
 id materialCardView5
 id materialCardView6
 id materialCardView7
+id materialCardView8
 id payment
 id peiChartHome
 id radar_chart
@@ -158,6 +166,10 @@ id textView4
 id textView40
 id textView41
 id textView42
+id textView43
+id textView44
+id textView45
+id textView46
 id textView5
 id textView6
 id textView63
@@ -171,6 +183,7 @@ id workouts
 layout activity_forgot_password
 layout activity_home
 layout activity_sign_in
+layout botom_sheet_layout
 layout fragment_general
 layout fragment_home
 layout fragment_payment
@@ -186,6 +199,7 @@ mipmap ic_launcher_round
 string app_name
 string hello_blank_fragment
 style Base.Theme.FitMeAdmin
+style DialogAnimation
 style Theme.App.SplashScreen
 style Theme.FitMeAdmin
 style circledImageView

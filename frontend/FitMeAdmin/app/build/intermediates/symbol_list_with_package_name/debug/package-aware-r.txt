@@ -31,6 +31,8 @@ anim fragment_fast_out_extra_slow_in
 anim mtrl_bottom_sheet_slide_in
 anim mtrl_bottom_sheet_slide_out
 anim mtrl_card_lowers_interpolator
+anim slide_in_bottom
+anim slide_out_bottom
 animator design_appbar_state_list_animator
 animator design_fab_hide_motion_spec
 animator design_fab_show_motion_spec
@@ -2472,6 +2474,7 @@ drawable baseline_arrow_forward_ios_24
 drawable baseline_arrow_forward_ios_24_white
 drawable baseline_bar_chart_24
 drawable baseline_bubble_chart_24
+drawable baseline_close_24
 drawable baseline_email_24
 drawable baseline_error_24
 drawable baseline_fitness_center_24
@@ -2488,6 +2491,7 @@ drawable baseline_supervised_user_circle_24
 drawable bisceps
 drawable bisceps01
 drawable bottom_check
+drawable bottom_sheet_bg
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
 drawable btn_checkbox_unchecked_mtrl
@@ -2682,6 +2686,9 @@ id bounceEnd
 id bounceStart
 id btnBookTrainer
 id btnBookTrainer2
+id button
+id button2
+id button3
 id buttonPanel
 id cache_measures
 id callMeasure
@@ -2728,7 +2735,7 @@ id currentState
 id custom
 id customPanel
 id cut
-id cvDeleteAct
+id cvDeleteActTest
 id cvHandleProfile
 id cvLogoutUser
 id cvSignUpFb
@@ -2813,7 +2820,6 @@ id ignore
 id ignoreRequest
 id image
 id imageView
-id imageView10
 id imageView11
 id imageView12
 id imageView13
@@ -2826,6 +2832,7 @@ id imageView19
 id imageView2
 id imageView20
 id imageView21
+id imageView22
 id imageView3
 id imageView4
 id imageView5
@@ -2863,6 +2870,7 @@ id materialCardView4
 id materialCardView5
 id materialCardView6
 id materialCardView7
+id materialCardView8
 id material_clock_display
 id material_clock_face
 id material_clock_hand
@@ -3096,6 +3104,10 @@ id textView4
 id textView40
 id textView41
 id textView42
+id textView43
+id textView44
+id textView45
+id textView46
 id textView5
 id textView6
 id textView63
@@ -3243,6 +3255,7 @@ layout abc_tooltip
 layout activity_forgot_password
 layout activity_home
 layout activity_sign_in
+layout botom_sheet_layout
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -3761,6 +3774,7 @@ style Base_v27_Theme_SplashScreen_Light
 style CardView
 style CardView_Dark
 style CardView_Light
+style DialogAnimation
 style EmptyTheme
 style MaterialAlertDialog_Material3
 style MaterialAlertDialog_Material3_Body_Text

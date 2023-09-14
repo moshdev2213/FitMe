@@ -30,6 +30,8 @@ int anim fragment_fast_out_extra_slow_in 0x7f01001c
 int anim mtrl_bottom_sheet_slide_in 0x7f01001d
 int anim mtrl_bottom_sheet_slide_out 0x7f01001e
 int anim mtrl_card_lowers_interpolator 0x7f01001f
+int anim slide_in_bottom 0x7f010020
+int anim slide_out_bottom 0x7f010021
 int animator design_appbar_state_list_animator 0x7f020000
 int animator design_fab_hide_motion_spec 0x7f020001
 int animator design_fab_show_motion_spec 0x7f020002
@@ -2471,6 +2473,7 @@ int drawable baseline_arrow_forward_ios_24 0x7f08005f
 int drawable baseline_arrow_forward_ios_24_white 0x7f080060
 int drawable baseline_bar_chart_24 0x7f080061
 int drawable baseline_bubble_chart_24 0x7f080062
+int drawable baseline_close_24 0x7f0800cc
 int drawable baseline_email_24 0x7f080063
 int drawable baseline_error_24 0x7f080064
 int drawable baseline_fitness_center_24 0x7f080065
@@ -2487,6 +2490,7 @@ int drawable baseline_supervised_user_circle_24 0x7f08006f
 int drawable bisceps 0x7f080070
 int drawable bisceps01 0x7f080071
 int drawable bottom_check 0x7f080072
+int drawable bottom_sheet_bg 0x7f0800cb
 int drawable btn_checkbox_checked_mtrl 0x7f080073
 int drawable btn_checkbox_checked_to_unchecked_mtrl_animation 0x7f080074
 int drawable btn_checkbox_unchecked_mtrl 0x7f080075
@@ -2681,6 +2685,9 @@ int id bounceEnd 0x7f0a0062
 int id bounceStart 0x7f0a0063
 int id btnBookTrainer 0x7f0a0064
 int id btnBookTrainer2 0x7f0a0065
+int id button 0x7f0a0242
+int id button2 0x7f0a0243
+int id button3 0x7f0a0247
 int id buttonPanel 0x7f0a0066
 int id cache_measures 0x7f0a0067
 int id callMeasure 0x7f0a0068
@@ -2727,7 +2734,7 @@ int id currentState 0x7f0a0090
 int id custom 0x7f0a0091
 int id customPanel 0x7f0a0092
 int id cut 0x7f0a0093
-int id cvDeleteAct 0x7f0a0094
+int id cvDeleteActTest 0x7f0a0240
 int id cvHandleProfile 0x7f0a0095
 int id cvLogoutUser 0x7f0a0096
 int id cvSignUpFb 0x7f0a0097
@@ -2812,7 +2819,6 @@ int id ignore 0x7f0a00e5
 int id ignoreRequest 0x7f0a00e6
 int id image 0x7f0a00e7
 int id imageView 0x7f0a00e8
-int id imageView10 0x7f0a00e9
 int id imageView11 0x7f0a00ea
 int id imageView12 0x7f0a00eb
 int id imageView13 0x7f0a00ec
@@ -2825,6 +2831,7 @@ int id imageView19 0x7f0a00f1
 int id imageView2 0x7f0a00f2
 int id imageView20 0x7f0a023a
 int id imageView21 0x7f0a023c
+int id imageView22 0x7f0a0241
 int id imageView3 0x7f0a00f3
 int id imageView4 0x7f0a00f4
 int id imageView5 0x7f0a00f5
@@ -2862,6 +2869,7 @@ int id materialCardView4 0x7f0a0114
 int id materialCardView5 0x7f0a0115
 int id materialCardView6 0x7f0a0237
 int id materialCardView7 0x7f0a0116
+int id materialCardView8 0x7f0a0248
 int id material_clock_display 0x7f0a0117
 int id material_clock_face 0x7f0a0118
 int id material_clock_hand 0x7f0a0119
@@ -3095,6 +3103,10 @@ int id textView4 0x7f0a01fb
 int id textView40 0x7f0a01fc
 int id textView41 0x7f0a0239
 int id textView42 0x7f0a023e
+int id textView43 0x7f0a0245
+int id textView44 0x7f0a0246
+int id textView45 0x7f0a0249
+int id textView46 0x7f0a024a
 int id textView5 0x7f0a01fd
 int id textView6 0x7f0a01fe
 int id textView63 0x7f0a01ff
@@ -3242,6 +3254,7 @@ int layout abc_tooltip 0x7f0d001b
 int layout activity_forgot_password 0x7f0d001c
 int layout activity_home 0x7f0d001d
 int layout activity_sign_in 0x7f0d001e
+int layout botom_sheet_layout 0x7f0d007f
 int layout custom_dialog 0x7f0d001f
 int layout design_bottom_navigation_item 0x7f0d0020
 int layout design_bottom_sheet_dialog 0x7f0d0021
@@ -3760,6 +3773,7 @@ int style Base_v27_Theme_SplashScreen_Light 0x7f120118
 int style CardView 0x7f120119
 int style CardView_Dark 0x7f12011a
 int style CardView_Light 0x7f12011b
+int style DialogAnimation 0x7f120409
 int style EmptyTheme 0x7f12011c
 int style MaterialAlertDialog_Material3 0x7f12011d
 int style MaterialAlertDialog_Material3_Body_Text 0x7f12011e
