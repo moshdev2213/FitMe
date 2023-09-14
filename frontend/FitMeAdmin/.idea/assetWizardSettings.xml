@@ -312,7 +312,7 @@
                                 <PersistentState>
                                   <option name="values">
                                     <map>
-                                      <entry key="url" value="file:/D:/AndroidSDK/icons/material/materialicons/bubble_chart/baseline_bubble_chart_24.xml" />
+                                      <entry key="url" value="file:/D:/AndroidSDK/icons/material/materialicons/arrow_forward_ios/baseline_arrow_forward_ios_24.xml" />
                                     </map>
                                   </option>
                                 </PersistentState>
@@ -322,7 +322,8 @@
                         </option>
                         <option name="values">
                           <map>
-                            <entry key="outputName" value="baseline_bubble_chart_24" />
+                            <entry key="color" value="ffffff" />
+                            <entry key="outputName" value="baseline_arrow_forward_ios_24_white" />
                             <entry key="sourceFile" value="E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin" />
                           </map>
                         </option>
