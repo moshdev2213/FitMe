@@ -2478,6 +2478,8 @@ drawable baseline_no_meals_24
 drawable baseline_payments_24
 drawable baseline_person_4_24
 drawable baseline_person_pin_24
+drawable baseline_remove_red_eye_24
+drawable baseline_settings_24
 drawable baseline_supervised_user_circle_24
 drawable bisceps
 drawable bisceps01
@@ -2558,6 +2560,7 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable paycard
 drawable prson
 drawable shoulder
 drawable shoulder01
@@ -2768,10 +2771,12 @@ id fitToContents
 id fixed
 id flip
 id floating
+id floatingActionButton2
 id forever
 id fragment_container_view_tag
 id frame_layout
 id frost
+id general
 id ghost_view
 id ghost_view_holder
 id gone
@@ -2795,10 +2800,13 @@ id ignore
 id ignoreRequest
 id image
 id imageView
+id imageView10
 id imageView11
+id imageView12
 id imageView2
 id imageView3
 id imageView4
+id imageView5
 id imageView6
 id imageView7
 id imageView8
@@ -2826,6 +2834,7 @@ id masked
 id match_constraint
 id match_parent
 id materialCardView
+id materialCardView03
 id materialCardView2
 id materialCardView3
 id material_clock_display
@@ -2922,7 +2931,6 @@ id percent
 id pin
 id position
 id postLayout
-id profile
 id progress_circular
 id progress_horizontal
 id radio
@@ -3041,7 +3049,15 @@ id textView21
 id textView22
 id textView23
 id textView24
+id textView25
+id textView26
+id textView27
+id textView28
+id textView29
 id textView3
+id textView30
+id textView31
+id textView32
 id textView4
 id textView5
 id textView6
@@ -3203,6 +3219,8 @@ layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout fragment_home
+layout fragment_payment
+layout fragment_users
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
 layout m3_alert_dialog_title
@@ -3255,6 +3273,7 @@ layout notification_template_custom_big
 layout notification_template_icon_group
 layout notification_template_part_chronometer
 layout notification_template_part_time
+layout payment_list_item
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
@@ -3275,6 +3294,7 @@ layout text_view_with_line_height_from_layout
 layout text_view_with_line_height_from_style
 layout text_view_with_theme_line_height
 layout text_view_without_line_height
+layout user_list_item
 menu bottom_nav_menu
 mipmap ic_launcher
 mipmap ic_launcher_foreground
