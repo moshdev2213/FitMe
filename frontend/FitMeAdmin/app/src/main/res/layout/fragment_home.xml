@@ -91,6 +91,7 @@
                     android:layout_marginStart="16dp"
                     android:layout_marginTop="16dp"
                     android:layout_marginEnd="16dp"
+                    android:clickable="true"
                     app:cardCornerRadius="10dp"
                     app:cardElevation="2dp"
                     app:layout_constraintEnd_toStartOf="@+id/cardView"
@@ -104,16 +105,36 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent">
 
-                        <ImageView
-                            android:id="@+id/imageView8"
+                        <TextView
+                            android:id="@+id/textView42"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:scaleType="centerCrop"
-                            android:src="@drawable/balancedmeal02"
+                            android:layout_marginStart="16dp"
+                            android:layout_marginEnd="16dp"
+                            android:layout_marginBottom="8dp"
+                            android:fontFamily="@font/montserrat_medium"
+                            android:text="Manage Meals"
+                            android:textColor="@color/black"
+                            android:textSize="14sp"
                             app:layout_constraintBottom_toBottomOf="parent"
                             app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_chainStyle="spread_inside"
+                            app:layout_constraintStart_toStartOf="parent" />
+
+                        <com.google.android.material.imageview.ShapeableImageView
+                            android:id="@+id/imageView8"
+                            android:layout_width="0dp"
+                            android:layout_height="0dp"
+                            android:layout_marginStart="8dp"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginEnd="8dp"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/balancedmeal02"
+                            app:layout_constraintBottom_toTopOf="@+id/textView42"
+                            app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintStart_toStartOf="parent"
-                            app:layout_constraintTop_toTopOf="parent" />
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:shapeAppearance="@style/roundedImageView" />
                     </androidx.constraintlayout.widget.ConstraintLayout>
                 </com.google.android.material.card.MaterialCardView>
 

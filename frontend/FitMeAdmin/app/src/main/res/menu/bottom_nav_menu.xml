@@ -10,7 +10,7 @@
         android:icon="@drawable/baseline_supervised_user_circle_24"/>
     <item
         android:title="Workouts"
-        android:id="@+id/meals"
+        android:id="@+id/workouts"
         android:icon="@drawable/baseline_fitness_center_24"/>
 
     <item

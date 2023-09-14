@@ -2,6 +2,7 @@ package com.example.fitmeadmin.Fragment
 
 import android.graphics.Color
 import android.os.Bundle
+import android.view.Gravity
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
@@ -33,25 +34,21 @@ class GeneralFragment : Fragment() {
         list.add(RadarEntry(103f))
         list.add(RadarEntry(104f))
 
-        val radarDataSet= RadarDataSet(list,"List")
+        val radarDataSet= RadarDataSet(list,"server logs")
 
         radarDataSet.setColors(ColorTemplate.MATERIAL_COLORS,255)
 
-        radarDataSet.lineWidth=2f
+        radarDataSet.lineWidth=3f
 
         radarDataSet.valueTextColor = Color.RED
-
-        radarDataSet.valueTextSize=14f
+        radarDataSet.valueTextSize=0f
 
         val radarData= RadarData()
 
         radarData.addDataSet(radarDataSet)
 
         radarChart.data=radarData
-
-
-        radarChart.description.text= "Radar Chart"
-
+        radarChart.description.isEnabled = false // Disable chart description
 
         radarChart.animateY(2000)
 
