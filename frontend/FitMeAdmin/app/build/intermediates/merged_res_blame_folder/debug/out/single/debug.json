@@ -28,12 +28,16 @@
         "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.fitmeadmin.app-main-32:\\xml\\backup_rules.xml"
     },
     {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.fitmeadmin.app-merged_res-30:\\drawable_logo.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.fitmeadmin.app-main-32:\\drawable\\logo.png"
+    },
+    {
         "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.fitmeadmin.app-merged_res-30:\\layout_fragment_home.xml.flat",
         "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.fitmeadmin.app-main-32:\\layout\\fragment_home.xml"
     },
     {
-        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.fitmeadmin.app-merged_res-30:\\drawable_logo.png.flat",
-        "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.fitmeadmin.app-main-32:\\drawable\\logo.png"
+        "merged": "com.example.fitmeadmin.app-merged_res-30:/drawable_baseline_remove_red_eye_24.xml.flat",
+        "source": "com.example.fitmeadmin.app-main-32:/drawable/baseline_remove_red_eye_24.xml"
     },
     {
         "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.fitmeadmin.app-merged_res-30:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
@@ -46,6 +50,10 @@
     {
         "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.fitmeadmin.app-merged_res-30:\\drawable_baseline_fitness_center_24.xml.flat",
         "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.fitmeadmin.app-main-32:\\drawable\\baseline_fitness_center_24.xml"
+    },
+    {
+        "merged": "com.example.fitmeadmin.app-merged_res-30:/menu_bottom_nav_menu.xml.flat",
+        "source": "com.example.fitmeadmin.app-main-32:/menu/bottom_nav_menu.xml"
     },
     {
         "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.fitmeadmin.app-merged_res-30:\\drawable_baseline_bar_chart_24.xml.flat",
@@ -86,6 +94,14 @@
     {
         "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.fitmeadmin.app-merged_res-30:\\drawable_bisceps.jpg.flat",
         "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.fitmeadmin.app-main-32:\\drawable\\bisceps.jpg"
+    },
+    {
+        "merged": "com.example.fitmeadmin.app-merged_res-30:/layout_fragment_users.xml.flat",
+        "source": "com.example.fitmeadmin.app-main-32:/layout/fragment_users.xml"
+    },
+    {
+        "merged": "com.example.fitmeadmin.app-merged_res-30:/layout_user_list_item.xml.flat",
+        "source": "com.example.fitmeadmin.app-main-32:/layout/user_list_item.xml"
     },
     {
         "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.fitmeadmin.app-merged_res-30:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
@@ -136,6 +152,10 @@
         "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.fitmeadmin.app-main-32:\\mipmap-xhdpi\\ic_launcher_foreground.png"
     },
     {
+        "merged": "com.example.fitmeadmin.app-merged_res-30:/layout_fragment_payment.xml.flat",
+        "source": "com.example.fitmeadmin.app-main-32:/layout/fragment_payment.xml"
+    },
+    {
         "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.fitmeadmin.app-merged_res-30:\\drawable_baseline_arrow_forward_24.xml.flat",
         "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.fitmeadmin.app-main-32:\\drawable\\baseline_arrow_forward_24.xml"
     },
@@ -164,6 +184,14 @@
         "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.fitmeadmin.app-main-32:\\drawable\\leg.jpg"
     },
     {
+        "merged": "com.example.fitmeadmin.app-merged_res-30:/drawable_baseline_settings_24.xml.flat",
+        "source": "com.example.fitmeadmin.app-main-32:/drawable/baseline_settings_24.xml"
+    },
+    {
+        "merged": "com.example.fitmeadmin.app-merged_res-30:/drawable_paycard.png.flat",
+        "source": "com.example.fitmeadmin.app-main-32:/drawable/paycard.png"
+    },
+    {
         "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.fitmeadmin.app-merged_res-30:\\mipmap-mdpi_ic_launcher_round.png.flat",
         "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.fitmeadmin.app-main-32:\\mipmap-mdpi\\ic_launcher_round.png"
     },
@@ -186,6 +214,10 @@
     {
         "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.fitmeadmin.app-merged_res-30:\\drawable_chest.jpg.flat",
         "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.fitmeadmin.app-main-32:\\drawable\\chest.jpg"
+    },
+    {
+        "merged": "com.example.fitmeadmin.app-merged_res-30:/layout_payment_list_item.xml.flat",
+        "source": "com.example.fitmeadmin.app-main-32:/layout/payment_list_item.xml"
     },
     {
         "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.fitmeadmin.app-merged_res-30:\\drawable_baseline_email_24.xml.flat",

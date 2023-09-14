@@ -69,8 +69,8 @@
 
         <com.google.android.material.imageview.ShapeableImageView
             android:id="@+id/imageView5"
-            android:layout_width="70dp"
-            android:layout_height="70dp"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
             android:scaleType="centerCrop"
             app:layout_constraintBottom_toBottomOf="@+id/textView32"
             app:layout_constraintStart_toStartOf="parent"

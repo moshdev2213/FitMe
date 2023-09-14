@@ -2477,6 +2477,8 @@ int drawable baseline_no_meals_24 0x7f0700b8
 int drawable baseline_payments_24 0x7f0700a8
 int drawable baseline_person_4_24 0x7f0700a9
 int drawable baseline_person_pin_24 0x7f0700aa
+int drawable baseline_remove_red_eye_24 0x7f0700c2
+int drawable baseline_settings_24 0x7f0700c3
 int drawable baseline_supervised_user_circle_24 0x7f0700ab
 int drawable bisceps 0x7f0700b2
 int drawable bisceps01 0x7f0700bc
@@ -2557,6 +2559,7 @@ int drawable notification_template_icon_bg 0x7f070099
 int drawable notification_template_icon_low_bg 0x7f07009a
 int drawable notification_tile_bg 0x7f07009b
 int drawable notify_panel_notification_icon_bg 0x7f07009c
+int drawable paycard 0x7f0700c4
 int drawable prson 0x7f0700ae
 int drawable shoulder 0x7f0700b5
 int drawable shoulder01 0x7f0700c0
@@ -2767,10 +2770,12 @@ int id fitToContents 0x7f0800ba
 int id fixed 0x7f0800bb
 int id flip 0x7f0800bc
 int id floating 0x7f0800bd
+int id floatingActionButton2 0x7f080218
 int id forever 0x7f0800be
 int id fragment_container_view_tag 0x7f0800bf
 int id frame_layout 0x7f0801f4
 int id frost 0x7f0800c0
+int id general 0x7f080219
 int id ghost_view 0x7f0800c1
 int id ghost_view_holder 0x7f0800c2
 int id gone 0x7f0800c3
@@ -2794,10 +2799,13 @@ int id ignore 0x7f0800d3
 int id ignoreRequest 0x7f0800d4
 int id image 0x7f0800d5
 int id imageView 0x7f0801da
+int id imageView10 0x7f08021a
 int id imageView11 0x7f080212
+int id imageView12 0x7f08021b
 int id imageView2 0x7f0801e3
 int id imageView3 0x7f0801f5
 int id imageView4 0x7f0801fd
+int id imageView5 0x7f08021c
 int id imageView6 0x7f0801fe
 int id imageView7 0x7f08020c
 int id imageView8 0x7f080210
@@ -2825,6 +2833,7 @@ int id masked 0x7f0800e9
 int id match_constraint 0x7f0800ea
 int id match_parent 0x7f0800eb
 int id materialCardView 0x7f0801e4
+int id materialCardView03 0x7f08021d
 int id materialCardView2 0x7f0801f6
 int id materialCardView3 0x7f0801f7
 int id material_clock_display 0x7f0800ec
@@ -2921,7 +2930,6 @@ int id percent 0x7f080143
 int id pin 0x7f080144
 int id position 0x7f080145
 int id postLayout 0x7f080146
-int id profile 0x7f0801ed
 int id progress_circular 0x7f080147
 int id progress_horizontal 0x7f080148
 int id radio 0x7f080149
@@ -3040,7 +3048,15 @@ int id textView21 0x7f08020f
 int id textView22 0x7f080213
 int id textView23 0x7f080216
 int id textView24 0x7f080217
+int id textView25 0x7f08021e
+int id textView26 0x7f08021f
+int id textView27 0x7f080220
+int id textView28 0x7f080221
+int id textView29 0x7f080222
 int id textView3 0x7f0801dc
+int id textView30 0x7f080223
+int id textView31 0x7f080224
+int id textView32 0x7f080225
 int id textView4 0x7f0801dd
 int id textView5 0x7f0801e0
 int id textView6 0x7f0801e1
@@ -3202,6 +3218,8 @@ int layout design_navigation_menu_item 0x7f0b002a
 int layout design_text_input_end_icon 0x7f0b002b
 int layout design_text_input_start_icon 0x7f0b002c
 int layout fragment_home 0x7f0b0077
+int layout fragment_payment 0x7f0b0078
+int layout fragment_users 0x7f0b0079
 int layout m3_alert_dialog 0x7f0b002d
 int layout m3_alert_dialog_actions 0x7f0b002e
 int layout m3_alert_dialog_title 0x7f0b002f
@@ -3254,6 +3272,7 @@ int layout notification_template_custom_big 0x7f0b005d
 int layout notification_template_icon_group 0x7f0b005e
 int layout notification_template_part_chronometer 0x7f0b005f
 int layout notification_template_part_time 0x7f0b0060
+int layout payment_list_item 0x7f0b007a
 int layout select_dialog_item_material 0x7f0b0061
 int layout select_dialog_multichoice_material 0x7f0b0062
 int layout select_dialog_singlechoice_material 0x7f0b0063
@@ -3274,6 +3293,7 @@ int layout text_view_with_line_height_from_layout 0x7f0b0071
 int layout text_view_with_line_height_from_style 0x7f0b0072
 int layout text_view_with_theme_line_height 0x7f0b0073
 int layout text_view_without_line_height 0x7f0b0074
+int layout user_list_item 0x7f0b007b
 int menu bottom_nav_menu 0x7f140000
 int mipmap ic_launcher 0x7f0c0000
 int mipmap ic_launcher_foreground 0x7f0c0001
