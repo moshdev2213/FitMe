@@ -2468,6 +2468,7 @@ int drawable back 0x7f08005a
 int drawable back01 0x7f08005b
 int drawable bal02 0x7f08005c
 int drawable balancedmeal02 0x7f08005d
+int drawable baseline_arrow_back_24 0x7f0800cd
 int drawable baseline_arrow_forward_24 0x7f08005e
 int drawable baseline_arrow_forward_ios_24 0x7f08005f
 int drawable baseline_arrow_forward_ios_24_white 0x7f080060
@@ -2487,6 +2488,7 @@ int drawable baseline_person_pin_24 0x7f08006c
 int drawable baseline_remove_red_eye_24 0x7f08006d
 int drawable baseline_settings_24 0x7f08006e
 int drawable baseline_supervised_user_circle_24 0x7f08006f
+int drawable baseline_waves_24 0x7f0800ce
 int drawable bisceps 0x7f080070
 int drawable bisceps01 0x7f080071
 int drawable bottom_check 0x7f080072
@@ -2683,6 +2685,7 @@ int id bounce 0x7f0a0060
 int id bounceBoth 0x7f0a0061
 int id bounceEnd 0x7f0a0062
 int id bounceStart 0x7f0a0063
+int id btnBackTrainer 0x7f0a0258
 int id btnBookTrainer 0x7f0a0064
 int id btnBookTrainer2 0x7f0a0065
 int id button 0x7f0a0242
@@ -2738,6 +2741,7 @@ int id cvDeleteActTest 0x7f0a0240
 int id cvHandleProfile 0x7f0a0095
 int id cvLogoutUser 0x7f0a0096
 int id cvSignUpFb 0x7f0a0097
+int id cvTrainerActCard 0x7f0a0257
 int id date_picker_actions 0x7f0a0098
 int id decelerate 0x7f0a0099
 int id decelerateAndComplete 0x7f0a009a
@@ -2832,6 +2836,9 @@ int id imageView2 0x7f0a00f2
 int id imageView20 0x7f0a023a
 int id imageView21 0x7f0a023c
 int id imageView22 0x7f0a0241
+int id imageView23 0x7f0a024b
+int id imageView24 0x7f0a0252
+int id imageView25 0x7f0a0255
 int id imageView3 0x7f0a00f3
 int id imageView4 0x7f0a00f4
 int id imageView5 0x7f0a00f5
@@ -2863,13 +2870,14 @@ int id match_constraint 0x7f0a010e
 int id match_parent 0x7f0a010f
 int id materialCardView 0x7f0a0110
 int id materialCardView03 0x7f0a0111
+int id materialCardView10 0x7f0a024c
 int id materialCardView2 0x7f0a0112
 int id materialCardView3 0x7f0a0113
-int id materialCardView4 0x7f0a0114
 int id materialCardView5 0x7f0a0115
 int id materialCardView6 0x7f0a0237
 int id materialCardView7 0x7f0a0116
 int id materialCardView8 0x7f0a0248
+int id materialCardView9 0x7f0a024d
 int id material_clock_display 0x7f0a0117
 int id material_clock_face 0x7f0a0118
 int id material_clock_hand 0x7f0a0119
@@ -3107,7 +3115,13 @@ int id textView43 0x7f0a0245
 int id textView44 0x7f0a0246
 int id textView45 0x7f0a0249
 int id textView46 0x7f0a024a
+int id textView47 0x7f0a024e
+int id textView48 0x7f0a024f
+int id textView49 0x7f0a0250
 int id textView5 0x7f0a01fd
+int id textView50 0x7f0a0253
+int id textView51 0x7f0a0254
+int id textView52 0x7f0a0256
 int id textView6 0x7f0a01fe
 int id textView63 0x7f0a01ff
 int id textView64 0x7f0a0200
@@ -3132,6 +3146,7 @@ int id toggle 0x7f0a0212
 int id top 0x7f0a0213
 int id topPanel 0x7f0a0214
 int id touch_outside 0x7f0a0215
+int id trainer_line_chart 0x7f0a0251
 int id transitionToEnd 0x7f0a0216
 int id transitionToStart 0x7f0a0217
 int id transition_current_scene 0x7f0a0218
@@ -3254,6 +3269,7 @@ int layout abc_tooltip 0x7f0d001b
 int layout activity_forgot_password 0x7f0d001c
 int layout activity_home 0x7f0d001d
 int layout activity_sign_in 0x7f0d001e
+int layout activity_trainers 0x7f0d0080
 int layout botom_sheet_layout 0x7f0d007f
 int layout custom_dialog 0x7f0d001f
 int layout design_bottom_navigation_item 0x7f0d0020
@@ -3349,6 +3365,7 @@ int layout text_view_with_line_height_from_layout 0x7f0d0079
 int layout text_view_with_line_height_from_style 0x7f0d007a
 int layout text_view_with_theme_line_height 0x7f0d007b
 int layout text_view_without_line_height 0x7f0d007c
+int layout trainer_list_item 0x7f0d0081
 int layout user_list_item 0x7f0d007d
 int layout workout_list_item 0x7f0d007e
 int menu bottom_nav_menu 0x7f0e0000
