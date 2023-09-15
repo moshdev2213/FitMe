@@ -28,6 +28,10 @@
         android:testOnly="true"
         android:theme="@style/Theme.FitMeAdmin" >
         <activity
+            android:name="com.example.fitmeadmin.Activity.Trainers"
+            android:exported="true" >
+        </activity>
+        <activity
             android:name="com.example.fitmeadmin.Activity.Home"
             android:exported="true" >
             <intent-filter>
@@ -38,8 +42,7 @@
         </activity>
         <activity
             android:name="com.example.fitmeadmin.Activity.ForgotPassword"
-            android:exported="true" >
-        </activity>
+            android:exported="true" />
         <activity
             android:name="com.example.fitmeadmin.Activity.SignIn"
             android:exported="true" />

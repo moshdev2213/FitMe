@@ -26,6 +26,7 @@ drawable back
 drawable back01
 drawable bal02
 drawable balancedmeal02
+drawable baseline_arrow_back_24
 drawable baseline_arrow_forward_24
 drawable baseline_arrow_forward_ios_24
 drawable baseline_arrow_forward_ios_24_white
@@ -45,6 +46,7 @@ drawable baseline_person_pin_24
 drawable baseline_remove_red_eye_24
 drawable baseline_settings_24
 drawable baseline_supervised_user_circle_24
+drawable baseline_waves_24
 drawable bisceps
 drawable bisceps01
 drawable bottom_check
@@ -73,6 +75,7 @@ font montserrat_medium
 id barChartHome
 id barChartUsersFrag
 id bottomNavigationView
+id btnBackTrainer
 id btnBookTrainer
 id btnBookTrainer2
 id button
@@ -87,6 +90,7 @@ id cvDeleteActTest
 id cvHandleProfile
 id cvLogoutUser
 id cvSignUpFb
+id cvTrainerActCard
 id floatingActionButton2
 id fragmentProfileClayout
 id frame_layout
@@ -107,6 +111,9 @@ id imageView2
 id imageView20
 id imageView21
 id imageView22
+id imageView23
+id imageView24
+id imageView25
 id imageView3
 id imageView4
 id imageView5
@@ -116,13 +123,14 @@ id imageView8
 id imageView9
 id materialCardView
 id materialCardView03
+id materialCardView10
 id materialCardView2
 id materialCardView3
-id materialCardView4
 id materialCardView5
 id materialCardView6
 id materialCardView7
 id materialCardView8
+id materialCardView9
 id payment
 id peiChartHome
 id radar_chart
@@ -170,7 +178,13 @@ id textView43
 id textView44
 id textView45
 id textView46
+id textView47
+id textView48
+id textView49
 id textView5
+id textView50
+id textView51
+id textView52
 id textView6
 id textView63
 id textView64
@@ -178,11 +192,13 @@ id textView65
 id textView7
 id textView8
 id textView9
+id trainer_line_chart
 id users
 id workouts
 layout activity_forgot_password
 layout activity_home
 layout activity_sign_in
+layout activity_trainers
 layout botom_sheet_layout
 layout fragment_general
 layout fragment_home
@@ -190,6 +206,7 @@ layout fragment_payment
 layout fragment_users
 layout fragment_workout
 layout payment_list_item
+layout trainer_list_item
 layout user_list_item
 layout workout_list_item
 menu bottom_nav_menu
