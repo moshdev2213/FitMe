@@ -19,6 +19,7 @@
         <item>@font/montserrat_bold</item>
     </array>
     <color name="bg_danger">#FF6262</color>
+    <color name="bg_success">#28a745</color>
     <color name="bg_warning">#BFFFBF00</color>
     <color name="bg_warning_opa">#80FFBF00</color>
     <color name="black">#FF000000</color>
