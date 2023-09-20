@@ -12,7 +12,7 @@
         android:layout_height="match_parent">
 
         <TextView
-            android:id="@+id/textView69"
+            android:id="@+id/tvAboutMealType"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="24dp"
@@ -27,10 +27,10 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageView33" />
+            app:layout_constraintTop_toBottomOf="@+id/imgChangeMealType" />
 
         <ImageView
-            android:id="@+id/imageView33"
+            android:id="@+id/imgChangeMealType"
             android:layout_width="0dp"
             android:layout_height="200dp"
             android:layout_marginTop="16dp"
@@ -38,6 +38,6 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/mountain" />
+            app:srcCompat="@drawable/wheysingle" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </com.google.android.material.card.MaterialCardView>

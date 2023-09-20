@@ -64,6 +64,7 @@ drawable leg
 drawable legs
 drawable logo
 drawable mealplan
+drawable mealsingle
 drawable mountain
 drawable paycard
 drawable prson
@@ -76,6 +77,7 @@ drawable trainee
 drawable trainerbannner
 drawable userbanner
 drawable wheybanner
+drawable wheysingle
 drawable yeti
 font montserrat
 font montserrat_bold
@@ -138,13 +140,13 @@ id imageView3
 id imageView30
 id imageView31
 id imageView32
-id imageView33
 id imageView4
 id imageView5
 id imageView6
 id imageView7
 id imageView8
 id imageView9
+id imgChangeMealType
 id materialCardView
 id materialCardView011
 id materialCardView03
@@ -226,11 +228,11 @@ id textView65
 id textView66
 id textView67
 id textView68
-id textView69
 id textView7
 id textView8
 id textView9
 id trainer_line_chart
+id tvAboutMealType
 id users
 id workouts
 layout activity_forgot_password

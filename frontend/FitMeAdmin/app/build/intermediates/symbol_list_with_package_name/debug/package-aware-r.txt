@@ -2550,6 +2550,7 @@ drawable material_ic_keyboard_arrow_right_black_24dp
 drawable material_ic_menu_arrow_down_black_24dp
 drawable material_ic_menu_arrow_up_black_24dp
 drawable mealplan
+drawable mealsingle
 drawable mountain
 drawable mtrl_dialog_background
 drawable mtrl_dropdown_arrow
@@ -2589,6 +2590,7 @@ drawable trainee
 drawable trainerbannner
 drawable userbanner
 drawable wheybanner
+drawable wheysingle
 drawable yeti
 font montserrat
 font montserrat_bold
@@ -2864,13 +2866,13 @@ id imageView3
 id imageView30
 id imageView31
 id imageView32
-id imageView33
 id imageView4
 id imageView5
 id imageView6
 id imageView7
 id imageView8
 id imageView9
+id imgChangeMealType
 id immediateStop
 id included
 id info
@@ -3164,7 +3166,6 @@ id textView65
 id textView66
 id textView67
 id textView68
-id textView69
 id textView7
 id textView8
 id textView9
@@ -3194,6 +3195,7 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
+id tvAboutMealType
 id unchecked
 id uniform
 id unlabeled
