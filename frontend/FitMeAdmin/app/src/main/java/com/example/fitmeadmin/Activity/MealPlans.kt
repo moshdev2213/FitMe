@@ -6,9 +6,12 @@ import android.graphics.drawable.ColorDrawable
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.Gravity
+import android.view.LayoutInflater
+import android.view.View
 import android.view.ViewGroup
 import android.view.Window
 import android.widget.ImageView
+import android.widget.TextView
 import androidx.cardview.widget.CardView
 import com.example.fitmeadmin.R
 
@@ -21,6 +24,8 @@ class MealPlans : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_meal_plans)
 
+
+
         btnBackMealPlan = findViewById(R.id.btnBackMealPlan)
         cvMealPackOpen = findViewById(R.id.cvMealPackOpen)
         cvBeverageOpen = findViewById(R.id.cvBeverageOpen)
@@ -30,14 +35,33 @@ class MealPlans : AppCompatActivity() {
             finish()
         }
         cvBeverageOpen.setOnClickListener {
-            openModal()
+            val text = "Energy drinks are beverages containing caffeine, sugar, and other stimulants, providing a quick energy boost but should be consumed in moderation."
+
+            openModal(text,R.drawable.mountain)
+        }
+        cvMealPackOpen.setOnClickListener {
+            val text = "Meal packs are convenient food bundles with balanced nutrition, perfect for on-the-go lifestyles, but portion control is essential for a healthy diet"
+
+            openModal(text,R.drawable.mealsingle)
+        }
+        cvProtienOpen.setOnClickListener {
+            val text = "Whey protein is a high-quality protein source derived from milk, aiding in muscle recovery and growth when used as a supplement in a balanced diet."
+
+            openModal(text,R.drawable.wheysingle)
         }
     }
 
-    private fun openModal(){
+    private fun openModal(texts:String,image:Int){
         val dialog = Dialog(this@MealPlans)
         dialog.requestWindowFeature(Window.FEATURE_NO_TITLE)
         dialog.setContentView(R.layout.bottom_sheet_meal_detail_layout)
+
+
+       val text = dialog.findViewById<TextView>(R.id.tvAboutMealType)
+       val img = dialog.findViewById<ImageView>(R.id.imgChangeMealType)
+        text.text = texts
+        img.setImageResource(image)
+
 
         dialog.show()
         dialog.window?.setLayout(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT)

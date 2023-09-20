@@ -2549,6 +2549,7 @@ int drawable material_ic_keyboard_arrow_right_black_24dp 0x7f0800a5
 int drawable material_ic_menu_arrow_down_black_24dp 0x7f0800a6
 int drawable material_ic_menu_arrow_up_black_24dp 0x7f0800a7
 int drawable mealplan 0x7f0800d1
+int drawable mealsingle 0x7f0800d6
 int drawable mountain 0x7f0800d5
 int drawable mtrl_dialog_background 0x7f0800a8
 int drawable mtrl_dropdown_arrow 0x7f0800a9
@@ -2588,6 +2589,7 @@ int drawable trainee 0x7f0800c9
 int drawable trainerbannner 0x7f0800cf
 int drawable userbanner 0x7f0800ca
 int drawable wheybanner 0x7f0800d3
+int drawable wheysingle 0x7f0800d7
 int drawable yeti 0x7f0800d4
 int font montserrat 0x7f090000
 int font montserrat_bold 0x7f090001
@@ -2863,13 +2865,13 @@ int id imageView3 0x7f0a00f3
 int id imageView30 0x7f0a0260
 int id imageView31 0x7f0a0261
 int id imageView32 0x7f0a0262
-int id imageView33 0x7f0a0277
 int id imageView4 0x7f0a00f4
 int id imageView5 0x7f0a00f5
 int id imageView6 0x7f0a00f6
 int id imageView7 0x7f0a00f7
 int id imageView8 0x7f0a00f8
 int id imageView9 0x7f0a00f9
+int id imgChangeMealType 0x7f0a0279
 int id immediateStop 0x7f0a00fa
 int id included 0x7f0a00fb
 int id info 0x7f0a00fc
@@ -3163,7 +3165,6 @@ int id textView65 0x7f0a0201
 int id textView66 0x7f0a026f
 int id textView67 0x7f0a0270
 int id textView68 0x7f0a0271
-int id textView69 0x7f0a0278
 int id textView7 0x7f0a0202
 int id textView8 0x7f0a0203
 int id textView9 0x7f0a0204
@@ -3193,6 +3194,7 @@ int id transition_position 0x7f0a021a
 int id transition_scene_layoutid_cache 0x7f0a021b
 int id transition_transform 0x7f0a021c
 int id triangle 0x7f0a021d
+int id tvAboutMealType 0x7f0a027a
 int id unchecked 0x7f0a021e
 int id uniform 0x7f0a021f
 int id unlabeled 0x7f0a0220
