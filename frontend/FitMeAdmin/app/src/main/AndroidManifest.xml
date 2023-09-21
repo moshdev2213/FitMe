@@ -13,11 +13,16 @@
         android:theme="@style/Theme.FitMeAdmin"
         tools:targetApi="31">
         <activity
+            android:name=".Activity.ProfileActivity"
+            android:exported="true" >
+
+        </activity>
+        <activity
             android:name=".Activity.MealPlans"
             android:exported="false" />
         <activity
             android:name=".Activity.Trainers"
-            android:exported="true"></activity>
+            android:exported="true" />
         <activity
             android:name=".Activity.Home"
             android:exported="true">

@@ -28,6 +28,10 @@
         android:testOnly="true"
         android:theme="@style/Theme.FitMeAdmin" >
         <activity
+            android:name="com.example.fitmeadmin.Activity.ProfileActivity"
+            android:exported="true" >
+        </activity>
+        <activity
             android:name="com.example.fitmeadmin.Activity.MealPlans"
             android:exported="false" />
         <activity
