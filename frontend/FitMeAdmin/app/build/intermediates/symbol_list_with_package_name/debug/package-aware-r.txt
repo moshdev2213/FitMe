@@ -2477,6 +2477,7 @@ drawable baseline_arrow_forward_ios_24_white
 drawable baseline_bar_chart_24
 drawable baseline_bubble_chart_24
 drawable baseline_close_24
+drawable baseline_edit_24
 drawable baseline_email_24
 drawable baseline_error_24
 drawable baseline_favorite_24
@@ -2488,6 +2489,7 @@ drawable baseline_no_meals_24
 drawable baseline_payments_24
 drawable baseline_person_4_24
 drawable baseline_person_pin_24
+drawable baseline_qr_code_24
 drawable baseline_remove_red_eye_24
 drawable baseline_settings_24
 drawable baseline_supervised_user_circle_24
@@ -2703,6 +2705,8 @@ id btnBookTrainer2
 id button
 id button2
 id button3
+id button4
+id button5
 id buttonPanel
 id cache_measures
 id callMeasure
@@ -2812,6 +2816,7 @@ id flip
 id floating
 id floatingActionButton
 id floatingActionButton2
+id floatingActionButton3
 id forever
 id fragmentProfileClayout
 id fragment_container_view_tag
@@ -2866,12 +2871,15 @@ id imageView3
 id imageView30
 id imageView31
 id imageView32
+id imageView34
+id imageView35
 id imageView4
 id imageView5
 id imageView6
 id imageView7
 id imageView8
 id imageView9
+id imbBackBtn
 id imgChangeMealType
 id immediateStop
 id included
@@ -2901,6 +2909,8 @@ id materialCardView03
 id materialCardView10
 id materialCardView2
 id materialCardView3
+id materialCardView4
+id materialCardView5
 id materialCardView6
 id materialCardView7
 id materialCardView8
@@ -3096,7 +3106,12 @@ id text
 id text2
 id textEnd
 id textInputLayout
+id textInputLayout004
+id textInputLayout03
 id textInputLayout2
+id textInputLayout3
+id textInputLayout4
+id textInputLayout5
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
@@ -3166,7 +3181,10 @@ id textView65
 id textView66
 id textView67
 id textView68
+id textView69
 id textView7
+id textView70
+id textView71
 id textView8
 id textView9
 id text_input_end_icon
@@ -3310,6 +3328,7 @@ layout abc_tooltip
 layout activity_forgot_password
 layout activity_home
 layout activity_meal_plans
+layout activity_profile
 layout activity_sign_in
 layout activity_trainers
 layout botom_sheet_layout

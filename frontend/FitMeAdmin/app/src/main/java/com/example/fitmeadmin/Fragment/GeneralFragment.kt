@@ -1,6 +1,7 @@
 package com.example.fitmeadmin.Fragment
 
 import android.app.Dialog
+import android.content.Intent
 import android.graphics.Color
 import android.graphics.drawable.ColorDrawable
 import android.os.Bundle
@@ -11,6 +12,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.view.Window
 import androidx.cardview.widget.CardView
+import com.example.fitmeadmin.Activity.ProfileActivity
 import com.example.fitmeadmin.R
 import com.github.mikephil.charting.charts.RadarChart
 import com.github.mikephil.charting.data.RadarData
@@ -22,6 +24,7 @@ class GeneralFragment : Fragment() {
 
     private lateinit var radarChart :RadarChart
     private lateinit var cvDeleteAct :CardView
+    private lateinit var cvHandleProfile :CardView
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
@@ -31,6 +34,11 @@ class GeneralFragment : Fragment() {
 
         radarChart= view.findViewById(R.id.radar_chart)
         cvDeleteAct= view.findViewById(R.id.cvDeleteActTest)
+        cvHandleProfile= view.findViewById(R.id.cvHandleProfile)
+
+        cvHandleProfile.setOnClickListener {
+            startActivity(Intent(requireContext(),ProfileActivity::class.java))
+        }
 
         cvDeleteAct.setOnClickListener {
             val dialog = Dialog(requireActivity())
