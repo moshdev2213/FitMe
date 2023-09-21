@@ -13,10 +13,17 @@
         android:theme="@style/Theme.FitMeAdmin"
         tools:targetApi="31">
         <activity
-            android:name=".Activity.ProfileActivity"
+            android:name=".Activity.TrainerDetail"
             android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
+        <activity
+            android:name=".Activity.ProfileActivity"
+            android:exported="true"></activity>
         <activity
             android:name=".Activity.MealPlans"
             android:exported="false" />
@@ -26,11 +33,7 @@
         <activity
             android:name=".Activity.Home"
             android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity
             android:name=".Activity.ForgotPassword"

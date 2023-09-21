@@ -2469,6 +2469,7 @@ int drawable back 0x7f08005a
 int drawable back01 0x7f08005b
 int drawable bal02 0x7f08005c
 int drawable balancedmeal02 0x7f08005d
+int drawable baseline_access_time_filled_24 0x7f0800da
 int drawable baseline_arrow_back_24 0x7f08005e
 int drawable baseline_arrow_forward_24 0x7f08005f
 int drawable baseline_arrow_forward_ios_24 0x7f080060
@@ -2483,7 +2484,9 @@ int drawable baseline_favorite_24 0x7f080067
 int drawable baseline_fitness_center_24 0x7f080068
 int drawable baseline_home_24 0x7f080069
 int drawable baseline_key_24 0x7f08006a
+int drawable baseline_keyboard_double_arrow_right_24 0x7f0800db
 int drawable baseline_local_phone_24 0x7f08006b
+int drawable baseline_monetization_on_24 0x7f0800dc
 int drawable baseline_no_meals_24 0x7f08006c
 int drawable baseline_payments_24 0x7f08006d
 int drawable baseline_person_4_24 0x7f08006e
@@ -2714,6 +2717,9 @@ int id cardView 0x7f0a0070
 int id cardView02 0x7f0a0071
 int id cardView03 0x7f0a0072
 int id cardView04 0x7f0a0073
+int id cardView10 0x7f0a0285
+int id cardView4 0x7f0a0286
+int id cardView6 0x7f0a0287
 int id carryVelocity 0x7f0a0074
 int id center 0x7f0a0075
 int id center_horizontal 0x7f0a0076
@@ -2754,11 +2760,14 @@ int id customPanel 0x7f0a0098
 int id cut 0x7f0a0099
 int id cvAddMealOpen 0x7f0a009a
 int id cvBeverageOpen 0x7f0a009b
+int id cvChannel 0x7f0a0288
 int id cvDeleteActTest 0x7f0a009c
 int id cvHandleProfile 0x7f0a009d
 int id cvLogoutUser 0x7f0a009e
 int id cvMealPackOpen 0x7f0a009f
 int id cvProtienOpen 0x7f0a00a0
+int id cvScanEye 0x7f0a0289
+int id cvScanEye02 0x7f0a028a
 int id cvSignUpFb 0x7f0a00a1
 int id cvTrainerActCard 0x7f0a00a2
 int id cvopenMealAct 0x7f0a00a3
@@ -2870,6 +2879,7 @@ int id imageView3 0x7f0a010b
 int id imageView30 0x7f0a010c
 int id imageView31 0x7f0a010d
 int id imageView32 0x7f0a010e
+int id imageView33 0x7f0a010f
 int id imageView34 0x7f0a0110
 int id imageView35 0x7f0a0275
 int id imageView4 0x7f0a0111
@@ -2879,7 +2889,9 @@ int id imageView7 0x7f0a0114
 int id imageView8 0x7f0a0115
 int id imageView9 0x7f0a0116
 int id imbBackBtn 0x7f0a0284
+int id imgBackBtn 0x7f0a028b
 int id imgChangeMealType 0x7f0a0117
+int id imgDocPicDetail 0x7f0a028c
 int id immediateStop 0x7f0a0118
 int id included 0x7f0a0119
 int id info 0x7f0a011a
@@ -3109,7 +3121,6 @@ int id textInputLayout004 0x7f0a027f
 int id textInputLayout03 0x7f0a0280
 int id textInputLayout2 0x7f0a01f7
 int id textInputLayout3 0x7f0a0277
-int id textInputLayout4 0x7f0a0278
 int id textInputLayout5 0x7f0a0279
 int id textSpacerNoButtons 0x7f0a01f8
 int id textSpacerNoTitle 0x7f0a01f9
@@ -3213,6 +3224,15 @@ int id transition_scene_layoutid_cache 0x7f0a0258
 int id transition_transform 0x7f0a0259
 int id triangle 0x7f0a025a
 int id tvAboutMealType 0x7f0a025b
+int id tvDocChargesDetails 0x7f0a028d
+int id tvDocDetailText 0x7f0a028e
+int id tvDocExpDetail 0x7f0a028f
+int id tvDocJoinedDetail 0x7f0a0290
+int id tvDocLocationDetail 0x7f0a0291
+int id tvDocLocationDetail2 0x7f0a0292
+int id tvDocNameDetail 0x7f0a0293
+int id tvDocSpecialDetail 0x7f0a0294
+int id tvDocTimeRangeDetail 0x7f0a0295
 int id unchecked 0x7f0a025c
 int id uniform 0x7f0a025d
 int id unlabeled 0x7f0a025e
@@ -3329,6 +3349,7 @@ int layout activity_home 0x7f0d001d
 int layout activity_meal_plans 0x7f0d001e
 int layout activity_profile 0x7f0d001f
 int layout activity_sign_in 0x7f0d0020
+int layout activity_trainer_detail 0x7f0d0086
 int layout activity_trainers 0x7f0d0021
 int layout botom_sheet_layout 0x7f0d0022
 int layout bottom_sheet_meal_detail_layout 0x7f0d0023
