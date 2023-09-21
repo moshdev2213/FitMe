@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:2:1-50:12
-INJECTED from E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:2:1-50:12
-INJECTED from E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:2:1-50:12
-INJECTED from E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:2:1-50:12
+ADDED from E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:2:1-53:12
+INJECTED from E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:2:1-53:12
+INJECTED from E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:2:1-53:12
+INJECTED from E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:2:1-53:12
 MERGED from [com.google.android.material:material:1.5.0] C:\Users\user\.gradle\caches\transforms-3\5a5c5e5c7026544de9ccf8875773e4ef\transformed\material-1.5.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\user\.gradle\caches\transforms-3\1f670a95ccfade1cba086a4de2f389cc\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\user\.gradle\caches\transforms-3\c5b398fecfb9f99ff9c5c1177a475c6e\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:17:1-22:12
@@ -47,27 +47,27 @@ MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\user\.gradle\cac
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\user\.gradle\caches\transforms-3\5b15d47518f2a809ea496f6d700addb1\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\user\.gradle\caches\transforms-3\330486b78dc7c88a659f932492389125\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\user\.gradle\caches\transforms-3\4b74cb5652a2f2ead9a792f2de7644b6\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
-INJECTED from E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:2:1-50:12
-INJECTED from E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:2:1-50:12
-INJECTED from E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:2:1-50:12
+INJECTED from E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:2:1-53:12
+INJECTED from E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:2:1-53:12
+INJECTED from E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:2:1-53:12
 	package
 		INJECTED from E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml
-		ADDED from E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:2:1-50:12
+		ADDED from E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:2:1-53:12
 		INJECTED from E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml
-		ADDED from E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:2:1-50:12
+		ADDED from E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:2:1-53:12
 		INJECTED from E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml
 	xmlns:tools
 		ADDED from E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml
-		ADDED from E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:2:1-50:12
+		ADDED from E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:2:1-53:12
 		INJECTED from E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:5:5-48:19
+ADDED from E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:5:5-51:19
 MERGED from [com.google.android.material:material:1.5.0] C:\Users\user\.gradle\caches\transforms-3\5a5c5e5c7026544de9ccf8875773e4ef\transformed\material-1.5.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.5.0] C:\Users\user\.gradle\caches\transforms-3\5a5c5e5c7026544de9ccf8875773e4ef\transformed\material-1.5.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\user\.gradle\caches\transforms-3\1f670a95ccfade1cba086a4de2f389cc\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
@@ -102,12 +102,12 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\user\.gradle\cache
 		ADDED from E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:13:9-48
 	android:dataExtractionRules
 		ADDED from E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:7:9-65
-activity#com.example.fitmeadmin.Activity.TrainerDetail
+activity#com.example.fitmeadmin.Activity.MealDetails
 ADDED from E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:15:9-23:20
 	android:exported
 		ADDED from E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:17:13-36
 	android:name
-		ADDED from E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:16:13-51
+		ADDED from E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:16:13-49
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
 ADDED from E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:18:13-22:29
 action#android.intent.action.MAIN
@@ -118,48 +118,54 @@ category#android.intent.category.LAUNCHER
 ADDED from E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:21:17-77
 	android:name
 		ADDED from E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:21:27-74
-activity#com.example.fitmeadmin.Activity.ProfileActivity
-ADDED from E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:24:9-26:48
+activity#com.example.fitmeadmin.Activity.TrainerDetail
+ADDED from E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:24:9-28:20
 	android:exported
 		ADDED from E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:26:13-36
 	android:name
-		ADDED from E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:25:13-53
+		ADDED from E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:25:13-51
+activity#com.example.fitmeadmin.Activity.ProfileActivity
+ADDED from E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:29:9-31:39
+	android:exported
+		ADDED from E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:31:13-36
+	android:name
+		ADDED from E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:30:13-53
 activity#com.example.fitmeadmin.Activity.MealPlans
-ADDED from E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:27:9-29:40
+ADDED from E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:32:9-34:40
 	android:exported
-		ADDED from E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:29:13-37
+		ADDED from E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:34:13-37
 	android:name
-		ADDED from E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:28:13-47
+		ADDED from E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:33:13-47
 activity#com.example.fitmeadmin.Activity.Trainers
-ADDED from E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:30:9-32:39
+ADDED from E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:35:9-37:39
 	android:exported
-		ADDED from E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:32:13-36
+		ADDED from E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:37:13-36
 	android:name
-		ADDED from E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:31:13-46
+		ADDED from E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:36:13-46
 activity#com.example.fitmeadmin.Activity.Home
-ADDED from E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:33:9-37:20
-	android:exported
-		ADDED from E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:35:13-36
-	android:name
-		ADDED from E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:34:13-42
-activity#com.example.fitmeadmin.Activity.ForgotPassword
-ADDED from E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:38:9-40:39
+ADDED from E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:38:9-40:48
 	android:exported
 		ADDED from E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:40:13-36
 	android:name
-		ADDED from E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:39:13-52
-activity#com.example.fitmeadmin.Activity.SignIn
+		ADDED from E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:39:13-42
+activity#com.example.fitmeadmin.Activity.ForgotPassword
 ADDED from E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:41:9-43:39
 	android:exported
 		ADDED from E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:43:13-36
 	android:name
-		ADDED from E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:42:13-44
-meta-data#preloaded_fonts
-ADDED from E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:45:9-47:57
-	android:resource
-		ADDED from E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:47:13-54
+		ADDED from E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:42:13-52
+activity#com.example.fitmeadmin.Activity.SignIn
+ADDED from E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:44:9-46:39
+	android:exported
+		ADDED from E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:46:13-36
 	android:name
-		ADDED from E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:46:13-43
+		ADDED from E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:45:13-44
+meta-data#preloaded_fonts
+ADDED from E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:48:9-50:57
+	android:resource
+		ADDED from E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:50:13-54
+	android:name
+		ADDED from E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:49:13-43
 uses-sdk
 INJECTED from E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml
