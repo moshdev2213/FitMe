@@ -2594,6 +2594,7 @@ drawable tooltip_frame_light
 drawable trainee
 drawable trainerbannner
 drawable userbanner
+drawable verified
 drawable wheybanner
 drawable wheysingle
 drawable yeti
@@ -2719,6 +2720,8 @@ id cardView02
 id cardView03
 id cardView04
 id cardView10
+id cardView11
+id cardView12
 id cardView4
 id cardView6
 id carryVelocity
@@ -2760,9 +2763,11 @@ id custom
 id customPanel
 id cut
 id cvAddMealOpen
+id cvBackBtn
 id cvBeverageOpen
 id cvChannel
 id cvDeleteActTest
+id cvEditBtn
 id cvHandleProfile
 id cvLogoutUser
 id cvMealPackOpen
@@ -2883,6 +2888,10 @@ id imageView32
 id imageView33
 id imageView34
 id imageView35
+id imageView36
+id imageView37
+id imageView38
+id imageView39
 id imageView4
 id imageView5
 id imageView6
@@ -2891,6 +2900,7 @@ id imageView8
 id imageView9
 id imbBackBtn
 id imgBackBtn
+id imgBackBtn2
 id imgChangeMealType
 id imgDocPicDetail
 id immediateStop
@@ -2919,6 +2929,10 @@ id materialCardView
 id materialCardView011
 id materialCardView03
 id materialCardView10
+id materialCardView11
+id materialCardView12
+id materialCardView13
+id materialCardView14
 id materialCardView2
 id materialCardView3
 id materialCardView4
@@ -3037,6 +3051,7 @@ id row_index_key
 id save_non_transition_alpha
 id save_overlay_view
 id sawtooth
+id scFood
 id scale
 id screen
 id scroll
@@ -3196,6 +3211,12 @@ id textView69
 id textView7
 id textView70
 id textView71
+id textView72
+id textView73
+id textView75
+id textView76
+id textView77
+id textView78
 id textView8
 id textView9
 id text_input_end_icon
@@ -3227,7 +3248,18 @@ id triangle
 id tvAboutMealType
 id tvDocChargesDetails
 id tvDocDetailText
+id tvDocDetailText2
+id tvDocDetailText3
 id tvDocExpDetail
+id tvDocExpDetail10
+id tvDocExpDetail2
+id tvDocExpDetail3
+id tvDocExpDetail4
+id tvDocExpDetail5
+id tvDocExpDetail6
+id tvDocExpDetail7
+id tvDocExpDetail8
+id tvDocExpDetail9
 id tvDocJoinedDetail
 id tvDocLocationDetail
 id tvDocLocationDetail2
@@ -3241,6 +3273,9 @@ id up
 id useLogo
 id users
 id vertical_only
+id view
+id view2
+id view3
 id view_offset_helper
 id view_transition
 id view_tree_lifecycle_owner
@@ -3347,6 +3382,7 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_forgot_password
 layout activity_home
+layout activity_meal_details
 layout activity_meal_plans
 layout activity_profile
 layout activity_sign_in
