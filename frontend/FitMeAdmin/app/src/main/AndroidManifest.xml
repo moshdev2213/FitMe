@@ -15,11 +15,7 @@
         <activity
             android:name=".Activity.MealDetails"
             android:exported="true" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity
             android:name=".Activity.TrainerDetail"
@@ -37,7 +33,13 @@
             android:exported="true" />
         <activity
             android:name=".Activity.Home"
-            android:exported="true"></activity>
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity
             android:name=".Activity.ForgotPassword"
             android:exported="true" />
