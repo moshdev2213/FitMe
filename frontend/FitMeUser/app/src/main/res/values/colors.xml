@@ -10,6 +10,7 @@
 <!--    <color name="bg_warning">#80FFBF00</color>-->
     <color name="bg_danger">#FF6262</color>
     <color name="card_bg">#F9FAFB</color>
+    <color name="bg_success">#28a745</color>
 
 
     <!--shimmer colors    -->
