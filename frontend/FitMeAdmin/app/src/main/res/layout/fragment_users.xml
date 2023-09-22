@@ -96,9 +96,10 @@
                 <com.google.android.material.card.MaterialCardView
                     android:id="@+id/materialCardView3"
                     android:layout_width="0dp"
-                    android:layout_height="wrap_content"
+                    android:layout_height="0dp"
                     android:layout_marginStart="16dp"
                     android:layout_marginEnd="16dp"
+                    android:clickable="true"
                     app:cardCornerRadius="10dp"
                     app:cardElevation="2dp"
                     app:layout_constraintBottom_toBottomOf="@+id/materialCardView03"
@@ -112,46 +113,28 @@
                         android:layout_height="match_parent">
 
                         <TextView
-                            android:id="@+id/textView13"
-                            android:layout_width="wrap_content"
+                            android:id="@+id/textView11"
+                            android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             android:layout_marginStart="16dp"
-                            android:fontFamily="@font/montserrat_medium"
-                            android:text="34"
-                            android:textColor="@color/black"
-                            android:textSize="24sp"
-                            app:layout_constraintBottom_toBottomOf="@+id/textView27"
-                            app:layout_constraintHorizontal_chainStyle="spread_inside"
-                            app:layout_constraintStart_toStartOf="parent"
-                            app:layout_constraintTop_toTopOf="@+id/textView27" />
-
-                        <TextView
-                            android:id="@+id/textView27"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
                             android:layout_marginTop="8dp"
                             android:layout_marginEnd="16dp"
-                            android:layout_marginBottom="8dp"
-                            android:fontFamily="@font/montserrat_medium"
-                            android:text="✅"
+                            android:fontFamily="@font/montserrat_bold"
+                            android:text="Add Users"
                             android:textColor="@color/black"
                             android:textSize="24sp"
+                            app:layout_constraintEnd_toStartOf="@+id/imageView40"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <ImageView
+                            android:id="@+id/imageView40"
+                            android:layout_width="80dp"
+                            android:layout_height="0dp"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/prson"
                             app:layout_constraintBottom_toBottomOf="parent"
                             app:layout_constraintEnd_toEndOf="parent"
-                            app:layout_constraintHorizontal_chainStyle="spread_inside"
-                            app:layout_constraintTop_toBottomOf="@+id/textView11" />
-
-                        <TextView
-                            android:id="@+id/textView11"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginStart="16dp"
-                            android:layout_marginTop="8dp"
-                            android:fontFamily="@font/montserrat"
-                            android:text="Verified Users"
-                            android:textColor="@color/black"
-                            android:textSize="16sp"
-                            app:layout_constraintStart_toStartOf="parent"
                             app:layout_constraintTop_toTopOf="parent" />
 
                     </androidx.constraintlayout.widget.ConstraintLayout>
