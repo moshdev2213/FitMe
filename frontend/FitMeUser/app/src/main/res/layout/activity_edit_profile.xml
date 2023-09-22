@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Activity.TrainerEdit">
+    tools:context=".Activity.EditProfile">
 
     <com.google.android.material.card.MaterialCardView
         android:id="@+id/materialCardView15"
@@ -113,18 +113,18 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        app:layout_constraintBottom_toBottomOf="@+id/textView69"
+        app:layout_constraintBottom_toBottomOf="@+id/textView86"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/textView69"
+        app:layout_constraintTop_toTopOf="@+id/textView86"
         app:srcCompat="@drawable/baseline_arrow_back_24" />
 
     <TextView
-        android:id="@+id/textView69"
+        android:id="@+id/textView86"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:fontFamily="@font/montserrat_bold"
-        android:text="Trainer Edit"
+        android:text="User Edit"
         android:textColor="@color/black"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -134,12 +134,12 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_marginTop="16dp"
         android:fillViewport="true"
+        android:visibility="visible"
         app:layout_constraintBottom_toTopOf="@+id/materialCardView15"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView69">
+        app:layout_constraintTop_toBottomOf="@+id/textView86">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
@@ -160,42 +160,19 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_chainStyle="spread_inside"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/textInputLayoutNum">
+                app:layout_constraintTop_toBottomOf="@+id/textInputLayout06">
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:layout_width="match_parent"
                     android:layout_height="200dp"
                     android:gravity="top"
                     android:inputType="textMultiLine"
-                    android:minLines="3"
-                    android:maxLines="10"/>
+                    android:maxLines="10"
+                    android:minLines="3" />
             </com.google.android.material.textfield.TextInputLayout>
 
             <com.google.android.material.textfield.TextInputLayout
-                android:id="@+id/textInputLayoutRate"
-                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="16dp"
-                android:layout_marginTop="16dp"
-                android:layout_marginEnd="16dp"
-                android:hint="Enter Rating (0-5)"
-                app:endIconMode="clear_text"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.5"
-                app:layout_constraintHorizontal_chainStyle="spread_inside"
-                app:layout_constraintStart_toEndOf="@+id/textInputLayoutNum"
-                app:layout_constraintTop_toBottomOf="@+id/textInputLayout03">
-
-                <com.google.android.material.textfield.TextInputEditText
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:maxLength="5"
-                    android:inputType="number|numberDecimal" />
-            </com.google.android.material.textfield.TextInputLayout>
-
-            <com.google.android.material.textfield.TextInputLayout
-                android:id="@+id/textInputLayout03"
+                android:id="@+id/textInputLayout06"
                 style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
@@ -224,33 +201,11 @@
                 android:layout_marginEnd="16dp"
                 android:background="@drawable/dropdown_background_outline"
                 android:entries="@array/gender"
-                app:layout_constraintBottom_toBottomOf="@+id/textInputLayout03"
+                app:layout_constraintBottom_toBottomOf="@+id/textInputLayout06"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.5"
-                app:layout_constraintStart_toEndOf="@+id/textInputLayout03"
-                app:layout_constraintTop_toTopOf="@+id/textInputLayout03" />
-
-            <com.google.android.material.textfield.TextInputLayout
-                android:id="@+id/textInputLayoutNum"
-                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="16dp"
-                android:layout_marginTop="16dp"
-                android:hint="Amount"
-                app:endIconMode="clear_text"
-                app:layout_constraintEnd_toStartOf="@+id/textInputLayoutRate"
-                app:layout_constraintHorizontal_bias="0.5"
-                app:layout_constraintHorizontal_chainStyle="spread_inside"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/textInputLayout03"
-                app:startIconDrawable="@drawable/baseline_monetization_on_24">
-
-                <com.google.android.material.textfield.TextInputEditText
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:inputType="number|numberDecimal" />
-            </com.google.android.material.textfield.TextInputLayout>
+                app:layout_constraintStart_toEndOf="@+id/textInputLayout06"
+                app:layout_constraintTop_toTopOf="@+id/textInputLayout06" />
 
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/textInputLayout004"
@@ -306,7 +261,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
                 android:layout_marginTop="16dp"
-                android:hint="Email"
+                android:hint="mosh@gmail.com"
                 app:layout_constraintEnd_toStartOf="@+id/textInputLayout5"
                 app:layout_constraintHorizontal_bias="0.5"
                 app:layout_constraintStart_toStartOf="parent"
@@ -315,7 +270,8 @@
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content" />
+                    android:layout_height="wrap_content"
+                    android:enabled="false" />
             </com.google.android.material.textfield.TextInputLayout>
 
             <TextView
@@ -325,7 +281,7 @@
                 android:layout_marginStart="16dp"
                 android:layout_marginEnd="16dp"
                 android:fontFamily="@font/montserrat_medium"
-                android:text="trainer@34244"
+                android:text="user@34244"
                 android:textColor="@color/black"
                 android:textSize="20sp"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -338,7 +294,7 @@
                 android:layout_height="150dp"
                 android:layout_marginTop="8dp"
                 android:scaleType="centerCrop"
-                android:src="@drawable/trainee"
+                android:src="@drawable/prson"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
@@ -368,7 +324,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginStart="16dp"
                         android:fontFamily="@font/montserrat_bold"
-                        android:text="Trainer ID"
+                        android:text="User ID"
                         android:textColor="@color/black"
                         android:textSize="20sp"
                         app:layout_constraintBottom_toBottomOf="parent"

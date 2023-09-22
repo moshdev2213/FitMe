@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- dropdown_background_outline.xml -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Background shape for the dropdown -->
+    <item android:drawable="@drawable/rounded_corner_outline" />
+
+    <!-- Dropdown arrow icon -->
+    <item
+        android:right="8dp"
+        android:drawable="@drawable/baseline_keyboard_arrow_down_24"
+        android:gravity="end|center_vertical">
+    </item>
+</layer-list>
