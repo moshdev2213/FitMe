@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Activity.TrainerDetail">
+    tools:context=".Activity.UserDetail">
 
     <com.google.android.material.card.MaterialCardView
         android:id="@+id/cvEditBtn"
@@ -45,7 +45,7 @@
                 android:layout_marginEnd="8dp"
                 android:layout_marginBottom="8dp"
                 android:fontFamily="@font/montserrat_medium"
-                android:text="Edit Trainer"
+                android:text="Edit User"
                 android:textColor="@color/white"
                 android:textSize="18sp"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -97,22 +97,22 @@
     </com.google.android.material.card.MaterialCardView>
 
     <ImageView
-        android:id="@+id/imgBackBtn"
+        android:id="@+id/imgBackBtn3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:src="@drawable/baseline_arrow_back_24"
-        app:layout_constraintBottom_toBottomOf="@+id/textView23"
+        app:layout_constraintBottom_toBottomOf="@+id/textView74"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/textView23" />
+        app:layout_constraintTop_toTopOf="@+id/textView74" />
 
     <TextView
-        android:id="@+id/textView23"
+        android:id="@+id/textView74"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:fontFamily="@font/montserrat_bold"
-        android:text="Trainer Details"
+        android:text="User Details"
         android:textColor="@color/black"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -120,15 +120,15 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ScrollView
+        android:id="@+id/scrollView2"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_marginTop="8dp"
         android:layout_marginBottom="8dp"
         android:fillViewport="true"
         app:layout_constraintBottom_toTopOf="@+id/cvBackBtn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView23">
+        app:layout_constraintTop_toBottomOf="@+id/textView74">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
@@ -159,14 +159,13 @@
 
                     <com.google.android.material.imageview.ShapeableImageView
                         android:id="@+id/imageView8"
-                        android:layout_width="50dp"
-                        android:layout_height="50dp"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
                         android:layout_marginStart="24dp"
                         android:layout_marginTop="8dp"
                         android:layout_marginBottom="8dp"
-                        android:alpha="0.7"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/baseline_access_time_filled_24"
+                        android:src="@drawable/burger"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent"
@@ -179,9 +178,9 @@
                         android:layout_marginStart="16dp"
                         android:alpha="0.5"
                         android:fontFamily="@font/montserrat_medium"
-                        android:text="Availability"
+                        android:text="Meal Plans Bought"
                         android:textColor="@color/black"
-                        android:textSize="16sp"
+                        android:textSize="20sp"
                         app:layout_constraintStart_toEndOf="@+id/imageView8"
                         app:layout_constraintTop_toTopOf="@+id/imageView8" />
 
@@ -192,10 +191,10 @@
                         android:layout_marginStart="16dp"
                         android:layout_marginBottom="3dp"
                         android:alpha="0.5"
-                        android:fontFamily="@font/montserrat_medium"
-                        android:text="6pm - 11pm"
+                        android:fontFamily="@font/montserrat_bold"
+                        android:text="56"
                         android:textColor="@color/primary"
-                        android:textSize="14sp"
+                        android:textSize="20sp"
                         app:layout_constraintBottom_toBottomOf="@+id/imageView8"
                         app:layout_constraintStart_toEndOf="@+id/imageView8"
                         app:layout_constraintTop_toBottomOf="@+id/textView25" />
@@ -229,14 +228,13 @@
 
                     <com.google.android.material.imageview.ShapeableImageView
                         android:id="@+id/imageView8"
-                        android:layout_width="50dp"
-                        android:layout_height="60dp"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
                         android:layout_marginStart="24dp"
                         android:layout_marginTop="8dp"
                         android:layout_marginBottom="8dp"
-                        android:alpha="0.7"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/baseline_monetization_on_24"
+                        android:src="@drawable/trainee"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent"
@@ -249,9 +247,9 @@
                         android:layout_marginStart="16dp"
                         android:alpha="0.5"
                         android:fontFamily="@font/montserrat_medium"
-                        android:text="Charges And Prices"
+                        android:text="Trainers Hired"
                         android:textColor="@color/black"
-                        android:textSize="16sp"
+                        android:textSize="20sp"
                         app:layout_constraintStart_toEndOf="@+id/imageView8"
                         app:layout_constraintTop_toTopOf="@+id/imageView8" />
 
@@ -261,10 +259,10 @@
                         android:layout_height="wrap_content"
                         android:layout_marginStart="16dp"
                         android:alpha="0.5"
-                        android:fontFamily="@font/montserrat_medium"
-                        android:text="Rs 2000.00"
+                        android:fontFamily="@font/montserrat_bold"
+                        android:text="12"
                         android:textColor="@color/primary"
-                        android:textSize="14sp"
+                        android:textSize="20sp"
                         app:layout_constraintBottom_toBottomOf="@+id/imageView8"
                         app:layout_constraintStart_toEndOf="@+id/imageView8"
                         app:layout_constraintTop_toBottomOf="@+id/textView25" />
@@ -303,7 +301,7 @@
                         android:layout_marginStart="16dp"
                         android:layout_marginTop="16dp"
                         android:fontFamily="@font/montserrat_bold"
-                        android:text="Clients"
+                        android:text="Payments"
                         android:textColor="@color/white"
                         android:textSize="20sp"
                         app:layout_constraintStart_toStartOf="parent"
@@ -317,9 +315,9 @@
                         android:layout_marginTop="8dp"
                         android:layout_marginBottom="16dp"
                         android:fontFamily="@font/montserrat_bold"
-                        android:text="90 +"
+                        android:text="Rs 144544.00"
                         android:textColor="@color/white"
-                        android:textSize="34sp"
+                        android:textSize="24sp"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toBottomOf="@+id/textView24" />
@@ -345,7 +343,7 @@
                 <androidx.constraintlayout.widget.ConstraintLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:background="@color/bg_success"
+                    android:background="@color/bg_danger"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.5"
                     app:layout_constraintStart_toStartOf="parent">
@@ -444,7 +442,7 @@
                         android:layout_marginTop="8dp"
                         android:layout_marginEnd="8dp"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/trainerbannner"
+                        android:src="@drawable/prson"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent"
@@ -520,5 +518,4 @@
 
         </androidx.constraintlayout.widget.ConstraintLayout>
     </ScrollView>
-
 </androidx.constraintlayout.widget.ConstraintLayout>

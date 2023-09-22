@@ -13,19 +13,20 @@
         android:theme="@style/Theme.FitMe"
         tools:targetApi="31">
         <activity
+            android:name=".Activity.MealDetail"
+            android:exported="false" />
+        <activity
             android:name=".Activity.ScanBody"
-            android:exported="true">
-          
-        </activity>
+            android:exported="true"></activity>
         <activity
             android:name=".Activity.Success"
-            android:exported="true"></activity>
+            android:exported="true" />
         <activity
             android:name=".Activity.Payment"
-            android:exported="true"></activity>
+            android:exported="true" />
         <activity
             android:name=".Activity.Reservation"
-            android:exported="true"></activity>
+            android:exported="true" />
         <activity
             android:name=".Activity.Home"
             android:exported="true">
@@ -37,13 +38,13 @@
         </activity>
         <activity
             android:name=".Activity.SignUp"
-            android:exported="true"></activity>
+            android:exported="true" />
         <activity
             android:name=".Activity.SignInOTP"
-            android:exported="true"></activity>
+            android:exported="true" />
         <activity
             android:name=".Activity.SignIn"
-            android:exported="true"></activity>
+            android:exported="true" />
         <activity
             android:name=".MainActivity"
             android:exported="true"
