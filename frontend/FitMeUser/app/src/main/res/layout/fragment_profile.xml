@@ -113,33 +113,16 @@
                     app:layout_constraintTop_toTopOf="parent" />
 
                 <TextView
-                    android:id="@+id/textView15"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="8dp"
-                    android:fontFamily="@font/montserrat"
-                    android:text="Steps"
-                    android:textColor="@color/black"
-                    android:textSize="16sp"
-                    app:layout_constraintBottom_toBottomOf="@+id/textView9"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toEndOf="@+id/textView9"
-                    app:layout_constraintTop_toTopOf="@+id/textView9" />
-
-                <TextView
                     android:id="@+id/textView9"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="16dp"
-                    android:layout_marginEnd="8dp"
                     android:layout_marginBottom="16dp"
                     android:fontFamily="@font/montserrat_bold"
-                    android:text="42 900"
+                    android:text="42 900 steps"
                     android:textColor="@color/black"
                     android:textSize="18sp"
                     app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toStartOf="@+id/textView15"
-                    app:layout_constraintHorizontal_bias="0.5"
                     app:layout_constraintHorizontal_chainStyle="packed"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/textView4"
@@ -402,7 +385,7 @@
             android:layout_marginStart="16dp"
             android:layout_marginTop="24dp"
             android:layout_marginEnd="16dp"
-            android:clickable="false"
+            android:clickable="true"
             app:cardBackgroundColor="@color/cardBorder"
             app:cardCornerRadius="10dp"
             app:cardElevation="0dp"
@@ -417,13 +400,13 @@
 
                 <com.google.android.material.imageview.ShapeableImageView
                     android:id="@+id/imageView3"
-                    android:layout_width="80dp"
-                    android:layout_height="80dp"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
                     android:layout_marginStart="16dp"
-                    android:layout_marginTop="16dp"
-                    android:layout_marginBottom="16dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="8dp"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/trainerbannner"
+                    android:src="@drawable/prson"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintHorizontal_chainStyle="packed"
                     app:layout_constraintStart_toStartOf="parent"
@@ -432,23 +415,22 @@
 
                 <TextView
                     android:id="@+id/textView4"
-                    android:layout_width="wrap_content"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="8dp"
-                    android:layout_marginTop="16dp"
                     android:layout_marginEnd="16dp"
                     android:fontFamily="@font/montserrat_medium"
-                    android:text="mohomilly@gmail.com"
+                    android:text="mohomly@gmail.com"
                     android:textColor="@color/black"
                     android:textSize="20sp"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.424"
+                    app:layout_constraintHorizontal_bias="0.324"
                     app:layout_constraintStart_toEndOf="@+id/imageView3"
-                    app:layout_constraintTop_toTopOf="parent" />
+                    app:layout_constraintTop_toTopOf="@+id/imageView3" />
 
                 <TextView
                     android:id="@+id/textView9"
-                    android:layout_width="wrap_content"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="8dp"
                     android:layout_marginEnd="16dp"
@@ -457,7 +439,22 @@
                     android:textColor="@color/black"
                     android:textSize="18sp"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.161"
+                    app:layout_constraintStart_toEndOf="@+id/imageView3"
+                    app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+                <TextView
+                    android:id="@+id/textView82"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="16dp"
+                    android:fontFamily="@font/montserrat"
+                    android:text="2023.10.10"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    app:layout_constraintBottom_toBottomOf="@+id/imageView3"
+                    app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toEndOf="@+id/imageView3"
                     app:layout_constraintTop_toBottomOf="@+id/textView4" />
             </androidx.constraintlayout.widget.ConstraintLayout>
