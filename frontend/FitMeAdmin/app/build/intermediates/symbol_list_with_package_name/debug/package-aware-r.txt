@@ -68,6 +68,7 @@ animator mtrl_fab_transformation_sheet_expand_spec
 array com_google_android_gms_fonts_certs
 array com_google_android_gms_fonts_certs_dev
 array com_google_android_gms_fonts_certs_prod
+array gender
 array preloaded_fonts
 attr SharedValue
 attr SharedValueId
@@ -1697,6 +1698,7 @@ color material_on_surface_disabled
 color material_on_surface_emphasis_high_type
 color material_on_surface_emphasis_medium
 color material_on_surface_stroke
+color material_outline
 color material_slider_active_tick_marks_color
 color material_slider_active_track_color
 color material_slider_halo_color
@@ -2485,6 +2487,7 @@ drawable baseline_favorite_24
 drawable baseline_fitness_center_24
 drawable baseline_home_24
 drawable baseline_key_24
+drawable baseline_keyboard_arrow_down_24
 drawable baseline_keyboard_double_arrow_right_24
 drawable baseline_local_phone_24
 drawable baseline_monetization_on_24
@@ -2496,6 +2499,7 @@ drawable baseline_qr_code_24
 drawable baseline_remove_red_eye_24
 drawable baseline_settings_24
 drawable baseline_supervised_user_circle_24
+drawable baseline_transgender_24
 drawable baseline_waves_24
 drawable bisceps
 drawable bisceps01
@@ -2520,6 +2524,8 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable dropdown_background_outline
+drawable dumbellcurl
 drawable ic_clock_black_24dp
 drawable ic_keyboard_black_24dp
 drawable ic_launcher_background
@@ -2582,6 +2588,7 @@ drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable paycard
 drawable prson
+drawable rounded_corner_outline
 drawable setting
 drawable shoulder
 drawable shoulder01
@@ -2765,8 +2772,8 @@ id cut
 id cvAddMealOpen
 id cvBackBtn
 id cvBeverageOpen
-id cvChannel
 id cvDeleteActTest
+id cvDltBtn
 id cvEditBtn
 id cvHandleProfile
 id cvLogoutUser
@@ -2776,6 +2783,7 @@ id cvScanEye
 id cvScanEye02
 id cvSignUpFb
 id cvTrainerActCard
+id cvTrainerNum
 id cvopenMealAct
 id date_picker_actions
 id decelerate
@@ -2899,8 +2907,13 @@ id imageView7
 id imageView8
 id imageView9
 id imbBackBtn
+id imbBackBtn2
+id imbBackBtn3
+id imbBackBtn4
 id imgBackBtn
 id imgBackBtn2
+id imgBackBtn3
+id imgBackBtn4
 id imgChangeMealType
 id imgDocPicDetail
 id immediateStop
@@ -2933,6 +2946,7 @@ id materialCardView11
 id materialCardView12
 id materialCardView13
 id materialCardView14
+id materialCardView15
 id materialCardView2
 id materialCardView3
 id materialCardView4
@@ -3058,6 +3072,7 @@ id scroll
 id scrollIndicatorDown
 id scrollIndicatorUp
 id scrollView
+id scrollView2
 id scrollable
 id search_badge
 id search_bar
@@ -3089,6 +3104,7 @@ id snapMargins
 id south
 id spacer
 id special_effects_controller_view_tag
+id spinnerGenderSelect
 id splashscreen_icon_view
 id spline
 id split_action_bar
@@ -3138,6 +3154,8 @@ id textInputLayout03
 id textInputLayout2
 id textInputLayout3
 id textInputLayout5
+id textInputLayoutNum
+id textInputLayoutRate
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
@@ -3213,11 +3231,17 @@ id textView70
 id textView71
 id textView72
 id textView73
+id textView74
 id textView75
 id textView76
 id textView77
 id textView78
+id textView79
 id textView8
+id textView80
+id textView81
+id textView82
+id textView85
 id textView9
 id text_input_end_icon
 id text_input_error_icon
@@ -3250,6 +3274,10 @@ id tvDocChargesDetails
 id tvDocDetailText
 id tvDocDetailText2
 id tvDocDetailText3
+id tvDocDetailText5
+id tvDocDetailText6
+id tvDocDetailText7
+id tvDocDetailText8
 id tvDocExpDetail
 id tvDocExpDetail10
 id tvDocExpDetail2
@@ -3383,11 +3411,17 @@ layout abc_tooltip
 layout activity_forgot_password
 layout activity_home
 layout activity_meal_details
+layout activity_meal_edit
 layout activity_meal_plans
 layout activity_profile
 layout activity_sign_in
 layout activity_trainer_detail
+layout activity_trainer_edit
 layout activity_trainers
+layout activity_user_detail
+layout activity_user_edit
+layout activity_workout_detail
+layout activity_workout_edit
 layout botom_sheet_layout
 layout bottom_sheet_meal_detail_layout
 layout custom_dialog
