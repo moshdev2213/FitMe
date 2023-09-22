@@ -16,9 +16,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="24ae4237-97e0-44ef-a6b7-33eacbf7cad4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/dumbellcurl.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FitMeUser/app/src/main/java/com/example/fitme/Activity/MyProfile.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FitMeUser/app/src/main/java/com/example/fitme/Activity/WorkoutList.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FitMeUser/app/src/main/res/drawable/dumbellcurl.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FitMeUser/app/src/main/res/drawable/prson.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FitMeUser/app/src/main/res/layout/activity_my_profile.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FitMeUser/app/src/main/res/layout/activity_workout_list.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FitMeUser/app/src/main/res/layout/workout_item.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../FitMeUser/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FitMeUser/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FitMeUser/app/src/main/res/layout/activity_meal_detail.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FitMeUser/app/src/main/res/layout/activity_meal_detail.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FitMeUser/app/src/main/res/layout/activity_trainer_detail.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FitMeUser/app/src/main/res/layout/activity_trainer_detail.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FitMeUser/app/src/main/res/layout/fragment_profile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FitMeUser/app/src/main/res/layout/fragment_profile.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
