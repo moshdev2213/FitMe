@@ -71,7 +71,7 @@
         app:layout_constraintEnd_toStartOf="@+id/cvEditBtn"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:strokeColor="@color/primary"
+        app:strokeColor="@color/bg_danger"
         app:strokeWidth="2dp">
 
         <androidx.constraintlayout.widget.ConstraintLayout
@@ -85,8 +85,8 @@
                 android:layout_marginTop="8dp"
                 android:layout_marginBottom="8dp"
                 android:fontFamily="@font/montserrat_medium"
-                android:text="Go Back"
-                android:textColor="@color/primary"
+                android:text="Delete"
+                android:textColor="@color/bg_danger"
                 android:textSize="18sp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -166,7 +166,7 @@
                         android:layout_marginBottom="8dp"
                         android:alpha="0.7"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/baseline_access_time_filled_24"
+                        android:src="@drawable/baseline_transgender_24"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent"
@@ -179,7 +179,7 @@
                         android:layout_marginStart="16dp"
                         android:alpha="0.5"
                         android:fontFamily="@font/montserrat_medium"
-                        android:text="Availability"
+                        android:text="Trainer Gender"
                         android:textColor="@color/black"
                         android:textSize="16sp"
                         app:layout_constraintStart_toEndOf="@+id/imageView8"
@@ -193,7 +193,77 @@
                         android:layout_marginBottom="3dp"
                         android:alpha="0.5"
                         android:fontFamily="@font/montserrat_medium"
-                        android:text="6pm - 11pm"
+                        android:text="Male"
+                        android:textColor="@color/primary"
+                        android:textSize="14sp"
+                        app:layout_constraintBottom_toBottomOf="@+id/imageView8"
+                        app:layout_constraintStart_toEndOf="@+id/imageView8"
+                        app:layout_constraintTop_toBottomOf="@+id/textView25" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cvTrainerNum"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="16dp"
+                android:elevation="2dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="2dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cvScanEye02">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toStartOf="parent">
+
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:id="@+id/imageView8"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginStart="24dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginBottom="8dp"
+                        android:alpha="0.7"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/baseline_local_phone_24"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:shapeAppearanceOverlay="@style/roundedImageView" />
+
+                    <TextView
+                        android:id="@+id/textView25"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:alpha="0.5"
+                        android:fontFamily="@font/montserrat_medium"
+                        android:text="Get In Touch"
+                        android:textColor="@color/black"
+                        android:textSize="16sp"
+                        app:layout_constraintStart_toEndOf="@+id/imageView8"
+                        app:layout_constraintTop_toTopOf="@+id/imageView8" />
+
+                    <TextView
+                        android:id="@+id/tvDocTimeRangeDetail"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginBottom="3dp"
+                        android:alpha="0.5"
+                        android:fontFamily="@font/montserrat_medium"
+                        android:text="0776756432"
                         android:textColor="@color/primary"
                         android:textSize="14sp"
                         app:layout_constraintBottom_toBottomOf="@+id/imageView8"
@@ -210,11 +280,9 @@
                 android:layout_marginTop="16dp"
                 android:layout_marginEnd="16dp"
 
-                android:layout_marginBottom="16dp"
                 android:elevation="2dp"
                 app:cardCornerRadius="10dp"
                 app:cardElevation="2dp"
-                app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.5"
                 app:layout_constraintStart_toStartOf="parent"
@@ -470,7 +538,7 @@
                         android:layout_marginStart="16dp"
                         android:alpha="0.5"
                         android:fontFamily="@font/montserrat_medium"
-                        android:text="Eye Care Specialist"
+                        android:text="samantha@gmail.com"
                         android:textColor="@color/black"
                         android:textSize="16sp"
                         app:layout_constraintStart_toStartOf="parent"

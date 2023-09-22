@@ -728,7 +728,7 @@
         app:layout_constraintEnd_toStartOf="@+id/cvEditBtn"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:strokeColor="@color/primary"
+        app:strokeColor="@color/bg_danger"
         app:strokeWidth="2dp">
 
         <androidx.constraintlayout.widget.ConstraintLayout
@@ -742,8 +742,8 @@
                 android:layout_marginTop="8dp"
                 android:layout_marginBottom="8dp"
                 android:fontFamily="@font/montserrat_medium"
-                android:text="Go Back"
-                android:textColor="@color/primary"
+                android:text="Delete"
+                android:textColor="@color/bg_danger"
                 android:textSize="18sp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
