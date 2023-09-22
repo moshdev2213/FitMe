@@ -14,15 +14,13 @@
         tools:targetApi="31">
         <activity
             android:name=".Activity.WorkoutEdit"
-            android:exported="false" />
+            android:exported="true" >
+
+        </activity>
         <activity
             android:name=".Activity.MealEdit"
             android:exported="true" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity
             android:name=".Activity.UserEdit"
@@ -36,25 +34,43 @@
         </activity>
         <activity
             android:name=".Activity.WorkoutDetail"
-            android:exported="false" />
+            android:exported="true" >
+
+        </activity>
         <activity
             android:name=".Activity.UserDetail"
-            android:exported="false" />
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity
             android:name=".Activity.MealDetails"
-            android:exported="true" />
+            android:exported="true" >
+
+        </activity>
         <activity
             android:name=".Activity.TrainerDetail"
-            android:exported="true" />
+            android:exported="true" >
+
+        </activity>
         <activity
             android:name=".Activity.ProfileActivity"
-            android:exported="true" />
+            android:exported="true" >
+
+        </activity>
         <activity
             android:name=".Activity.MealPlans"
-            android:exported="false" />
+            android:exported="true" >
+
+        </activity>
         <activity
             android:name=".Activity.Trainers"
-            android:exported="true" />
+            android:exported="true" >
+
+        </activity>
         <activity
             android:name=".Activity.Home"
             android:exported="true">
@@ -62,10 +78,14 @@
         </activity>
         <activity
             android:name=".Activity.ForgotPassword"
-            android:exported="true" />
+            android:exported="true" >
+
+        </activity>
         <activity
             android:name=".Activity.SignIn"
-            android:exported="true" />
+            android:exported="true" >
+
+        </activity>
 
         <meta-data
             android:name="preloaded_fonts"

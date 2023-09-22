@@ -29,15 +29,11 @@
         android:theme="@style/Theme.FitMeAdmin" >
         <activity
             android:name="com.example.fitmeadmin.Activity.WorkoutEdit"
-            android:exported="false" />
+            android:exported="true" >
+        </activity>
         <activity
             android:name="com.example.fitmeadmin.Activity.MealEdit"
             android:exported="true" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity
             android:name="com.example.fitmeadmin.Activity.UserEdit"
@@ -49,35 +45,49 @@
         </activity>
         <activity
             android:name="com.example.fitmeadmin.Activity.WorkoutDetail"
-            android:exported="false" />
+            android:exported="true" >
+        </activity>
         <activity
             android:name="com.example.fitmeadmin.Activity.UserDetail"
-            android:exported="false" />
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity
             android:name="com.example.fitmeadmin.Activity.MealDetails"
-            android:exported="true" />
+            android:exported="true" >
+        </activity>
         <activity
             android:name="com.example.fitmeadmin.Activity.TrainerDetail"
-            android:exported="true" />
+            android:exported="true" >
+        </activity>
         <activity
             android:name="com.example.fitmeadmin.Activity.ProfileActivity"
-            android:exported="true" />
+            android:exported="true" >
+        </activity>
         <activity
             android:name="com.example.fitmeadmin.Activity.MealPlans"
-            android:exported="false" />
+            android:exported="true" >
+        </activity>
         <activity
             android:name="com.example.fitmeadmin.Activity.Trainers"
-            android:exported="true" />
+            android:exported="true" >
+        </activity>
         <activity
             android:name="com.example.fitmeadmin.Activity.Home"
             android:exported="true" >
         </activity>
         <activity
             android:name="com.example.fitmeadmin.Activity.ForgotPassword"
-            android:exported="true" />
+            android:exported="true" >
+        </activity>
         <activity
             android:name="com.example.fitmeadmin.Activity.SignIn"
-            android:exported="true" />
+            android:exported="true" >
+        </activity>
 
         <meta-data
             android:name="preloaded_fonts"

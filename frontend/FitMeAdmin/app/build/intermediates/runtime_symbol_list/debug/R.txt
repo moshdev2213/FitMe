@@ -70,6 +70,7 @@ int array com_google_android_gms_fonts_certs_prod 0x7f030002
 int array gender 0x7f030004
 int array meal_category 0x7f030005
 int array preloaded_fonts 0x7f030003
+int array workout_category 0x7f030006
 int attr SharedValue 0x7f040000
 int attr SharedValueId 0x7f040001
 int attr actionBarDivider 0x7f040002
@@ -2486,6 +2487,7 @@ int drawable baseline_error_24 0x7f080068
 int drawable baseline_favorite_24 0x7f080069
 int drawable baseline_fitness_center_24 0x7f08006a
 int drawable baseline_home_24 0x7f08006b
+int drawable baseline_image_24 0x7f0800e3
 int drawable baseline_key_24 0x7f08006c
 int drawable baseline_keyboard_arrow_down_24 0x7f0800de
 int drawable baseline_keyboard_double_arrow_right_24 0x7f08006d
@@ -2716,8 +2718,6 @@ int id btnBookTrainer2 0x7f0a0068
 int id button 0x7f0a0069
 int id button2 0x7f0a006a
 int id button3 0x7f0a006b
-int id button4 0x7f0a006c
-int id button5 0x7f0a006d
 int id buttonPanel 0x7f0a006e
 int id cache_measures 0x7f0a006f
 int id callMeasure 0x7f0a0070
@@ -2901,6 +2901,7 @@ int id imageView37 0x7f0a0120
 int id imageView38 0x7f0a0121
 int id imageView39 0x7f0a0122
 int id imageView4 0x7f0a0123
+int id imageView40 0x7f0a02d2
 int id imageView5 0x7f0a0124
 int id imageView6 0x7f0a0125
 int id imageView7 0x7f0a0126
@@ -2910,6 +2911,7 @@ int id imbBackBtn 0x7f0a0129
 int id imbBackBtn2 0x7f0a02b7
 int id imbBackBtn3 0x7f0a02b8
 int id imbBackBtn4 0x7f0a02b9
+int id imbBackBtn6 0x7f0a02d3
 int id imgBackBtn 0x7f0a012a
 int id imgBackBtn2 0x7f0a012b
 int id imgBackBtn3 0x7f0a02ba
@@ -3247,6 +3249,7 @@ int id textView8 0x7f0a0268
 int id textView80 0x7f0a02c3
 int id textView81 0x7f0a02c4
 int id textView82 0x7f0a02c5
+int id textView84 0x7f0a02d4
 int id textView85 0x7f0a02c6
 int id textView87 0x7f0a02cc
 int id textView9 0x7f0a0269
