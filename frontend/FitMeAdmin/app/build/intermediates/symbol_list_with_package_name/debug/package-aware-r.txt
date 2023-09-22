@@ -71,6 +71,7 @@ array com_google_android_gms_fonts_certs_prod
 array gender
 array meal_category
 array preloaded_fonts
+array workout_category
 attr SharedValue
 attr SharedValueId
 attr actionBarDivider
@@ -2487,6 +2488,7 @@ drawable baseline_error_24
 drawable baseline_favorite_24
 drawable baseline_fitness_center_24
 drawable baseline_home_24
+drawable baseline_image_24
 drawable baseline_key_24
 drawable baseline_keyboard_arrow_down_24
 drawable baseline_keyboard_double_arrow_right_24
@@ -2717,8 +2719,6 @@ id btnBookTrainer2
 id button
 id button2
 id button3
-id button4
-id button5
 id buttonPanel
 id cache_measures
 id callMeasure
@@ -2902,6 +2902,7 @@ id imageView37
 id imageView38
 id imageView39
 id imageView4
+id imageView40
 id imageView5
 id imageView6
 id imageView7
@@ -2911,6 +2912,7 @@ id imbBackBtn
 id imbBackBtn2
 id imbBackBtn3
 id imbBackBtn4
+id imbBackBtn6
 id imgBackBtn
 id imgBackBtn2
 id imgBackBtn3
@@ -3248,6 +3250,7 @@ id textView8
 id textView80
 id textView81
 id textView82
+id textView84
 id textView85
 id textView87
 id textView9
