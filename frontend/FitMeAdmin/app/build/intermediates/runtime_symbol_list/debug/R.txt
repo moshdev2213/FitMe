@@ -3150,6 +3150,7 @@ int id textEnd 0x7f0a0212
 int id textInputLayout 0x7f0a0213
 int id textInputLayout004 0x7f0a0214
 int id textInputLayout03 0x7f0a0215
+int id textInputLayout06 0x7f0a02cb
 int id textInputLayout2 0x7f0a0216
 int id textInputLayout3 0x7f0a0217
 int id textInputLayout5 0x7f0a0218
@@ -3241,6 +3242,7 @@ int id textView80 0x7f0a02c3
 int id textView81 0x7f0a02c4
 int id textView82 0x7f0a02c5
 int id textView85 0x7f0a02c6
+int id textView87 0x7f0a02cc
 int id textView9 0x7f0a0269
 int id text_input_end_icon 0x7f0a026a
 int id text_input_error_icon 0x7f0a026b

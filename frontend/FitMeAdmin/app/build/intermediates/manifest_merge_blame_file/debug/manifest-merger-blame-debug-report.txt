@@ -22,7 +22,7 @@
 15-->[androidx.core:core:1.9.0] C:\Users\user\.gradle\caches\transforms-3\256c6597bc3e6f8192abd6f9b27a26ab\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
 16
 17    <application
-17-->E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:5:5-69:19
+17-->E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:5:5-71:19
 18        android:allowBackup="true"
 18-->E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:6:9-35
 19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -57,118 +57,119 @@
 35            android:exported="false" />
 35-->E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:20:13-37
 36        <activity
-36-->E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:21:9-23:40
+36-->E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:21:9-29:20
 37            android:name="com.example.fitmeadmin.Activity.UserEdit"
 37-->E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:22:13-46
-38            android:exported="false" />
-38-->E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:23:13-37
-39        <activity
-39-->E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:24:9-32:20
-40            android:name="com.example.fitmeadmin.Activity.TrainerEdit"
-40-->E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:25:13-49
-41            android:exported="true" >
-41-->E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:26:13-36
-42            <intent-filter>
-42-->E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:27:13-31:29
-43                <action android:name="android.intent.action.MAIN" />
-43-->E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:28:17-69
-43-->E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:28:25-66
-44
-45                <category android:name="android.intent.category.LAUNCHER" />
-45-->E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:30:17-77
-45-->E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:30:27-74
-46            </intent-filter>
-47        </activity>
-48        <activity
-48-->E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:33:9-35:40
-49            android:name="com.example.fitmeadmin.Activity.WorkoutDetail"
-49-->E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:34:13-51
-50            android:exported="false" />
-50-->E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:35:13-37
-51        <activity
-51-->E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:36:9-38:40
-52            android:name="com.example.fitmeadmin.Activity.UserDetail"
-52-->E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:37:13-48
-53            android:exported="false" />
-53-->E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:38:13-37
-54        <activity
-54-->E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:39:9-41:39
-55            android:name="com.example.fitmeadmin.Activity.MealDetails"
-55-->E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:40:13-49
-56            android:exported="true" />
-56-->E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:41:13-36
-57        <activity
-57-->E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:42:9-44:39
-58            android:name="com.example.fitmeadmin.Activity.TrainerDetail"
-58-->E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:43:13-51
-59            android:exported="true" />
-59-->E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:44:13-36
-60        <activity
-60-->E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:45:9-47:39
-61            android:name="com.example.fitmeadmin.Activity.ProfileActivity"
-61-->E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:46:13-53
-62            android:exported="true" />
-62-->E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:47:13-36
-63        <activity
-63-->E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:48:9-50:40
-64            android:name="com.example.fitmeadmin.Activity.MealPlans"
-64-->E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:49:13-47
-65            android:exported="false" />
-65-->E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:50:13-37
-66        <activity
-66-->E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:51:9-53:39
-67            android:name="com.example.fitmeadmin.Activity.Trainers"
-67-->E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:52:13-46
-68            android:exported="true" />
-68-->E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:53:13-36
-69        <activity
-69-->E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:54:9-58:20
-70            android:name="com.example.fitmeadmin.Activity.Home"
-70-->E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:55:13-42
-71            android:exported="true" >
-71-->E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:56:13-36
-72        </activity>
-73        <activity
-73-->E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:59:9-61:39
-74            android:name="com.example.fitmeadmin.Activity.ForgotPassword"
-74-->E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:60:13-52
-75            android:exported="true" />
-75-->E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:61:13-36
-76        <activity
-76-->E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:62:9-64:39
-77            android:name="com.example.fitmeadmin.Activity.SignIn"
-77-->E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:63:13-44
-78            android:exported="true" />
-78-->E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:64:13-36
-79
-80        <meta-data
-80-->E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:66:9-68:57
-81            android:name="preloaded_fonts"
-81-->E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:67:13-43
-82            android:resource="@array/preloaded_fonts" />
-82-->E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:68:13-54
-83
-84        <provider
-84-->[androidx.emoji2:emoji2:1.2.0] C:\Users\user\.gradle\caches\transforms-3\ed5c533cc70e7b3b025c1d493dfcade0\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
-85            android:name="androidx.startup.InitializationProvider"
-85-->[androidx.emoji2:emoji2:1.2.0] C:\Users\user\.gradle\caches\transforms-3\ed5c533cc70e7b3b025c1d493dfcade0\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
-86            android:authorities="com.example.fitmeadmin.androidx-startup"
-86-->[androidx.emoji2:emoji2:1.2.0] C:\Users\user\.gradle\caches\transforms-3\ed5c533cc70e7b3b025c1d493dfcade0\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
-87            android:exported="false" >
-87-->[androidx.emoji2:emoji2:1.2.0] C:\Users\user\.gradle\caches\transforms-3\ed5c533cc70e7b3b025c1d493dfcade0\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
-88            <meta-data
-88-->[androidx.emoji2:emoji2:1.2.0] C:\Users\user\.gradle\caches\transforms-3\ed5c533cc70e7b3b025c1d493dfcade0\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
-89                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-89-->[androidx.emoji2:emoji2:1.2.0] C:\Users\user\.gradle\caches\transforms-3\ed5c533cc70e7b3b025c1d493dfcade0\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
-90                android:value="androidx.startup" />
-90-->[androidx.emoji2:emoji2:1.2.0] C:\Users\user\.gradle\caches\transforms-3\ed5c533cc70e7b3b025c1d493dfcade0\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
-91            <meta-data
-91-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\user\.gradle\caches\transforms-3\41ce1ad912a5e3041715fcd6269c5d09\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
-92                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-92-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\user\.gradle\caches\transforms-3\41ce1ad912a5e3041715fcd6269c5d09\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
-93                android:value="androidx.startup" />
-93-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\user\.gradle\caches\transforms-3\41ce1ad912a5e3041715fcd6269c5d09\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
-94        </provider>
-95    </application>
-96
-97</manifest>
+38            android:exported="true" >
+38-->E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:23:13-36
+39            <intent-filter>
+39-->E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:24:13-28:29
+40                <action android:name="android.intent.action.MAIN" />
+40-->E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:25:17-69
+40-->E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:25:25-66
+41
+42                <category android:name="android.intent.category.LAUNCHER" />
+42-->E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:27:17-77
+42-->E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:27:27-74
+43            </intent-filter>
+44        </activity>
+45        <activity
+45-->E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:30:9-34:20
+46            android:name="com.example.fitmeadmin.Activity.TrainerEdit"
+46-->E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:31:13-49
+47            android:exported="true" >
+47-->E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:32:13-36
+48        </activity>
+49        <activity
+49-->E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:35:9-37:40
+50            android:name="com.example.fitmeadmin.Activity.WorkoutDetail"
+50-->E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:36:13-51
+51            android:exported="false" />
+51-->E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:37:13-37
+52        <activity
+52-->E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:38:9-40:40
+53            android:name="com.example.fitmeadmin.Activity.UserDetail"
+53-->E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:39:13-48
+54            android:exported="false" />
+54-->E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:40:13-37
+55        <activity
+55-->E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:41:9-43:39
+56            android:name="com.example.fitmeadmin.Activity.MealDetails"
+56-->E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:42:13-49
+57            android:exported="true" />
+57-->E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:43:13-36
+58        <activity
+58-->E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:44:9-46:39
+59            android:name="com.example.fitmeadmin.Activity.TrainerDetail"
+59-->E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:45:13-51
+60            android:exported="true" />
+60-->E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:46:13-36
+61        <activity
+61-->E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:47:9-49:39
+62            android:name="com.example.fitmeadmin.Activity.ProfileActivity"
+62-->E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:48:13-53
+63            android:exported="true" />
+63-->E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:49:13-36
+64        <activity
+64-->E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:50:9-52:40
+65            android:name="com.example.fitmeadmin.Activity.MealPlans"
+65-->E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:51:13-47
+66            android:exported="false" />
+66-->E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:52:13-37
+67        <activity
+67-->E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:53:9-55:39
+68            android:name="com.example.fitmeadmin.Activity.Trainers"
+68-->E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:54:13-46
+69            android:exported="true" />
+69-->E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:55:13-36
+70        <activity
+70-->E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:56:9-60:20
+71            android:name="com.example.fitmeadmin.Activity.Home"
+71-->E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:57:13-42
+72            android:exported="true" >
+72-->E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:58:13-36
+73        </activity>
+74        <activity
+74-->E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:61:9-63:39
+75            android:name="com.example.fitmeadmin.Activity.ForgotPassword"
+75-->E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:62:13-52
+76            android:exported="true" />
+76-->E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:63:13-36
+77        <activity
+77-->E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:64:9-66:39
+78            android:name="com.example.fitmeadmin.Activity.SignIn"
+78-->E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:65:13-44
+79            android:exported="true" />
+79-->E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:66:13-36
+80
+81        <meta-data
+81-->E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:68:9-70:57
+82            android:name="preloaded_fonts"
+82-->E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:69:13-43
+83            android:resource="@array/preloaded_fonts" />
+83-->E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\AndroidManifest.xml:70:13-54
+84
+85        <provider
+85-->[androidx.emoji2:emoji2:1.2.0] C:\Users\user\.gradle\caches\transforms-3\ed5c533cc70e7b3b025c1d493dfcade0\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+86            android:name="androidx.startup.InitializationProvider"
+86-->[androidx.emoji2:emoji2:1.2.0] C:\Users\user\.gradle\caches\transforms-3\ed5c533cc70e7b3b025c1d493dfcade0\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+87            android:authorities="com.example.fitmeadmin.androidx-startup"
+87-->[androidx.emoji2:emoji2:1.2.0] C:\Users\user\.gradle\caches\transforms-3\ed5c533cc70e7b3b025c1d493dfcade0\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+88            android:exported="false" >
+88-->[androidx.emoji2:emoji2:1.2.0] C:\Users\user\.gradle\caches\transforms-3\ed5c533cc70e7b3b025c1d493dfcade0\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+89            <meta-data
+89-->[androidx.emoji2:emoji2:1.2.0] C:\Users\user\.gradle\caches\transforms-3\ed5c533cc70e7b3b025c1d493dfcade0\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+90                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+90-->[androidx.emoji2:emoji2:1.2.0] C:\Users\user\.gradle\caches\transforms-3\ed5c533cc70e7b3b025c1d493dfcade0\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+91                android:value="androidx.startup" />
+91-->[androidx.emoji2:emoji2:1.2.0] C:\Users\user\.gradle\caches\transforms-3\ed5c533cc70e7b3b025c1d493dfcade0\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+92            <meta-data
+92-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\user\.gradle\caches\transforms-3\41ce1ad912a5e3041715fcd6269c5d09\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+93                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+93-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\user\.gradle\caches\transforms-3\41ce1ad912a5e3041715fcd6269c5d09\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+94                android:value="androidx.startup" />
+94-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\user\.gradle\caches\transforms-3\41ce1ad912a5e3041715fcd6269c5d09\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+95        </provider>
+96    </application>
+97
+98</manifest>
