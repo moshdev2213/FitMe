@@ -275,7 +275,7 @@
             <androidx.cardview.widget.CardView
                 android:id="@+id/cardView10"
                 android:layout_width="0dp"
-                android:layout_height="120dp"
+                android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
                 android:layout_marginTop="16dp"
                 android:layout_marginEnd="16dp"
@@ -303,7 +303,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginStart="16dp"
                         android:layout_marginTop="16dp"
-                        android:fontFamily="@font/montserrat_bold"
+                        android:fontFamily="@font/montserrat_medium"
                         android:text="Clients"
                         android:textColor="@color/white"
                         android:textSize="20sp"
@@ -320,7 +320,7 @@
                         android:fontFamily="@font/montserrat_bold"
                         android:text="90 +"
                         android:textColor="@color/white"
-                        android:textSize="34sp"
+                        android:textSize="24sp"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toBottomOf="@+id/textView24" />
@@ -331,7 +331,7 @@
             <androidx.cardview.widget.CardView
                 android:id="@+id/cardView6"
                 android:layout_width="0dp"
-                android:layout_height="120dp"
+                android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
                 android:layout_marginEnd="16dp"
 
@@ -357,7 +357,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginStart="16dp"
                         android:layout_marginTop="16dp"
-                        android:fontFamily="@font/montserrat_bold"
+                        android:fontFamily="@font/montserrat_medium"
                         android:text="Joined"
                         android:textColor="@color/white"
                         android:textSize="20sp"
@@ -408,7 +408,7 @@
                 android:fontFamily="@font/montserrat"
                 android:text="lorem ipsum is a dummy text generated to fill the dummy areeas in order to fill the gaps, lorem ipsum is a dummy text generated to fill the dummy areeas in order to fill the gaps"
                 android:textColor="@color/black"
-                android:textSize="16sp"
+                android:textSize="14sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView29" />
