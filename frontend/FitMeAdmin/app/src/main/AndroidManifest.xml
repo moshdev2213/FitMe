@@ -13,14 +13,17 @@
         android:theme="@style/Theme.FitMeAdmin"
         tools:targetApi="31">
         <activity
+            android:name=".Activity.WorkoutDetail"
+            android:exported="false" />
+        <activity
             android:name=".Activity.UserDetail"
             android:exported="false" />
         <activity
             android:name=".Activity.MealDetails"
-            android:exported="true"></activity>
+            android:exported="true" />
         <activity
             android:name=".Activity.TrainerDetail"
-            android:exported="true"></activity>
+            android:exported="true" />
         <activity
             android:name=".Activity.ProfileActivity"
             android:exported="true" />
