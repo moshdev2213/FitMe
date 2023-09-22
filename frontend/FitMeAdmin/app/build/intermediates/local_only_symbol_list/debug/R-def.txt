@@ -217,6 +217,7 @@ id spinnerGenderSelect
 id textInputLayout
 id textInputLayout004
 id textInputLayout03
+id textInputLayout06
 id textInputLayout2
 id textInputLayout3
 id textInputLayout5
@@ -304,6 +305,7 @@ id textView80
 id textView81
 id textView82
 id textView85
+id textView87
 id textView9
 id trainer_line_chart
 id tvAboutMealType

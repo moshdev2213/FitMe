@@ -15,18 +15,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="24ae4237-97e0-44ef-a6b7-33eacbf7cad4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../FitMeUser/app/src/main/java/com/example/fitme/Activity/EditProfile.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FitMeUser/app/src/main/res/drawable/baseline_keyboard_arrow_down_24.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FitMeUser/app/src/main/res/drawable/baseline_qr_code_24.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FitMeUser/app/src/main/res/drawable/dropdown_background_outline.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FitMeUser/app/src/main/res/drawable/rounded_corner_outline.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FitMeUser/app/src/main/res/layout/activity_edit_profile.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FitMeUser/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FitMeUser/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FitMeUser/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FitMeUser/app/src/main/res/values/colors.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FitMeUser/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FitMeUser/app/src/main/res/values/strings.xml" afterDir="false" />
-    </list>
+    <list default="true" id="24ae4237-97e0-44ef-a6b7-33eacbf7cad4" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
