@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- rounded_corner_outline.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@android:color/transparent" />
+    <stroke
+        android:width="2dp"
+        android:color="@color/material_outline" /> <!-- Set your desired outline color -->
+    <corners android:radius="4dp" /> <!-- Adjust the radius for rounded corners -->
+</shape>
