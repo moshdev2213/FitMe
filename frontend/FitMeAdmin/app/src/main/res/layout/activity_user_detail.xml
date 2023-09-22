@@ -194,7 +194,7 @@
                         android:fontFamily="@font/montserrat_bold"
                         android:text="56"
                         android:textColor="@color/primary"
-                        android:textSize="16sp"
+                        android:textSize="20sp"
                         app:layout_constraintBottom_toBottomOf="@+id/imageView8"
                         app:layout_constraintStart_toEndOf="@+id/imageView8"
                         app:layout_constraintTop_toBottomOf="@+id/textView25" />
@@ -262,7 +262,7 @@
                         android:fontFamily="@font/montserrat_bold"
                         android:text="12"
                         android:textColor="@color/primary"
-                        android:textSize="16sp"
+                        android:textSize="20sp"
                         app:layout_constraintBottom_toBottomOf="@+id/imageView8"
                         app:layout_constraintStart_toEndOf="@+id/imageView8"
                         app:layout_constraintTop_toBottomOf="@+id/textView25" />
@@ -442,7 +442,7 @@
                         android:layout_marginTop="8dp"
                         android:layout_marginEnd="8dp"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/trainerbannner"
+                        android:src="@drawable/prson"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent"
