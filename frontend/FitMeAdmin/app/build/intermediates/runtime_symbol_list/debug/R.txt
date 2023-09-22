@@ -68,6 +68,7 @@ int array com_google_android_gms_fonts_certs 0x7f030000
 int array com_google_android_gms_fonts_certs_dev 0x7f030001
 int array com_google_android_gms_fonts_certs_prod 0x7f030002
 int array gender 0x7f030004
+int array meal_category 0x7f030005
 int array preloaded_fonts 0x7f030003
 int attr SharedValue 0x7f040000
 int attr SharedValueId 0x7f040001
@@ -3151,9 +3152,14 @@ int id textInputLayout 0x7f0a0213
 int id textInputLayout004 0x7f0a0214
 int id textInputLayout03 0x7f0a0215
 int id textInputLayout06 0x7f0a02cb
+int id textInputLayout09 0x7f0a02cd
+int id textInputLayout11 0x7f0a02ce
 int id textInputLayout2 0x7f0a0216
 int id textInputLayout3 0x7f0a0217
 int id textInputLayout5 0x7f0a0218
+int id textInputLayoutCalo 0x7f0a02cf
+int id textInputLayoutCarbs 0x7f0a02d0
+int id textInputLayoutCholo 0x7f0a02d1
 int id textInputLayoutNum 0x7f0a02bf
 int id textInputLayoutRate 0x7f0a02c0
 int id textSpacerNoButtons 0x7f0a0219

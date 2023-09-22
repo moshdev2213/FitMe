@@ -18,6 +18,11 @@
         <item>Male</item>
         <item>FeMale</item>
     </string-array>
+    <string-array name="meal_category">
+        <item>Meal Plan</item>
+        <item>Energy Drink</item>
+        <item>Protein</item>
+    </string-array>
     <array name="preloaded_fonts" translatable="false">
         <item>@font/montserrat</item>
         <item>@font/montserrat_bold</item>

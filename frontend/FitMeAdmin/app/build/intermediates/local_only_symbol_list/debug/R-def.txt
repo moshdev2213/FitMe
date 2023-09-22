@@ -6,6 +6,7 @@ array com_google_android_gms_fonts_certs
 array com_google_android_gms_fonts_certs_dev
 array com_google_android_gms_fonts_certs_prod
 array gender
+array meal_category
 array preloaded_fonts
 color bg_danger
 color bg_success
@@ -218,9 +219,14 @@ id textInputLayout
 id textInputLayout004
 id textInputLayout03
 id textInputLayout06
+id textInputLayout09
+id textInputLayout11
 id textInputLayout2
 id textInputLayout3
 id textInputLayout5
+id textInputLayoutCalo
+id textInputLayoutCarbs
+id textInputLayoutCholo
 id textInputLayoutNum
 id textInputLayoutRate
 id textView

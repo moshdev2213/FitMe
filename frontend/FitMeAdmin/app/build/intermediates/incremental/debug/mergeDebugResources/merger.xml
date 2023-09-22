@@ -10153,6 +10153,10 @@
     </array></file><file path="E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\res\values\strings.xml" qualifiers=""><string name="app_name">FitMe Admin</string><string name="hello_blank_fragment">Hello blank fragment</string><string-array name="gender">
         <item>Male</item>
         <item>FeMale</item>
+    </string-array><string-array name="meal_category">
+        <item>Meal Plan</item>
+        <item>Energy Drink</item>
+        <item>Protein</item>
     </string-array></file><file path="E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin\app\src\main\res\values\themes.xml" qualifiers=""><style name="Base.Theme.FitMeAdmin" parent="Theme.MaterialComponents.Light.NoActionBar">
         <item name="android:navigationBarColor">@color/black</item>
         <item name="android:statusBarColor">@color/white</item>

@@ -100,6 +100,10 @@
         "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.fitmeadmin.app-main-32:\\layout\\activity_workout_edit.xml"
     },
     {
+        "merged": "com.example.fitmeadmin.app-merged_res-30:/layout_activity_meal_edit.xml.flat",
+        "source": "com.example.fitmeadmin.app-main-32:/layout/activity_meal_edit.xml"
+    },
+    {
         "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.fitmeadmin.app-merged_res-30:\\drawable_baseline_arrow_back_24.xml.flat",
         "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.fitmeadmin.app-main-32:\\drawable\\baseline_arrow_back_24.xml"
     },
@@ -178,10 +182,6 @@
     {
         "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.fitmeadmin.app-merged_res-30:\\xml_data_extraction_rules.xml.flat",
         "source": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.fitmeadmin.app-main-32:\\xml\\data_extraction_rules.xml"
-    },
-    {
-        "merged": "com.example.fitmeadmin.app-merged_res-30:/layout_activity_user_edit.xml.flat",
-        "source": "com.example.fitmeadmin.app-main-32:/layout/activity_user_edit.xml"
     },
     {
         "merged": "C:\\Users\\user\\.gradle\\daemon\\8.0\\com.example.fitmeadmin.app-merged_res-30:\\layout_activity_trainer_edit.xml.flat",

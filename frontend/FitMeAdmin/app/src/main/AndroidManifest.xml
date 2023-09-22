@@ -17,15 +17,17 @@
             android:exported="false" />
         <activity
             android:name=".Activity.MealEdit"
-            android:exported="false" />
-        <activity
-            android:name=".Activity.UserEdit"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".Activity.UserEdit"
+            android:exported="true" >
+
         </activity>
         <activity
             android:name=".Activity.TrainerEdit"
