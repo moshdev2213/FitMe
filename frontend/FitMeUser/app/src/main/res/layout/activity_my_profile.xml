@@ -389,7 +389,7 @@
                 android:fontFamily="@font/montserrat_medium"
                 android:text="priority areas of specialization activities :"
                 android:textColor="@color/black"
-                android:textSize="16sp"
+                android:textSize="14sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.087"
                 app:layout_constraintStart_toStartOf="parent"
@@ -406,7 +406,7 @@
                 android:fontFamily="@font/montserrat"
                 android:text="lorem ipsum is a dummy text generated to fill the dummy areeas in order to fill the gaps, lorem ipsum is a dummy text generated to fill the dummy areeas in order to fill the gaps"
                 android:textColor="@color/black"
-                android:textSize="16sp"
+                android:textSize="14sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView29" />
