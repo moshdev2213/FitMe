@@ -13,4 +13,13 @@
         <item>Energy Drink</item>
         <item>Protein</item>
     </string-array>
+
+    <string-array name="workout_category">
+        <item>Chest</item>
+        <item>Arms</item>
+        <item>Legs</item>
+        <item>Back</item>
+        <item>Traps</item>
+        <item>Abs</item>
+    </string-array>
 </resources>

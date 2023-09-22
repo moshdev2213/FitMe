@@ -312,7 +312,7 @@
                                 <PersistentState>
                                   <option name="values">
                                     <map>
-                                      <entry key="url" value="file:/D:/AndroidSDK/icons/material/materialicons/keyboard_arrow_down/baseline_keyboard_arrow_down_24.xml" />
+                                      <entry key="url" value="file:/D:/AndroidSDK/icons/material/materialicons/image/baseline_image_24.xml" />
                                     </map>
                                   </option>
                                 </PersistentState>
@@ -322,7 +322,7 @@
                         </option>
                         <option name="values">
                           <map>
-                            <entry key="outputName" value="baseline_keyboard_arrow_down_24" />
+                            <entry key="outputName" value="baseline_image_24" />
                             <entry key="sourceFile" value="E:\1.SLIIT\YEAR_3_Aca\FitMe\frontend\FitMeAdmin" />
                           </map>
                         </option>
