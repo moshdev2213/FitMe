@@ -1,4 +1,5 @@
 {
+  "type": "module",
   "name": "fitme_backend",
   "version": "1.0.0",
   "description": "the fitness application for all ages",
