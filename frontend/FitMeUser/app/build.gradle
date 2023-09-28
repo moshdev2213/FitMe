@@ -51,4 +51,7 @@ dependencies {
     implementation 'androidx.core:core-splashscreen:1.0.1'
     //shimmer effect
     implementation 'com.facebook.shimmer:shimmer:0.5.0'
+    //retrofit dependency and GSON library
+    implementation 'com.squareup.retrofit2:retrofit:(insert latest version)'
+    implementation group: 'com.squareup.retrofit2', name: 'converter-gson', version: '2.9.0'
 }
