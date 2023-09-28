@@ -40,6 +40,8 @@ class SignIn : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_sign_in)
 
+        askPermissionForPushNotification()//permission getting
+
         tvSignUp = findViewById(R.id.tvSignUp)
         tvForgotPassword = findViewById(R.id.tvForgotPassword)
         cvSignInFb = findViewById(R.id.cvSignInFb)
@@ -56,6 +58,12 @@ class SignIn : AppCompatActivity() {
         }
         cvSignBtn.setOnClickListener {
             authEmail(etSignInEmail.text.toString(),etSignInPassword.text.toString())
+        }
+        tvSignUp.setOnClickListener{
+            startActivity(Intent(this,SignUp::class.java))
+        }
+        tvForgotPassword.setOnClickListener {
+            startActivity(Intent(this,SignInOTP::class.java))
         }
 
     }
