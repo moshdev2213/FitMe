@@ -51,10 +51,10 @@ class SignIn : AppCompatActivity() {
         etSignInPassword = findViewById(R.id.etSignInPassword)
 
         cvSignInFb.setOnClickListener {
-            Toast.makeText(this,"Under DEv",Toast.LENGTH_SHORT).show()
+            Toast.makeText(this,"Under Dev",Toast.LENGTH_SHORT).show()
         }
         cvSignInGl.setOnClickListener {
-            Toast.makeText(this,"Under DEv",Toast.LENGTH_SHORT).show()
+            Toast.makeText(this,"Under Dev",Toast.LENGTH_SHORT).show()
         }
         cvSignBtn.setOnClickListener {
             authEmail(etSignInEmail.text.toString(),etSignInPassword.text.toString())
