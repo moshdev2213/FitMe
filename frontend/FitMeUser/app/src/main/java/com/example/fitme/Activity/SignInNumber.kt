@@ -52,7 +52,7 @@ class SignInNumber : AppCompatActivity() {
         if(count==1){
             val genRanNum = generateRandomNumber().toString()
             progressLoader = ProgressLoader(
-                this@SignInNumber,"Verifying Login","Please Wait"
+                this@SignInNumber,"Verifying Number","Please Wait"
             )
             progressLoader.startProgressLoader()
             val smsService = SmsService()
