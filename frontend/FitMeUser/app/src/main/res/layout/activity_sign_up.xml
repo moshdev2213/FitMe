@@ -178,31 +178,11 @@
         app:layout_constraintTop_toBottomOf="@+id/cvSignUpGl" />
 
     <com.google.android.material.textfield.TextInputEditText
-        android:id="@+id/etSignUpName"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="24dp"
-        android:layout_marginEnd="16dp"
-        android:alpha="0.8"
-        android:background="@drawable/custom_input"
-        android:ems="10"
-        android:fontFamily="@font/montserrat_medium"
-        android:hint="mosh hamadaani"
-        android:inputType="text"
-        android:padding="16dp"
-        android:textColor="@color/cardBorderText"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView5" />
-
-    <com.google.android.material.textfield.TextInputEditText
         android:id="@+id/etSignUpEmail"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
         android:alpha="0.8"
         android:background="@drawable/custom_input"
@@ -215,7 +195,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/etSignUpName" />
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
 
     <com.google.android.material.textfield.TextInputEditText
         android:id="@+id/etSignUpPassword"
@@ -228,7 +208,7 @@
         android:background="@drawable/custom_input"
         android:ems="10"
         android:fontFamily="@font/montserrat_medium"
-        android:hint="............................."
+        android:hint="password"
         android:inputType="text|textPassword"
         android:padding="16dp"
         android:textColor="@color/cardBorderText"
@@ -236,6 +216,26 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/etSignUpEmail" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/etSignUpRePassword"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:alpha="0.8"
+        android:background="@drawable/custom_input"
+        android:ems="10"
+        android:fontFamily="@font/montserrat_medium"
+        android:hint="confirm Password"
+        android:inputType="text|textPassword"
+        android:padding="16dp"
+        android:textColor="@color/cardBorderText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etSignUpPassword" />
 
     <com.google.android.material.textfield.TextInputEditText
         android:id="@+id/etSignUpTel"
@@ -256,14 +256,14 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/etSignUpPassword" />
+        app:layout_constraintTop_toBottomOf="@+id/etSignUpRePassword" />
 
     <com.google.android.material.card.MaterialCardView
         android:id="@+id/cvSignUpBtn"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
         android:clickable="true"
         app:cardBackgroundColor="@color/primary"
@@ -271,7 +271,7 @@
         app:cardElevation="0dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/etSignUpPassword">
+        app:layout_constraintTop_toBottomOf="@+id/etSignUpTel">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
@@ -304,7 +304,7 @@
         android:layout_marginEnd="16dp"
         android:fontFamily="@font/montserrat"
         android:text="Already Have An Account ? Sign In"
-        android:textColor="@color/cardBorderText"
+        android:textColor="@color/primary"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"

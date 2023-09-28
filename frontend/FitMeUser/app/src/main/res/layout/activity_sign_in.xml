@@ -211,7 +211,7 @@
         android:hint="eg : - Amma12345"
         android:inputType="text|textPassword"
         android:padding="16dp"
-        android:textColor="@color/cardBorder"
+        android:textColor="@color/cardBorderText"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
