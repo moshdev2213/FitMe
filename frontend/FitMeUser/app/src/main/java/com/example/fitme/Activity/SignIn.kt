@@ -63,7 +63,7 @@ class SignIn : AppCompatActivity() {
             startActivity(Intent(this,SignUp::class.java))
         }
         tvForgotPassword.setOnClickListener {
-            startActivity(Intent(this,SignInOTP::class.java))
+            startActivity(Intent(this,SignInNumber::class.java))
         }
 
     }
