@@ -11,6 +11,7 @@ import android.widget.Toast
 import androidx.cardview.widget.CardView
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
+import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
 import com.example.fitme.APIServices.AuthService
 import com.example.fitme.DialogAlerts.ProgressLoader
 import com.example.fitme.Entity.UserRecord
@@ -38,6 +39,8 @@ class SignIn : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        Thread.sleep(2000)
+        installSplashScreen()
         setContentView(R.layout.activity_sign_in)
 
         askPermissionForPushNotification()//permission getting

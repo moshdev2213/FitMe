@@ -359,7 +359,6 @@
                             android:id="@+id/btnBrowseWrkout"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginTop="4dp"
                             android:layout_marginEnd="8dp"
                             android:layout_marginBottom="8dp"
                             android:backgroundTint="@color/primary"
@@ -367,15 +366,15 @@
                             android:fontFamily="@font/montserrat_bold"
                             android:text="Browse"
                             app:layout_constraintBottom_toBottomOf="parent"
-                            app:layout_constraintEnd_toEndOf="parent"
-                            app:layout_constraintTop_toBottomOf="@+id/imageView8" />
+                            app:layout_constraintEnd_toEndOf="parent" />
 
                         <ImageView
                             android:id="@+id/imageView8"
                             android:layout_width="wrap_content"
-                            android:layout_height="120dp"
+                            android:layout_height="150dp"
                             android:scaleType="centerCrop"
                             android:src="@drawable/bisceps"
+                            app:layout_constraintBottom_toBottomOf="parent"
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintStart_toStartOf="parent"
                             app:layout_constraintTop_toTopOf="parent" />
@@ -385,26 +384,26 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginStart="16dp"
-                            android:fontFamily="@font/montserrat"
+                            android:layout_marginTop="24dp"
+                            android:fontFamily="@font/montserrat_bold"
                             android:text="WorkOuts"
                             android:textAlignment="textStart"
-                            android:textColor="@color/black"
+                            android:textColor="@color/white"
                             android:textSize="14sp"
                             app:layout_constraintStart_toStartOf="parent"
-                            app:layout_constraintTop_toTopOf="@+id/btnBrowseWrkout" />
+                            app:layout_constraintTop_toTopOf="parent" />
 
                         <TextView
                             android:id="@+id/textView18"
-                            android:layout_width="wrap_content"
+                            android:layout_width="125dp"
                             android:layout_height="wrap_content"
                             android:layout_marginStart="16dp"
                             android:alpha="0.5"
-                            android:fontFamily="@font/montserrat"
+                            android:fontFamily="@font/montserrat_medium"
                             android:text="work Outs For Every Body Part"
                             android:textAlignment="textStart"
-                            android:textColor="@color/black"
-                            android:textSize="14sp"
-                            app:layout_constraintBottom_toBottomOf="@+id/btnBrowseWrkout"
+                            android:textColor="@color/white"
+                            android:textSize="20sp"
                             app:layout_constraintStart_toStartOf="parent"
                             app:layout_constraintTop_toBottomOf="@+id/textView17" />
                     </androidx.constraintlayout.widget.ConstraintLayout>
