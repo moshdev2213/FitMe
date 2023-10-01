@@ -2,6 +2,7 @@
 <com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cvMealItemCard"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_marginStart="16dp"
@@ -18,7 +19,7 @@
         android:layout_height="match_parent">
 
         <TextView
-            android:id="@+id/textView48"
+            android:id="@+id/tvMealName"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
@@ -27,14 +28,14 @@
             android:text="Tuna Salad with Greens "
             android:textColor="@color/black"
             android:textSize="16sp"
-            app:layout_constraintEnd_toStartOf="@+id/textView49"
+            app:layout_constraintEnd_toStartOf="@+id/tvPriceMeal"
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintHorizontal_chainStyle="spread_inside"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageView14" />
+            app:layout_constraintTop_toBottomOf="@+id/imgThumbMeal" />
 
         <TextView
-            android:id="@+id/textView50"
+            android:id="@+id/tvMealDesc"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
@@ -50,10 +51,10 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_chainStyle="spread_inside"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView48" />
+            app:layout_constraintTop_toBottomOf="@+id/tvMealName" />
 
         <TextView
-            android:id="@+id/textView49"
+            android:id="@+id/tvPriceMeal"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
@@ -64,13 +65,13 @@
             android:textSize="16sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.5"
-            app:layout_constraintStart_toEndOf="@+id/textView48"
-            app:layout_constraintTop_toBottomOf="@+id/imageView14" />
+            app:layout_constraintStart_toEndOf="@+id/tvMealName"
+            app:layout_constraintTop_toBottomOf="@+id/imgThumbMeal" />
 
         <com.google.android.material.imageview.ShapeableImageView
-            android:id="@+id/imageView14"
+            android:id="@+id/imgThumbMeal"
             android:layout_width="0dp"
-            android:layout_height="160dp"
+            android:layout_height="150dp"
             android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
             android:layout_marginEnd="8dp"
