@@ -11,6 +11,7 @@ import android.view.ViewGroup
 import android.widget.Button
 import androidx.constraintlayout.widget.ConstraintLayout
 import com.example.fitme.Activity.ScanBody
+import com.example.fitme.EntityDao.ExerciseItem
 import com.example.fitme.R
 import com.facebook.shimmer.ShimmerFrameLayout
 
@@ -18,7 +19,7 @@ import com.facebook.shimmer.ShimmerFrameLayout
 class IndexFragment : Fragment() {
     private lateinit var shimmerScan: ShimmerFrameLayout
     private lateinit var constraintLayout: ConstraintLayout
-
+    private lateinit var btnBrowseWrkout: Button
     private lateinit var btnScanBody:Button
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
