@@ -2,6 +2,7 @@
 <com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cvWrkOutCard"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_marginStart="16dp"
@@ -18,7 +19,7 @@
         android:layout_height="match_parent">
 
         <TextView
-            android:id="@+id/textView21"
+            android:id="@+id/tvWrkCarbs"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
@@ -26,15 +27,15 @@
             android:text="Carbs 72% 🍞"
             android:textColor="@color/black"
             android:textSize="12sp"
-            app:layout_constraintBottom_toBottomOf="@+id/textView19"
-            app:layout_constraintEnd_toStartOf="@+id/textView19"
+            app:layout_constraintBottom_toBottomOf="@+id/tvWrkFat"
+            app:layout_constraintEnd_toStartOf="@+id/tvWrkFat"
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintHorizontal_chainStyle="spread_inside"
-            app:layout_constraintStart_toEndOf="@+id/imageView20"
-            app:layout_constraintTop_toTopOf="@+id/textView19" />
+            app:layout_constraintStart_toEndOf="@+id/imgWrkThumb"
+            app:layout_constraintTop_toTopOf="@+id/tvWrkFat" />
 
         <TextView
-            android:id="@+id/textView20"
+            android:id="@+id/tvWrkCal"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
@@ -47,25 +48,25 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.5"
-            app:layout_constraintStart_toEndOf="@+id/textView19"
-            app:layout_constraintTop_toBottomOf="@+id/textView80" />
+            app:layout_constraintStart_toEndOf="@+id/tvWrkFat"
+            app:layout_constraintTop_toBottomOf="@+id/tvWorkTargetMuscle" />
 
         <TextView
-            android:id="@+id/textView19"
+            android:id="@+id/tvWrkFat"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="@font/montserrat_medium"
             android:text="Fat 72% 💧"
             android:textColor="@color/black"
             android:textSize="12sp"
-            app:layout_constraintBottom_toBottomOf="@+id/textView20"
-            app:layout_constraintEnd_toStartOf="@+id/textView20"
+            app:layout_constraintBottom_toBottomOf="@+id/tvWrkCal"
+            app:layout_constraintEnd_toStartOf="@+id/tvWrkCal"
             app:layout_constraintHorizontal_bias="0.5"
-            app:layout_constraintStart_toEndOf="@+id/textView21"
-            app:layout_constraintTop_toTopOf="@+id/textView20" />
+            app:layout_constraintStart_toEndOf="@+id/tvWrkCarbs"
+            app:layout_constraintTop_toTopOf="@+id/tvWrkCal" />
 
         <TextView
-            android:id="@+id/textView79"
+            android:id="@+id/tvWrkOutName"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
@@ -77,26 +78,26 @@
             android:textSize="16sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toEndOf="@+id/imageView20"
+            app:layout_constraintStart_toEndOf="@+id/imgWrkThumb"
             app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
-            android:id="@+id/textView22"
-            android:layout_width="wrap_content"
+            android:id="@+id/tvWrkOutBdyPart"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
             android:layout_marginEnd="16dp"
             android:fontFamily="@font/montserrat"
-            android:text="Train With Risk"
+            android:text="Body Part : "
             android:textColor="@color/black"
             android:textSize="14sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toEndOf="@+id/imageView20"
-            app:layout_constraintTop_toBottomOf="@+id/textView79" />
+            app:layout_constraintStart_toEndOf="@+id/imgWrkThumb"
+            app:layout_constraintTop_toBottomOf="@+id/tvWrkOutName" />
 
         <TextView
-            android:id="@+id/textView80"
+            android:id="@+id/tvWorkTargetMuscle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
@@ -108,18 +109,18 @@
             android:textSize="14sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toEndOf="@+id/imageView20"
-            app:layout_constraintTop_toBottomOf="@+id/textView22" />
+            app:layout_constraintStart_toEndOf="@+id/imgWrkThumb"
+            app:layout_constraintTop_toBottomOf="@+id/tvWrkOutBdyPart" />
 
         <com.google.android.material.imageview.ShapeableImageView
-            android:id="@+id/imageView20"
+            android:id="@+id/imgWrkThumb"
             android:layout_width="100dp"
             android:layout_height="0dp"
             android:layout_marginStart="8dp"
             android:scaleType="centerCrop"
-            app:layout_constraintBottom_toBottomOf="@+id/textView21"
+            app:layout_constraintBottom_toBottomOf="@+id/tvWrkCarbs"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="@+id/textView79"
+            app:layout_constraintTop_toTopOf="@+id/tvWrkOutName"
             app:shapeAppearance="@style/roundedImageView"
             app:srcCompat="@drawable/dumbellcurl" />
     </androidx.constraintlayout.widget.ConstraintLayout>
