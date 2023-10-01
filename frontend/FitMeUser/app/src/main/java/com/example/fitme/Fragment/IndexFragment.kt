@@ -11,6 +11,7 @@ import android.view.ViewGroup
 import android.widget.Button
 import androidx.constraintlayout.widget.ConstraintLayout
 import com.example.fitme.Activity.ScanBody
+import com.example.fitme.Activity.WorkoutList
 import com.example.fitme.EntityDao.ExerciseItem
 import com.example.fitme.R
 import com.facebook.shimmer.ShimmerFrameLayout
@@ -30,6 +31,7 @@ class IndexFragment : Fragment() {
         constraintLayout = view.findViewById(R.id.fragmentMainClayout)
         shimmerScan = view.findViewById(R.id.shimmerIndexFrag)
         btnScanBody = view.findViewById(R.id.btnScanBody)
+        btnBrowseWrkout = view.findViewById(R.id.btnBrowseWrkout)
 
         shimmerScan.startShimmer()
 
@@ -42,6 +44,9 @@ class IndexFragment : Fragment() {
 
         btnScanBody.setOnClickListener {
             startActivity(Intent(requireActivity(),ScanBody::class.java))
+        }
+        btnBrowseWrkout.setOnClickListener {
+            startActivity(Intent(requireActivity(),WorkoutList::class.java))
         }
         return view
     }
