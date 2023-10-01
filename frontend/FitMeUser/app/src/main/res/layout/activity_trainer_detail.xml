@@ -7,7 +7,7 @@
     tools:context=".Activity.TrainerDetail">
 
     <com.google.android.material.card.MaterialCardView
-        android:id="@+id/cvEditBtn"
+        android:id="@+id/cvHireTrainerBtn"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
@@ -68,7 +68,7 @@
         app:cardCornerRadius="10dp"
         app:cardElevation="2dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/cvEditBtn"
+        app:layout_constraintEnd_toStartOf="@+id/cvHireTrainerBtn"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:strokeColor="@color/primary"
@@ -148,7 +148,7 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.5"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/tvDocDetailText">
+                app:layout_constraintTop_toBottomOf="@+id/tvTrainerDetailText">
 
                 <androidx.constraintlayout.widget.ConstraintLayout
                     android:layout_width="match_parent"
@@ -186,14 +186,14 @@
                         app:layout_constraintTop_toTopOf="@+id/imageView8" />
 
                     <TextView
-                        android:id="@+id/tvDocTimeRangeDetail"
+                        android:id="@+id/tvTrainerRangeDetail"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="16dp"
                         android:layout_marginBottom="3dp"
                         android:alpha="0.5"
                         android:fontFamily="@font/montserrat_medium"
-                        android:text="6pm - 11pm"
+                        android:text="Week Days"
                         android:textColor="@color/primary"
                         android:textSize="14sp"
                         app:layout_constraintBottom_toBottomOf="@+id/imageView8"
@@ -257,7 +257,7 @@
                         app:layout_constraintTop_toTopOf="@+id/imageView8" />
 
                     <TextView
-                        android:id="@+id/tvDocChargesDetails"
+                        android:id="@+id/tvTrainerChargesDetails"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="16dp"
@@ -304,21 +304,21 @@
                         android:layout_marginStart="16dp"
                         android:layout_marginTop="16dp"
                         android:fontFamily="@font/montserrat_medium"
-                        android:text="Clients"
+                        android:text="Experience"
                         android:textColor="@color/white"
                         android:textSize="20sp"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent" />
 
                     <TextView
-                        android:id="@+id/tvDocExpDetail"
+                        android:id="@+id/tvTrainerExpDetail"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="16dp"
                         android:layout_marginTop="8dp"
                         android:layout_marginBottom="16dp"
                         android:fontFamily="@font/montserrat_bold"
-                        android:text="90 +"
+                        android:text="3 Years"
                         android:textColor="@color/white"
                         android:textSize="24sp"
                         app:layout_constraintBottom_toBottomOf="parent"
@@ -358,21 +358,21 @@
                         android:layout_marginStart="16dp"
                         android:layout_marginTop="16dp"
                         android:fontFamily="@font/montserrat_medium"
-                        android:text="Joined"
+                        android:text="Gender"
                         android:textColor="@color/white"
                         android:textSize="20sp"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent" />
 
                     <TextView
-                        android:id="@+id/tvDocJoinedDetail"
+                        android:id="@+id/tvTrainerGenderDetail"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="16dp"
                         android:layout_marginTop="8dp"
                         android:layout_marginBottom="16dp"
                         android:fontFamily="@font/montserrat_bold"
-                        android:text="2020.20.20"
+                        android:text="Male"
                         android:textColor="@color/white"
                         android:textSize="24sp"
                         app:layout_constraintBottom_toBottomOf="parent"
@@ -399,7 +399,7 @@
                 app:layout_constraintTop_toBottomOf="@+id/cardView10" />
 
             <TextView
-                android:id="@+id/tvDocDetailText"
+                android:id="@+id/tvTrainerDetailText"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
@@ -438,7 +438,7 @@
                     app:layout_constraintStart_toStartOf="parent">
 
                     <com.google.android.material.imageview.ShapeableImageView
-                        android:id="@+id/imgDocPicDetail"
+                        android:id="@+id/imgTrainerPicDetail"
                         android:layout_width="0dp"
                         android:layout_height="220dp"
                         android:layout_marginStart="8dp"
@@ -452,7 +452,7 @@
                         app:shapeAppearanceOverlay="@style/roundedImageView" />
 
                     <TextView
-                        android:id="@+id/tvDocNameDetail"
+                        android:id="@+id/tvTrainerNameDetail"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="16dp"
@@ -462,10 +462,10 @@
                         android:textColor="@color/black"
                         android:textSize="20sp"
                         app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toBottomOf="@+id/imgDocPicDetail" />
+                        app:layout_constraintTop_toBottomOf="@+id/imgTrainerPicDetail" />
 
                     <TextView
-                        android:id="@+id/tvDocSpecialDetail"
+                        android:id="@+id/tvTrainerSpecialDetail"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="16dp"
@@ -475,10 +475,10 @@
                         android:textColor="@color/black"
                         android:textSize="16sp"
                         app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toBottomOf="@+id/tvDocNameDetail" />
+                        app:layout_constraintTop_toBottomOf="@+id/tvTrainerNameDetail" />
 
                     <TextView
-                        android:id="@+id/tvDocLocationDetail"
+                        android:id="@+id/tvTrainerLocationDetail"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="16dp"
@@ -490,7 +490,7 @@
                         android:textSize="14sp"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toBottomOf="@+id/tvDocSpecialDetail" />
+                        app:layout_constraintTop_toBottomOf="@+id/tvTrainerSpecialDetail" />
 
                     <TextView
                         android:id="@+id/tvDocLocationDetail2"
@@ -513,7 +513,7 @@
                         android:layout_marginEnd="16dp"
                         app:layout_constraintBottom_toTopOf="@+id/tvDocLocationDetail2"
                         app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintTop_toBottomOf="@+id/imgDocPicDetail"
+                        app:layout_constraintTop_toBottomOf="@+id/imgTrainerPicDetail"
                         app:layout_constraintVertical_chainStyle="packed"
                         app:srcCompat="@drawable/baseline_person_4_24" />
                 </androidx.constraintlayout.widget.ConstraintLayout>

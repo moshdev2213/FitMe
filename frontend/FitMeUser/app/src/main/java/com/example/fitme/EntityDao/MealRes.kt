@@ -9,6 +9,7 @@ data class MealRes(
     val totalPages: Int,
     val items: List<MealItem>
 ):Serializable
+
 data class MealItem(
     val bannerImg: String,
     val calories: Int,
