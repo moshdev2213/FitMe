@@ -63,7 +63,7 @@ class WorkoutAdapterViewHolder(private val view: View):RecyclerView.ViewHolder(v
             .load(imgUrl)
             .fitCenter()
             .skipMemoryCache(true)
-            .diskCacheStrategy(DiskCacheStrategy.NONE)
+            .diskCacheStrategy(DiskCacheStrategy.AUTOMATIC)
             .placeholder(R.drawable.animegife)
             .into(imgWrkThumb)
 

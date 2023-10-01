@@ -7,7 +7,7 @@
     tools:context=".Activity.WorkoutDetail">
 
     <com.google.android.material.card.MaterialCardView
-        android:id="@+id/cvEditBtn"
+        android:id="@+id/cvGoBackBtn"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -60,10 +60,10 @@
         android:id="@+id/scFood"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="8dp"
         android:layout_marginBottom="16dp"
         android:fillViewport="true"
-        app:layout_constraintBottom_toTopOf="@+id/cvEditBtn"
+        app:layout_constraintBottom_toTopOf="@+id/cvGoBackBtn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView84">
@@ -89,7 +89,7 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_chainStyle="spread_inside"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/cardView14">
+                app:layout_constraintTop_toBottomOf="@+id/cvMealWrkDetail">
 
                 <androidx.constraintlayout.widget.ConstraintLayout
                     android:layout_width="match_parent"
@@ -140,7 +140,7 @@
             </androidx.cardview.widget.CardView>
 
             <com.google.android.material.card.MaterialCardView
-                android:id="@+id/cardView14"
+                android:id="@+id/cvMealWrkDetail"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
@@ -155,7 +155,7 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_chainStyle="spread_inside"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/cardView13">
+                app:layout_constraintTop_toBottomOf="@+id/cvWrkDetailTrainer">
 
                 <androidx.constraintlayout.widget.ConstraintLayout
                     android:layout_width="match_parent"
@@ -276,7 +276,7 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.087"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/imageView22" />
+                app:layout_constraintTop_toBottomOf="@+id/imgTargetMuscle" />
 
             <TextView
                 android:id="@+id/textView85"
@@ -295,7 +295,7 @@
                 app:layout_constraintTop_toBottomOf="@+id/cardView10" />
 
             <com.google.android.material.card.MaterialCardView
-                android:id="@+id/cardView13"
+                android:id="@+id/cvWrkDetailTrainer"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
@@ -398,7 +398,7 @@
                         app:layout_constraintTop_toTopOf="parent" />
 
                     <TextView
-                        android:id="@+id/tvDocExpDetail"
+                        android:id="@+id/tvBodyPartDetail"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="16dp"
@@ -452,7 +452,7 @@
                         app:layout_constraintTop_toTopOf="parent" />
 
                     <TextView
-                        android:id="@+id/tvDocJoinedDetail"
+                        android:id="@+id/tvExrDurationDetail"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="16dp"
@@ -476,9 +476,9 @@
                 android:layout_marginStart="16dp"
                 android:layout_marginTop="16dp"
                 android:layout_marginEnd="16dp"
-                app:cardBackgroundColor="@color/cardBorder"
+                app:cardBackgroundColor="@color/white"
                 app:cardCornerRadius="10dp"
-                app:cardElevation="0dp"
+                app:cardElevation="2dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent">
@@ -488,7 +488,7 @@
                     android:layout_height="match_parent">
 
                     <TextView
-                        android:id="@+id/tvDocDetailText5"
+                        android:id="@+id/tvExDescDetail"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="8dp"
@@ -505,7 +505,7 @@
                         app:layout_constraintTop_toBottomOf="@+id/materialCardView13" />
 
                     <TextView
-                        android:id="@+id/textView75"
+                        android:id="@+id/tvExNameDetail"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="8dp"
@@ -515,20 +515,20 @@
                         android:textColor="@color/primary"
                         android:textSize="20sp"
                         app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toBottomOf="@+id/imageView36" />
+                        app:layout_constraintTop_toBottomOf="@+id/imgMainWrkBanner" />
 
                     <TextView
-                        android:id="@+id/textView76"
+                        android:id="@+id/tvTargetMuscDetail"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginEnd="8dp"
                         android:fontFamily="@font/montserrat"
-                        android:text="Rating 4.8"
+                        android:text="Targeted: Pectorial"
                         android:textColor="@color/cardBorderText"
-                        android:textSize="16sp"
-                        app:layout_constraintBottom_toBottomOf="@+id/textView75"
+                        android:textSize="14sp"
+                        app:layout_constraintBottom_toBottomOf="@+id/tvExNameDetail"
                         app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintTop_toTopOf="@+id/textView75" />
+                        app:layout_constraintTop_toTopOf="@+id/tvExNameDetail" />
 
                     <com.google.android.material.card.MaterialCardView
                         android:id="@+id/materialCardView13"
@@ -542,14 +542,14 @@
                         app:layout_constraintEnd_toStartOf="@+id/materialCardView12"
                         app:layout_constraintHorizontal_bias="0.5"
                         app:layout_constraintStart_toEndOf="@+id/materialCardView11"
-                        app:layout_constraintTop_toBottomOf="@+id/textView75">
+                        app:layout_constraintTop_toBottomOf="@+id/tvExNameDetail">
 
                         <androidx.constraintlayout.widget.ConstraintLayout
                             android:layout_width="match_parent"
                             android:layout_height="match_parent">
 
                             <TextView
-                                android:id="@+id/textView73"
+                                android:id="@+id/tvCardFatDetail"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginStart="16dp"
@@ -584,7 +584,7 @@
                             android:layout_height="match_parent">
 
                             <TextView
-                                android:id="@+id/textView73"
+                                android:id="@+id/tvCardDetail"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginStart="16dp"
@@ -601,15 +601,15 @@
                     </com.google.android.material.card.MaterialCardView>
 
                     <com.google.android.material.imageview.ShapeableImageView
-                        android:id="@+id/imageView36"
+                        android:id="@+id/imgMainWrkBanner"
                         android:layout_width="0dp"
-                        android:layout_height="200dp"
-                        android:scaleType="centerCrop"
+                        android:layout_height="250dp"
+                        android:scaleType="fitCenter"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent"
                         app:shapeAppearance="@style/roundedImageView"
-                        app:srcCompat="@drawable/shoulder" />
+                        app:srcCompat="@drawable/animegife" />
 
                     <com.google.android.material.card.MaterialCardView
                         android:id="@+id/materialCardView11"
@@ -631,7 +631,7 @@
                             android:layout_height="match_parent">
 
                             <TextView
-                                android:id="@+id/textView73"
+                                android:id="@+id/tvCardCalDetail"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginStart="16dp"
@@ -650,9 +650,9 @@
             </com.google.android.material.card.MaterialCardView>
 
             <com.google.android.material.imageview.ShapeableImageView
-                android:id="@+id/imageView22"
+                android:id="@+id/imgTargetMuscle"
                 android:layout_width="0dp"
-                android:layout_height="250dp"
+                android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
                 android:layout_marginTop="16dp"
                 android:layout_marginEnd="16dp"
@@ -662,12 +662,12 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView85"
                 app:shapeAppearance="@style/roundedImageView"
-                app:srcCompat="@drawable/dumbellcurl" />
+                app:srcCompat="@drawable/animegife" />
         </androidx.constraintlayout.widget.ConstraintLayout>
     </ScrollView>
 
     <ImageView
-        android:id="@+id/imgBackBtn5"
+        android:id="@+id/imgBackBtnDetail"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
