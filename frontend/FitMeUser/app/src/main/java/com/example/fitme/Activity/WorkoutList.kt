@@ -39,9 +39,9 @@ class WorkoutList : AppCompatActivity() {
     private fun initRecyclerView(){
         rvWrkOutList = findViewById(R.id.rvWrkOutList)
         rvWrkOutList.layoutManager= LinearLayoutManager(this@WorkoutList)
-        workoutAdapter = WorkoutAdapter {
-                exerciseItem: ExerciseItem ->wrkOutCardClicked(exerciseItem)
-        }
+        workoutAdapter = WorkoutAdapter ({
+            exerciseItem: ExerciseItem -> wrkOutCardClicked(exerciseItem)
+        },this@WorkoutList )
         rvWrkOutList.adapter = workoutAdapter
         fetchDetails()
     }
