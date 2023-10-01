@@ -7,7 +7,7 @@
     tools:context=".Activity.MealDetail">
 
     <com.google.android.material.card.MaterialCardView
-        android:id="@+id/cvEditBtn"
+        android:id="@+id/cvBuyBtn"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
@@ -61,10 +61,10 @@
         android:id="@+id/scFood"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="8dp"
         android:layout_marginBottom="16dp"
         android:fillViewport="true"
-        app:layout_constraintBottom_toTopOf="@+id/cvEditBtn"
+        app:layout_constraintBottom_toTopOf="@+id/cvBuyBtn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView73">
@@ -101,7 +101,7 @@
                     app:layout_constraintStart_toStartOf="parent">
 
                     <TextView
-                        android:id="@+id/tvDocDetailText3"
+                        android:id="@+id/tvMealDescNutFact"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="8dp"
@@ -168,7 +168,7 @@
                         android:layout_marginStart="8dp"
                         android:layout_marginTop="8dp"
                         android:fontFamily="@font/montserrat_medium"
-                        android:text="8 Servings per container"
+                        android:text="Servings per container"
                         android:textColor="@color/black"
                         android:textSize="16sp"
                         app:layout_constraintStart_toStartOf="parent"
@@ -181,10 +181,10 @@
                         android:layout_marginStart="8dp"
                         android:layout_marginTop="8dp"
                         android:fontFamily="@font/montserrat_medium"
-                        android:text="Cholesterol"
+                        android:text="Fat"
                         android:textColor="@color/black"
                         android:textSize="16sp"
-                        app:layout_constraintEnd_toStartOf="@+id/tvDocExpDetail4"
+                        app:layout_constraintEnd_toStartOf="@+id/tvFatMealNutFact"
                         app:layout_constraintHorizontal_bias="0.5"
                         app:layout_constraintHorizontal_chainStyle="spread_inside"
                         app:layout_constraintStart_toStartOf="parent"
@@ -199,7 +199,7 @@
                         android:text="Carbohydrates"
                         android:textColor="@color/black"
                         android:textSize="16sp"
-                        app:layout_constraintEnd_toStartOf="@+id/tvDocExpDetail4"
+                        app:layout_constraintEnd_toStartOf="@+id/tvFatMealNutFact"
                         app:layout_constraintHorizontal_bias="0.5"
                         app:layout_constraintHorizontal_chainStyle="spread_inside"
                         app:layout_constraintStart_toStartOf="parent"
@@ -214,7 +214,7 @@
                         android:text="Protiens"
                         android:textColor="@color/black"
                         android:textSize="16sp"
-                        app:layout_constraintEnd_toStartOf="@+id/tvDocExpDetail9"
+                        app:layout_constraintEnd_toStartOf="@+id/tvProtienMealNutFact"
                         app:layout_constraintHorizontal_bias="0.5"
                         app:layout_constraintHorizontal_chainStyle="spread_inside"
                         app:layout_constraintStart_toStartOf="parent"
@@ -229,14 +229,14 @@
                         android:text="Calories"
                         android:textColor="@color/black"
                         android:textSize="16sp"
-                        app:layout_constraintEnd_toStartOf="@+id/tvDocExpDetail10"
+                        app:layout_constraintEnd_toStartOf="@+id/tvCaloMealNutFact"
                         app:layout_constraintHorizontal_bias="0.5"
                         app:layout_constraintHorizontal_chainStyle="spread_inside"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toBottomOf="@+id/tvDocExpDetail6" />
 
                     <TextView
-                        android:id="@+id/tvDocExpDetail4"
+                        android:id="@+id/tvFatMealNutFact"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_marginEnd="8dp"
@@ -252,7 +252,7 @@
                         app:layout_constraintTop_toTopOf="@+id/tvDocExpDetail3" />
 
                     <TextView
-                        android:id="@+id/tvDocExpDetail8"
+                        android:id="@+id/tvCarbMealNutFact"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_marginEnd="8dp"
@@ -263,10 +263,10 @@
                         android:textSize="16sp"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toEndOf="@+id/tvDocExpDetail5"
-                        app:layout_constraintTop_toBottomOf="@+id/tvDocExpDetail4" />
+                        app:layout_constraintTop_toBottomOf="@+id/tvFatMealNutFact" />
 
                     <TextView
-                        android:id="@+id/tvDocExpDetail9"
+                        android:id="@+id/tvProtienMealNutFact"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_marginEnd="8dp"
@@ -278,10 +278,10 @@
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintHorizontal_bias="0.5"
                         app:layout_constraintStart_toEndOf="@+id/tvDocExpDetail6"
-                        app:layout_constraintTop_toBottomOf="@+id/tvDocExpDetail8" />
+                        app:layout_constraintTop_toBottomOf="@+id/tvCarbMealNutFact" />
 
                     <TextView
-                        android:id="@+id/tvDocExpDetail10"
+                        android:id="@+id/tvCaloMealNutFact"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_marginEnd="8dp"
@@ -293,10 +293,10 @@
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintHorizontal_bias="0.5"
                         app:layout_constraintStart_toEndOf="@+id/tvDocExpDetail7"
-                        app:layout_constraintTop_toBottomOf="@+id/tvDocExpDetail9" />
+                        app:layout_constraintTop_toBottomOf="@+id/tvProtienMealNutFact" />
 
                     <TextView
-                        android:id="@+id/tvDocExpDetail2"
+                        android:id="@+id/tvMealWeightNutFact"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/montserrat_medium"
@@ -323,7 +323,7 @@
             </androidx.cardview.widget.CardView>
 
             <TextView
-                android:id="@+id/tvDocDetailText2"
+                android:id="@+id/tvMealDescLong"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
@@ -345,7 +345,7 @@
                 android:layout_marginTop="16dp"
                 android:layout_marginEnd="16dp"
                 android:fontFamily="@font/montserrat_medium"
-                android:text="priority areas of specialization activities :"
+                android:text="Description areas of the Meal :"
                 android:textColor="@color/black"
                 android:textSize="16sp"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -368,7 +368,7 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_chainStyle="spread_inside"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/tvDocDetailText2">
+                app:layout_constraintTop_toBottomOf="@+id/tvMealDescLong">
 
                 <androidx.constraintlayout.widget.ConstraintLayout
                     android:layout_width="match_parent"
@@ -421,7 +421,7 @@
             <androidx.cardview.widget.CardView
                 android:id="@+id/cardView10"
                 android:layout_width="0dp"
-                android:layout_height="120dp"
+                android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
                 android:layout_marginEnd="16dp"
 
@@ -457,16 +457,16 @@
                         app:layout_constraintTop_toTopOf="parent" />
 
                     <TextView
-                        android:id="@+id/tvDocExpDetail"
+                        android:id="@+id/tvMealWeight"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="16dp"
                         android:layout_marginTop="8dp"
-                        android:layout_marginBottom="16dp"
+                        android:layout_marginBottom="8dp"
                         android:fontFamily="@font/montserrat_bold"
                         android:text="1975 g"
                         android:textColor="@color/white"
-                        android:textSize="34sp"
+                        android:textSize="20sp"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toBottomOf="@+id/textView24" />
@@ -477,7 +477,7 @@
             <androidx.cardview.widget.CardView
                 android:id="@+id/cardView6"
                 android:layout_width="0dp"
-                android:layout_height="120dp"
+                android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
 
                 android:layout_marginEnd="16dp"
@@ -504,23 +504,23 @@
                         android:layout_marginStart="16dp"
                         android:layout_marginTop="16dp"
                         android:fontFamily="@font/montserrat_medium"
-                        android:text="Purchases 💵"
+                        android:text="Type 💵"
                         android:textColor="@color/white"
                         android:textSize="20sp"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent" />
 
                     <TextView
-                        android:id="@+id/tvDocJoinedDetail"
+                        android:id="@+id/tvMealType"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="16dp"
                         android:layout_marginTop="8dp"
-                        android:layout_marginBottom="16dp"
+                        android:layout_marginBottom="8dp"
                         android:fontFamily="@font/montserrat_bold"
-                        android:text="1490"
+                        android:text="Protien"
                         android:textColor="@color/white"
-                        android:textSize="34sp"
+                        android:textSize="20sp"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toBottomOf="@+id/textView24" />
@@ -533,7 +533,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
-                android:layout_marginTop="16dp"
+                android:layout_marginTop="8dp"
                 android:layout_marginEnd="16dp"
                 app:cardBackgroundColor="@color/cardBorder"
                 app:cardCornerRadius="10dp"
@@ -547,30 +547,30 @@
                     android:layout_height="match_parent">
 
                     <TextView
-                        android:id="@+id/textView75"
+                        android:id="@+id/tvPriceMealDetail"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginStart="8dp"
+                        android:layout_marginStart="16dp"
                         android:layout_marginTop="8dp"
                         android:fontFamily="@font/montserrat_bold"
                         android:text="RS 5500.00"
                         android:textColor="@color/primary"
                         android:textSize="20sp"
                         app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toBottomOf="@+id/imageView36" />
+                        app:layout_constraintTop_toBottomOf="@+id/imgBannerMealDetail" />
 
                     <TextView
-                        android:id="@+id/textView76"
+                        android:id="@+id/tvMealNameDetail"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginEnd="8dp"
+                        android:layout_marginEnd="16dp"
                         android:fontFamily="@font/montserrat"
-                        android:text="Rating 4.8"
+                        android:text="Name : Whey"
                         android:textColor="@color/cardBorderText"
                         android:textSize="16sp"
-                        app:layout_constraintBottom_toBottomOf="@+id/textView75"
+                        app:layout_constraintBottom_toBottomOf="@+id/tvPriceMealDetail"
                         app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintTop_toTopOf="@+id/textView75" />
+                        app:layout_constraintTop_toTopOf="@+id/tvPriceMealDetail" />
 
                     <com.google.android.material.card.MaterialCardView
                         android:id="@+id/materialCardView13"
@@ -584,14 +584,14 @@
                         app:layout_constraintEnd_toStartOf="@+id/materialCardView12"
                         app:layout_constraintHorizontal_bias="0.5"
                         app:layout_constraintStart_toEndOf="@+id/materialCardView11"
-                        app:layout_constraintTop_toBottomOf="@+id/textView75">
+                        app:layout_constraintTop_toBottomOf="@+id/tvPriceMealDetail">
 
                         <androidx.constraintlayout.widget.ConstraintLayout
                             android:layout_width="match_parent"
                             android:layout_height="match_parent">
 
                             <TextView
-                                android:id="@+id/textView73"
+                                android:id="@+id/tvMealFat"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginStart="16dp"
@@ -626,7 +626,7 @@
                             android:layout_height="match_parent">
 
                             <TextView
-                                android:id="@+id/textView73"
+                                android:id="@+id/tvMealCarb"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginStart="16dp"
@@ -643,7 +643,7 @@
                     </com.google.android.material.card.MaterialCardView>
 
                     <com.google.android.material.imageview.ShapeableImageView
-                        android:id="@+id/imageView36"
+                        android:id="@+id/imgBannerMealDetail"
                         android:layout_width="0dp"
                         android:layout_height="200dp"
                         android:scaleType="centerCrop"
@@ -673,7 +673,7 @@
                             android:layout_height="match_parent">
 
                             <TextView
-                                android:id="@+id/textView73"
+                                android:id="@+id/tvMealCal"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginStart="16dp"
@@ -727,7 +727,7 @@
         app:cardCornerRadius="10dp"
         app:cardElevation="2dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/cvEditBtn"
+        app:layout_constraintEnd_toStartOf="@+id/cvBuyBtn"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:strokeColor="@color/primary"
