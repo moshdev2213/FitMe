@@ -1,6 +1,7 @@
 package com.example.fitme.Fragment
 
 import android.content.Intent
+import android.os.Build
 import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
@@ -9,6 +10,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Toast
+import androidx.annotation.RequiresApi
 import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
@@ -18,6 +20,7 @@ import com.example.fitme.Activity.MealDetail
 import com.example.fitme.Activity.WorkoutDetail
 import com.example.fitme.Adapter.MealAdapter
 import com.example.fitme.Adapter.WorkoutAdapter
+import com.example.fitme.Entity.UserRecord
 import com.example.fitme.EntityDao.ExerciseItem
 import com.example.fitme.EntityDao.MealItem
 import com.example.fitme.EntityDao.MealRes
@@ -35,14 +38,17 @@ class MealFragment : Fragment() {
 
     private lateinit var rvMealFrag: RecyclerView
     private lateinit var mealAdapter: MealAdapter
+    private lateinit var out: UserRecord
 
 
+    @RequiresApi(Build.VERSION_CODES.TIRAMISU)
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
         var view = inflater.inflate(R.layout.fragment_meal, container, false)
+        out = arguments?.getSerializable("user", UserRecord::class.java)!!
 
         fragmentMealClayout = view.findViewById(R.id.fragmentMealClayout)
         shimmerScan = view.findViewById(R.id.shimmerMealFrag)
@@ -63,6 +69,7 @@ class MealFragment : Fragment() {
     private fun mealCardClicked(mealItem: MealItem) {
         val bundle = Bundle().apply {
             putSerializable("meal", mealItem)
+            putSerializable("user", out)
         }
         val intent = Intent(requireActivity(), MealDetail::class.java)
         intent.putExtras(bundle)
