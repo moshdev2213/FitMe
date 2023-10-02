@@ -1,6 +1,7 @@
 package com.example.fitme.Fragment
 
 import android.content.Intent
+import android.os.Build
 import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
@@ -12,6 +13,7 @@ import android.widget.Button
 import android.widget.ImageView
 import android.widget.TextView
 import android.widget.Toast
+import androidx.annotation.RequiresApi
 import androidx.cardview.widget.CardView
 import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -23,6 +25,7 @@ import com.example.fitme.Activity.Reservation
 import com.example.fitme.Activity.TrainerDetail
 import com.example.fitme.Adapter.MealAdapter
 import com.example.fitme.Adapter.TrainerAdapter
+import com.example.fitme.Entity.UserRecord
 import com.example.fitme.EntityDao.MealItem
 import com.example.fitme.EntityDao.MealRes
 import com.example.fitme.EntityDao.TrainerItem
@@ -41,13 +44,17 @@ class TrainerFragment : Fragment() {
     private lateinit var rvTrainerFrag: RecyclerView
     private lateinit var trainerAdapter:TrainerAdapter
 
+    private lateinit var out:UserRecord
 
+    @RequiresApi(Build.VERSION_CODES.TIRAMISU)
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
         var view = inflater.inflate(R.layout.fragment_trainer, container, false)
+        out = arguments?.getSerializable("user", UserRecord::class.java)!!
+
 
         fragmentTrainerClayout = view.findViewById(R.id.fragmentTrainerClayout)
         shimmerScan = view.findViewById(R.id.shimmerTrainerFrag)
@@ -71,6 +78,7 @@ class TrainerFragment : Fragment() {
     private fun trainerHireBtnClicked(trainerItem: TrainerItem) {
         val bundle = Bundle().apply {
             putSerializable("trainer", trainerItem)
+            putSerializable("user", out)
         }
         val intent = Intent(requireActivity(), Reservation::class.java)
         intent.putExtras(bundle)
@@ -80,6 +88,7 @@ class TrainerFragment : Fragment() {
     private fun trainerCardClicked(trainerItem: TrainerItem) {
         val bundle = Bundle().apply {
             putSerializable("trainer", trainerItem)
+            putSerializable("user", out)
         }
         val intent = Intent(requireActivity(), TrainerDetail::class.java)
         intent.putExtras(bundle)

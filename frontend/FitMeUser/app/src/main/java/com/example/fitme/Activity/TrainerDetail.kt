@@ -1,5 +1,6 @@
 package com.example.fitme.Activity
 
+import android.content.Intent
 import android.os.Build
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -9,12 +10,14 @@ import androidx.annotation.RequiresApi
 import androidx.cardview.widget.CardView
 import com.bumptech.glide.Glide
 import com.bumptech.glide.load.engine.DiskCacheStrategy
+import com.example.fitme.Entity.UserRecord
 import com.example.fitme.EntityDao.ExerciseItem
 import com.example.fitme.EntityDao.TrainerItem
 import com.example.fitme.R
 
 class TrainerDetail : AppCompatActivity() {
     private lateinit var trainerItem: TrainerItem
+    private lateinit var userRecord: UserRecord
 
     private lateinit var imgBackBtn2:ImageView
     private lateinit var cvBackBtn:CardView
@@ -35,6 +38,7 @@ class TrainerDetail : AppCompatActivity() {
 
         val bundle = intent.extras
         trainerItem = bundle?.getSerializable("trainer", TrainerItem::class.java)!!
+        userRecord = bundle?.getSerializable("user", UserRecord::class.java)!!
 
         imgBackBtn2 = findViewById(R.id.imgBackBtn2)
         cvBackBtn = findViewById(R.id.cvBackBtn)
@@ -55,6 +59,15 @@ class TrainerDetail : AppCompatActivity() {
         }
         cvBackBtn.setOnClickListener {
             finish()
+        }
+        cvHireTrainerBtn.setOnClickListener {
+            val bundle = Bundle().apply {
+                putSerializable("trainer", trainerItem)
+                putSerializable("user", userRecord)
+            }
+            val intent = Intent(this@TrainerDetail, Reservation::class.java)
+            intent.putExtras(bundle)
+            startActivity(intent)
         }
         //load main banner with glide
         Glide.with(this@TrainerDetail)

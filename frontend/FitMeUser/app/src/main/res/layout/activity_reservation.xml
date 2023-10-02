@@ -34,6 +34,7 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="0dp"
+        android:fillViewport="true"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -44,7 +45,7 @@
             android:layout_height="match_parent">
 
             <com.google.android.material.card.MaterialCardView
-                android:id="@+id/cvDeleteAct"
+                android:id="@+id/cvProceedToPayAct"
                 android:layout_width="0dp"
                 android:layout_height="70dp"
                 android:layout_marginStart="16dp"
@@ -70,7 +71,7 @@
                         android:layout_marginStart="16dp"
                         android:layout_marginEnd="8dp"
                         android:fontFamily="@font/montserrat_medium"
-                        android:text="Proceed"
+                        android:text="Proceed To Pay"
                         android:textColor="@color/white"
                         android:textSize="20sp"
                         app:layout_constraintBottom_toBottomOf="parent"
@@ -123,7 +124,7 @@
                         android:text="Sub Total"
                         android:textColor="@color/black"
                         android:textSize="14sp"
-                        app:layout_constraintEnd_toStartOf="@+id/textView40"
+                        app:layout_constraintEnd_toStartOf="@+id/tvSubTotal"
                         app:layout_constraintHorizontal_bias="0.5"
                         app:layout_constraintHorizontal_chainStyle="spread_inside"
                         app:layout_constraintStart_toStartOf="parent"
@@ -159,7 +160,7 @@
                         android:textColor="@color/black"
                         android:textSize="14sp"
                         app:layout_constraintBottom_toBottomOf="parent"
-                        app:layout_constraintEnd_toStartOf="@+id/textView44"
+                        app:layout_constraintEnd_toStartOf="@+id/tvTotal"
                         app:layout_constraintHorizontal_bias="0.5"
                         app:layout_constraintHorizontal_chainStyle="spread_inside"
                         app:layout_constraintStart_toStartOf="parent"
@@ -173,17 +174,17 @@
                         android:layout_marginEnd="16dp"
                         android:alpha="0.6"
                         android:fontFamily="@font/montserrat_medium"
-                        android:text="Rs 2000"
+                        android:text="Rs 00"
                         android:textColor="@color/black"
                         android:textSize="14sp"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintHorizontal_bias="0.5"
                         app:layout_constraintHorizontal_chainStyle="spread_inside"
                         app:layout_constraintStart_toEndOf="@+id/textView41"
-                        app:layout_constraintTop_toBottomOf="@+id/textView40" />
+                        app:layout_constraintTop_toBottomOf="@+id/tvSubTotal" />
 
                     <TextView
-                        android:id="@+id/textView44"
+                        android:id="@+id/tvTotal"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="8dp"
@@ -202,7 +203,7 @@
                         app:layout_constraintTop_toBottomOf="@+id/textView42" />
 
                     <TextView
-                        android:id="@+id/textView40"
+                        android:id="@+id/tvSubTotal"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="16dp"
@@ -233,7 +234,7 @@
                 app:layout_constraintHorizontal_bias="0.5"
                 app:layout_constraintHorizontal_chainStyle="spread_inside"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/cvSignUpFb" />
+                app:layout_constraintTop_toBottomOf="@+id/imageView9" />
 
             <TextView
                 android:id="@+id/textView36"
@@ -271,16 +272,16 @@
                 android:id="@+id/textView35"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
                 android:layout_marginEnd="16dp"
                 android:fontFamily="@font/montserrat"
                 android:text="Details"
                 android:textColor="@color/primary"
                 android:textSize="14sp"
+                app:layout_constraintBottom_toBottomOf="@+id/textView28"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.5"
                 app:layout_constraintStart_toEndOf="@+id/textView28"
-                app:layout_constraintTop_toBottomOf="@+id/cvSignUpFb" />
+                app:layout_constraintTop_toTopOf="@+id/textView28" />
 
             <TextView
                 android:id="@+id/textView37"
@@ -295,7 +296,7 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.5"
                 app:layout_constraintStart_toEndOf="@+id/textView36"
-                app:layout_constraintTop_toBottomOf="@+id/textView34" />
+                app:layout_constraintTop_toBottomOf="@+id/tvPhoneUser" />
 
             <TextView
                 android:id="@+id/textView39"
@@ -323,7 +324,7 @@
                 android:text="Full Name"
                 android:textColor="@color/black"
                 android:textSize="14sp"
-                app:layout_constraintEnd_toStartOf="@+id/textView30"
+                app:layout_constraintEnd_toStartOf="@+id/tvNameUser"
                 app:layout_constraintHorizontal_bias="0.5"
                 app:layout_constraintHorizontal_chainStyle="spread_inside"
                 app:layout_constraintStart_toStartOf="parent"
@@ -340,7 +341,7 @@
                 android:text="Email"
                 android:textColor="@color/black"
                 android:textSize="14sp"
-                app:layout_constraintEnd_toStartOf="@+id/textView32"
+                app:layout_constraintEnd_toStartOf="@+id/tvEmailUser"
                 app:layout_constraintHorizontal_bias="0.5"
                 app:layout_constraintHorizontal_chainStyle="spread_inside"
                 app:layout_constraintStart_toStartOf="parent"
@@ -357,14 +358,14 @@
                 android:text="Telephone"
                 android:textColor="@color/black"
                 android:textSize="14sp"
-                app:layout_constraintEnd_toStartOf="@+id/textView34"
+                app:layout_constraintEnd_toStartOf="@+id/tvPhoneUser"
                 app:layout_constraintHorizontal_bias="0.5"
                 app:layout_constraintHorizontal_chainStyle="spread_inside"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView31" />
 
             <TextView
-                android:id="@+id/textView30"
+                android:id="@+id/tvNameUser"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
@@ -379,7 +380,7 @@
                 app:layout_constraintTop_toBottomOf="@+id/textView35" />
 
             <TextView
-                android:id="@+id/textView32"
+                android:id="@+id/tvEmailUser"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
@@ -391,10 +392,10 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.5"
                 app:layout_constraintStart_toEndOf="@+id/textView31"
-                app:layout_constraintTop_toBottomOf="@+id/textView30" />
+                app:layout_constraintTop_toBottomOf="@+id/tvNameUser" />
 
             <TextView
-                android:id="@+id/textView34"
+                android:id="@+id/tvPhoneUser"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
@@ -406,7 +407,7 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.5"
                 app:layout_constraintStart_toEndOf="@+id/textView33"
-                app:layout_constraintTop_toBottomOf="@+id/textView32" />
+                app:layout_constraintTop_toBottomOf="@+id/tvEmailUser" />
 
             <com.google.android.material.card.MaterialCardView
                 android:id="@+id/cvTotalDetails"
@@ -445,12 +446,13 @@
 
                     <TextView
                         android:id="@+id/textView4"
-                        android:layout_width="wrap_content"
+                        android:layout_width="0dp"
                         android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
                         android:layout_marginTop="16dp"
                         android:layout_marginEnd="16dp"
                         android:fontFamily="@font/montserrat_medium"
-                        android:text="Card Number"
+                        android:text="Payment Method"
                         android:textColor="@color/black"
                         android:textSize="18sp"
                         app:layout_constraintEnd_toEndOf="parent"
@@ -460,12 +462,13 @@
 
                     <TextView
                         android:id="@+id/textView27"
-                        android:layout_width="wrap_content"
+                        android:layout_width="0dp"
                         android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
                         android:layout_marginEnd="16dp"
                         android:alpha="0.6"
                         android:fontFamily="@font/montserrat"
-                        android:text="xxxx xxxx xxxx 3456"
+                        android:text="Status Pending"
                         android:textColor="@color/black"
                         android:textSize="14sp"
                         app:layout_constraintEnd_toEndOf="parent"
@@ -475,72 +478,14 @@
                 </androidx.constraintlayout.widget.ConstraintLayout>
             </com.google.android.material.card.MaterialCardView>
 
-            <com.google.android.material.card.MaterialCardView
-                android:id="@+id/cvSignUpFb"
+            <ImageView
+                android:id="@+id/imageView9"
                 android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="16dp"
-                android:layout_marginTop="24dp"
-                android:layout_marginEnd="16dp"
-                android:clickable="false"
-                app:cardBackgroundColor="@color/cardBorder"
-                app:cardCornerRadius="10dp"
-                app:cardElevation="0dp"
+                android:layout_height="250dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:strokeWidth="0.8dp">
-
-                <androidx.constraintlayout.widget.ConstraintLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent">
-
-                    <com.google.android.material.imageview.ShapeableImageView
-                        android:id="@+id/imageView3"
-                        android:layout_width="50dp"
-                        android:layout_height="50dp"
-                        android:layout_marginStart="16dp"
-                        android:layout_marginTop="16dp"
-                        android:layout_marginBottom="16dp"
-                        android:scaleType="centerCrop"
-                        android:src="@drawable/trainerbannner"
-                        app:layout_constraintBottom_toBottomOf="parent"
-                        app:layout_constraintHorizontal_chainStyle="packed"
-                        app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toTopOf="parent"
-                        app:shapeAppearance="@style/roundedImageView" />
-
-                    <TextView
-                        android:id="@+id/textView4"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="12dp"
-                        android:layout_marginEnd="16dp"
-                        android:fontFamily="@font/montserrat_medium"
-                        android:text="mohomilly@gmail.com"
-                        android:textColor="@color/black"
-                        android:textSize="20sp"
-                        app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintHorizontal_bias="0.269"
-                        app:layout_constraintStart_toEndOf="@+id/imageView3"
-                        app:layout_constraintTop_toTopOf="parent" />
-
-                    <TextView
-                        android:id="@+id/textView27"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginEnd="16dp"
-                        android:alpha="0.6"
-                        android:fontFamily="@font/montserrat"
-                        android:text="2023.10.09"
-                        android:textColor="@color/black"
-                        android:textSize="14sp"
-                        app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintHorizontal_bias="0.076"
-                        app:layout_constraintStart_toEndOf="@+id/imageView3"
-                        app:layout_constraintTop_toBottomOf="@+id/textView4" />
-                </androidx.constraintlayout.widget.ConstraintLayout>
-            </com.google.android.material.card.MaterialCardView>
+                app:srcCompat="@drawable/checkout" />
         </androidx.constraintlayout.widget.ConstraintLayout>
     </ScrollView>
 

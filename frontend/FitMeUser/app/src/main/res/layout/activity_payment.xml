@@ -11,7 +11,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
         android:fontFamily="@font/montserrat_medium"
         android:text="Payment"
@@ -35,7 +35,6 @@
         android:id="@+id/imageView5"
         android:layout_width="0dp"
         android:layout_height="300dp"
-        android:layout_marginTop="24dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -43,7 +42,7 @@
         app:srcCompat="@drawable/paynow" />
 
     <com.google.android.material.textfield.TextInputEditText
-        android:id="@+id/etSignInEmail2"
+        android:id="@+id/etPayCardHolderName"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -53,7 +52,7 @@
         android:ems="10"
         android:fontFamily="@font/montserrat_medium"
         android:hint="Card Holder Name"
-        android:inputType="text|textPersonName"
+        android:inputType="text|textNoSuggestions"
         android:padding="16dp"
         android:textColor="@color/cardBorderText"
         app:layout_constraintEnd_toEndOf="parent"
@@ -62,7 +61,7 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView5" />
 
     <com.google.android.material.textfield.TextInputEditText
-        android:id="@+id/etSignInEmail3"
+        android:id="@+id/etPayCardNumberPay"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -73,17 +72,17 @@
         android:ems="10"
         android:fontFamily="@font/montserrat_medium"
         android:hint="Card Number"
-        android:inputType="text"
+        android:inputType="number"
         android:maxLength="16"
         android:padding="16dp"
         android:textColor="@color/cardBorderText"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/etSignInEmail2" />
+        app:layout_constraintTop_toBottomOf="@+id/etPayCardHolderName" />
 
     <com.google.android.material.textfield.TextInputEditText
-        android:id="@+id/etSignInEmail4"
+        android:id="@+id/etExpireDateCard"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -93,18 +92,18 @@
         android:ems="10"
         android:fontFamily="@font/montserrat_medium"
         android:hint="Expiry Date"
-        android:inputType="datetime|date"
+        android:inputType="text"
         android:maxLength="5"
         android:padding="16dp"
         android:textColor="@color/cardBorderText"
-        app:layout_constraintBottom_toBottomOf="@+id/etSignInEmail5"
-        app:layout_constraintEnd_toStartOf="@+id/etSignInEmail5"
+        app:layout_constraintBottom_toBottomOf="@+id/etCvcCard"
+        app:layout_constraintEnd_toStartOf="@+id/etCvcCard"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/etSignInEmail5" />
+        app:layout_constraintTop_toTopOf="@+id/etCvcCard" />
 
     <com.google.android.material.textfield.TextInputEditText
-        android:id="@+id/etSignInEmail5"
+        android:id="@+id/etCvcCard"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
@@ -114,17 +113,17 @@
         android:ems="10"
         android:fontFamily="@font/montserrat_medium"
         android:hint="CVC Number"
-        android:inputType="datetime"
+        android:inputType="number"
         android:maxLength="3"
         android:padding="16dp"
         android:textColor="@color/cardBorderText"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/etSignInEmail4"
-        app:layout_constraintTop_toBottomOf="@+id/etSignInEmail3" />
+        app:layout_constraintStart_toEndOf="@+id/etExpireDateCard"
+        app:layout_constraintTop_toBottomOf="@+id/etPayCardNumberPay" />
 
     <com.google.android.material.card.MaterialCardView
-        android:id="@+id/cvSignBtn"
+        android:id="@+id/cvPayBtn"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -136,7 +135,7 @@
         app:cardElevation="0dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/etSignInEmail5">
+        app:layout_constraintTop_toBottomOf="@+id/etCvcCard">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"

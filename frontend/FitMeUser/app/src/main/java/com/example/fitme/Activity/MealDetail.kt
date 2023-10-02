@@ -10,12 +10,14 @@ import androidx.annotation.RequiresApi
 import androidx.cardview.widget.CardView
 import com.bumptech.glide.Glide
 import com.bumptech.glide.load.engine.DiskCacheStrategy
+import com.example.fitme.Entity.UserRecord
 import com.example.fitme.EntityDao.ExerciseItem
 import com.example.fitme.EntityDao.MealItem
 import com.example.fitme.R
 
 class MealDetail : AppCompatActivity() {
     private lateinit var mealItem: MealItem
+    private lateinit var userRecord: UserRecord
 
     private lateinit var imgBackBtn: ImageView
     private lateinit var imgBannerMealDetail: ImageView
@@ -46,6 +48,8 @@ class MealDetail : AppCompatActivity() {
 
         val bundle = intent.extras
         mealItem = bundle?.getSerializable("meal", MealItem::class.java)!!
+        userRecord = bundle?.getSerializable("user", UserRecord::class.java)!!
+
 
         imgBackBtn = findViewById(R.id.imgBackBtn)
         cvBackBtn = findViewById(R.id.cvBackBtn)
@@ -74,7 +78,13 @@ class MealDetail : AppCompatActivity() {
             finish()
         }
         cvBuyBtn.setOnClickListener {
-            startActivity(Intent(this@MealDetail,Reservation::class.java))
+            val bundle = Bundle().apply {
+                putSerializable("meal", mealItem)
+                putSerializable("user", userRecord)
+            }
+            val intent = Intent(this@MealDetail, Reservation::class.java)
+            intent.putExtras(bundle)
+            startActivity(intent)
         }
 
         //load main banner with glide
