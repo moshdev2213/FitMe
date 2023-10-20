@@ -1,5 +1,6 @@
 package com.example.fitmeadmin.APIServices
 
+import com.example.fitmeadmin.EntityDao.Addmeal
 import com.example.fitmeadmin.EntityDao.Addwork
 import com.example.fitmeadmin.EntityDao.ExerciseItem
 import com.example.fitmeadmin.EntityDao.MealItem
@@ -24,6 +25,6 @@ interface MealService {
     ): Call<MealItem>
 
 
-//    @POST("/api/collections/workout/records")
-//    fun addWorkout(@Body newWorkout: Addwork): Call<Addwork>
+    @POST("/api/collections/meal/records")
+    fun addMeal(@Body newMealitem: Addmeal): Call<Addmeal>
 }

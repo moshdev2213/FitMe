@@ -2821,6 +2821,7 @@ id deltaRelative
 id dependency_ordering
 id descD
 id descript
+id descriptM
 id descriptadd
 id design_bottom_sheet
 id design_menu_item_action_area
@@ -3055,6 +3056,7 @@ id mtrl_picker_title_text
 id mtrl_view_tag_bottom_padding
 id multiply
 id nameId
+id nameM
 id named
 id nameid
 id navigation_bar_item_active_indicator_view
@@ -3098,7 +3100,9 @@ id percent
 id pin
 id position
 id postLayout
+id priceM
 id priced
+id proM
 id progress_circular
 id progress_horizontal
 id protin
@@ -3141,6 +3145,7 @@ id select_dialog_listview
 id selected
 id selection_type
 id serve
+id serveM
 id served
 id sharedValueSet
 id sharedValueUnset
@@ -3363,6 +3368,7 @@ id tvWrkFat
 id tvWrkOutBdyPart
 id tvWrkOutName
 id typ
+id typeM
 id unchecked
 id uniform
 id unlabeled
@@ -3483,6 +3489,7 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_forgot_password
 layout activity_home
+layout activity_meal_add
 layout activity_meal_details
 layout activity_meal_edit
 layout activity_meal_plans

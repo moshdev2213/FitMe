@@ -32,6 +32,9 @@
         android:theme="@style/Theme.FitMeAdmin"
         android:usesCleartextTraffic="true" >
         <activity
+            android:name="com.example.fitmeadmin.Activity.MealAdd"
+            android:exported="false" />
+        <activity
             android:name="com.example.fitmeadmin.Activity.WorkoutAdd"
             android:exported="false"
             android:label="@string/title_activity_workout_add"

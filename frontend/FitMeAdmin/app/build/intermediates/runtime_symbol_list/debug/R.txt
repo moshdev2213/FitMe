@@ -2820,6 +2820,7 @@ int id deltaRelative 0x7f0a00c5
 int id dependency_ordering 0x7f0a00c6
 int id descD 0x7f0a0308
 int id descript 0x7f0a00c7
+int id descriptM 0x7f0a030f
 int id descriptadd 0x7f0a00c8
 int id design_bottom_sheet 0x7f0a00c9
 int id design_menu_item_action_area 0x7f0a00ca
@@ -3054,6 +3055,7 @@ int id mtrl_picker_title_text 0x7f0a01aa
 int id mtrl_view_tag_bottom_padding 0x7f0a01ab
 int id multiply 0x7f0a01ac
 int id nameId 0x7f0a01ad
+int id nameM 0x7f0a0310
 int id named 0x7f0a030a
 int id nameid 0x7f0a01ae
 int id navigation_bar_item_active_indicator_view 0x7f0a01af
@@ -3097,7 +3099,9 @@ int id percent 0x7f0a01d4
 int id pin 0x7f0a01d5
 int id position 0x7f0a01d6
 int id postLayout 0x7f0a01d7
+int id priceM 0x7f0a0311
 int id priced 0x7f0a0304
+int id proM 0x7f0a0312
 int id progress_circular 0x7f0a01d8
 int id progress_horizontal 0x7f0a01d9
 int id protin 0x7f0a030b
@@ -3140,6 +3144,7 @@ int id select_dialog_listview 0x7f0a01fd
 int id selected 0x7f0a01fe
 int id selection_type 0x7f0a01ff
 int id serve 0x7f0a0305
+int id serveM 0x7f0a0313
 int id served 0x7f0a030c
 int id sharedValueSet 0x7f0a0200
 int id sharedValueUnset 0x7f0a0201
@@ -3362,6 +3367,7 @@ int id tvWrkFat 0x7f0a02db
 int id tvWrkOutBdyPart 0x7f0a02dc
 int id tvWrkOutName 0x7f0a02dd
 int id typ 0x7f0a030e
+int id typeM 0x7f0a0314
 int id unchecked 0x7f0a02de
 int id uniform 0x7f0a02df
 int id unlabeled 0x7f0a02e0
@@ -3482,6 +3488,7 @@ int layout abc_select_dialog_material 0x7f0d001a
 int layout abc_tooltip 0x7f0d001b
 int layout activity_forgot_password 0x7f0d001c
 int layout activity_home 0x7f0d001d
+int layout activity_meal_add 0x7f0d0092
 int layout activity_meal_details 0x7f0d001e
 int layout activity_meal_edit 0x7f0d001f
 int layout activity_meal_plans 0x7f0d0020

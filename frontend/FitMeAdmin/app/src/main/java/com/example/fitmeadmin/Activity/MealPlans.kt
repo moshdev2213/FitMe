@@ -34,6 +34,7 @@ class MealPlans : AppCompatActivity() {
     private lateinit var cvBeverageOpen:CardView
     private lateinit var cvProtienOpen:CardView
     private lateinit var cvMealPackOpen:CardView
+    private lateinit var addmeal:CardView
 
     private lateinit var rvmeals: RecyclerView
     private lateinit var mealAdapter: MealAdapter
@@ -49,6 +50,8 @@ class MealPlans : AppCompatActivity() {
         cvMealPackOpen = findViewById(R.id.cvMealPackOpen)
         cvBeverageOpen = findViewById(R.id.cvBeverageOpen)
         cvProtienOpen = findViewById(R.id.cvProtienOpen)
+       addmeal = findViewById(R.id.cvAddMealOpen)
+
 
         btnBackMealPlan.setOnClickListener {
             finish()
@@ -68,6 +71,12 @@ class MealPlans : AppCompatActivity() {
 
             openModal(text,R.drawable.wheysingle)
         }
+
+       addmeal.setOnClickListener {
+           val intent = Intent(this, MealAdd::class.java)
+           startActivity(intent)
+
+       }
        initRecyclerView()
     }
 

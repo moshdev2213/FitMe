@@ -162,6 +162,7 @@ id delbtn
 id delbtnn
 id descD
 id descript
+id descriptM
 id descriptadd
 id durationT
 id durationTadd
@@ -253,12 +254,15 @@ id materialCardView9
 id mealRv
 id mealcard
 id nameId
+id nameM
 id named
 id nameid
 id payment
 id pbLoader
 id peiChartHome
+id priceM
 id priced
+id proM
 id protin
 id radar_chart
 id recyclerView
@@ -266,6 +270,7 @@ id rvWrkOutList
 id scFood
 id scrollView2
 id serve
+id serveM
 id served
 id spinnerGenderSelect
 id targeting
@@ -399,6 +404,7 @@ id tvWrkFat
 id tvWrkOutBdyPart
 id tvWrkOutName
 id typ
+id typeM
 id users
 id view
 id view2
@@ -410,6 +416,7 @@ id workout
 id workouts
 layout activity_forgot_password
 layout activity_home
+layout activity_meal_add
 layout activity_meal_details
 layout activity_meal_edit
 layout activity_meal_plans
