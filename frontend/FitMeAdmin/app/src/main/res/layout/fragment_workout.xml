@@ -101,6 +101,23 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent">
 
+                        <com.google.android.material.card.MaterialCardView
+                            android:id="@+id/cvTrainerActCard"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="16dp"
+                            android:layout_marginTop="16dp"
+                            android:layout_marginEnd="16dp"
+                            android:clickable="true"
+                            app:cardCornerRadius="10dp"
+                            app:cardElevation="2dp"
+                            app:layout_constraintEnd_toStartOf="@+id/cvopenMealAct"
+                            app:layout_constraintHorizontal_bias="0.5"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/materialCardView7">
+
+                        </com.google.android.material.card.MaterialCardView>
+
                         <TextView
                             android:id="@+id/textView64"
                             android:layout_width="wrap_content"
@@ -120,15 +137,16 @@
 
                         <TextView
                             android:id="@+id/textView65"
-                            android:layout_width="0dp"
-                            android:layout_height="wrap_content"
+                            android:layout_width="127dp"
+                            android:layout_height="57dp"
                             android:layout_marginStart="8dp"
                             android:layout_marginEnd="16dp"
                             android:layout_marginBottom="16dp"
                             android:fontFamily="@font/montserrat"
                             android:text="Ensure precise health assessment by capturing or uploading clear body images for accurate analysis."
+                            android:textAlignment="gravity"
                             android:textColor="@color/cardBorderText"
-                            android:textSize="14sp"
+                            android:textSize="12sp"
                             app:layout_constraintBottom_toBottomOf="parent"
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintHorizontal_bias="0.0"
@@ -149,9 +167,31 @@
                             app:layout_constraintBottom_toBottomOf="parent"
                             app:layout_constraintStart_toStartOf="parent"
                             app:layout_constraintTop_toTopOf="parent" />
+
+                        <Button
+                            android:id="@+id/addW"
+                            android:layout_width="130dp"
+                            android:layout_height="79dp"
+                            android:layout_marginStart="26dp"
+                            android:layout_marginTop="17dp"
+                            android:layout_marginEnd="12dp"
+                            android:layout_marginBottom="18dp"
+                            android:backgroundTint="@color/shimmerMain"
+                            android:fontFamily="@font/montserrat_medium"
+                            android:shadowColor="@color/black"
+                            android:text="Add Workout"
+                            android:textColor="@color/black"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toEndOf="@+id/textView65"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:strokeColor="@color/black" />
+
                     </androidx.constraintlayout.widget.ConstraintLayout>
 
                 </com.google.android.material.card.MaterialCardView>
+
+
 
                 <com.google.android.material.card.MaterialCardView
                     android:id="@+id/cvTrainerActCard"
@@ -186,10 +226,10 @@
                             app:layout_constraintBottom_toBottomOf="parent"
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintStart_toStartOf="parent"
-                            app:layout_constraintTop_toBottomOf="@+id/imageView17" />
+                            app:layout_constraintTop_toBottomOf="@+id/addbtn" />
 
                         <com.google.android.material.imageview.ShapeableImageView
-                            android:id="@+id/imageView17"
+                            android:id="@+id/addbtn"
                             android:layout_width="0dp"
                             android:layout_height="100dp"
                             android:layout_marginStart="8dp"
@@ -255,6 +295,7 @@
                 </com.google.android.material.card.MaterialCardView>
 
                 <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/rvWrkOutList"
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_marginTop="16dp"

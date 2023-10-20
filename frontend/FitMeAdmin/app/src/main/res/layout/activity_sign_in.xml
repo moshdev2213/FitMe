@@ -102,6 +102,7 @@
         app:startIconDrawable="@drawable/baseline_email_24">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/InputEmail"
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
     </com.google.android.material.textfield.TextInputLayout>
@@ -131,12 +132,14 @@
         app:startIconDrawable="@drawable/baseline_key_24">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/Inputpwd"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:inputType="textPassword" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.card.MaterialCardView
+        android:id="@+id/cvSignbtn"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"

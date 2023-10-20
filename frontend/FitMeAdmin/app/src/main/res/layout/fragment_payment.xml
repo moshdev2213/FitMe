@@ -51,9 +51,9 @@
                             android:fontFamily="@font/montserrat_bold"
                             android:text="See More"
                             app:cornerRadius="8dp"
-                            app:layout_constraintBottom_toBottomOf="@+id/imageView22"
+                            app:layout_constraintBottom_toBottomOf="@+id/imgMainWrkBanner"
                             app:layout_constraintEnd_toEndOf="parent"
-                            app:layout_constraintStart_toEndOf="@+id/imageView22" />
+                            app:layout_constraintStart_toEndOf="@+id/imgMainWrkBanner" />
 
                         <TextView
                             android:id="@+id/textView45"
@@ -64,8 +64,8 @@
                             android:text="Security"
                             android:textColor="@color/black"
                             android:textSize="20sp"
-                            app:layout_constraintStart_toEndOf="@+id/imageView22"
-                            app:layout_constraintTop_toTopOf="@+id/imageView22" />
+                            app:layout_constraintStart_toEndOf="@+id/imgMainWrkBanner"
+                            app:layout_constraintTop_toTopOf="@+id/imgMainWrkBanner" />
 
                         <TextView
                             android:id="@+id/textView46"
@@ -79,11 +79,11 @@
                             android:textSize="14sp"
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintHorizontal_bias="0.0"
-                            app:layout_constraintStart_toEndOf="@+id/imageView22"
+                            app:layout_constraintStart_toEndOf="@+id/imgMainWrkBanner"
                             app:layout_constraintTop_toBottomOf="@+id/textView45" />
 
                         <com.google.android.material.imageview.ShapeableImageView
-                            android:id="@+id/imageView22"
+                            android:id="@+id/imgMainWrkBanner"
                             android:layout_width="160dp"
                             android:layout_height="0dp"
                             android:layout_marginStart="16dp"

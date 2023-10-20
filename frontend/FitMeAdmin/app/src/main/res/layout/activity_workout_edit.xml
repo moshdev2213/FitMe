@@ -45,7 +45,7 @@
                     android:layout_height="match_parent">
 
                     <TextView
-                        android:id="@+id/textView87"
+                        android:id="@+id/edtcnfrm"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="16dp"
@@ -84,19 +84,21 @@
                 app:strokeWidth="2dp">
 
                 <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/cbtn2"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
 
                     <TextView
-                        android:id="@+id/textView87"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:id="@+id/ctext"
+                        android:layout_width="137dp"
+                        android:layout_height="26dp"
                         android:layout_marginStart="16dp"
                         android:layout_marginTop="8dp"
                         android:layout_marginEnd="16dp"
                         android:layout_marginBottom="8dp"
                         android:fontFamily="@font/montserrat_medium"
                         android:text="Cancel"
+                        android:textAlignment="center"
                         android:textColor="@color/bg_danger"
                         android:textSize="18sp"
                         app:layout_constraintBottom_toBottomOf="parent"
@@ -185,6 +187,7 @@
                 app:layout_constraintTop_toBottomOf="@+id/textInputLayout06">
 
                 <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/bPart"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:inputType="text" />
@@ -204,9 +207,10 @@
                 app:layout_constraintHorizontal_bias="0.5"
                 app:layout_constraintStart_toEndOf="@+id/textInputLayoutCarbs"
                 app:layout_constraintTop_toBottomOf="@+id/textInputLayout5"
-                app:suffixText="g">
+                app:suffixText="%">
 
                 <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/fatid"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:inputType="number"
@@ -225,9 +229,10 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toEndOf="@+id/textInputLayoutCalo"
                 app:layout_constraintTop_toBottomOf="@+id/textInputLayout5"
-                app:suffixText="g">
+                app:suffixText="Kcal">
 
                 <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/calaries"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:inputType="number"
@@ -252,6 +257,7 @@
                 app:layout_constraintTop_toBottomOf="@+id/textInputLayout09">
 
                 <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/descript"
                     android:layout_width="match_parent"
                     android:layout_height="200dp"
                     android:gravity="top"
@@ -277,6 +283,7 @@
                 app:startIconDrawable="@drawable/baseline_fitness_center_24">
 
                 <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/nameid"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:inputType="text" />
@@ -310,9 +317,10 @@
                 app:layout_constraintHorizontal_chainStyle="spread_inside"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textInputLayout5"
-                app:suffixText="g">
+                app:suffixText="%">
 
                 <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/carbss"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:inputType="number"
@@ -337,6 +345,7 @@
                 app:suffixText="min">
 
                 <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/durationT"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:inputType="number" />
@@ -354,17 +363,18 @@
                 app:layout_constraintHorizontal_bias="0.5"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/materialCardView4"
-                app:startIconDrawable="@drawable/baseline_image_24">
+                >
 
                 <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/tmuscle"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:enabled="false"
+
                     android:inputType="text" />
             </com.google.android.material.textfield.TextInputLayout>
 
             <TextView
-                android:id="@+id/textView71"
+                android:id="@+id/workout"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
@@ -375,15 +385,15 @@
                 android:textSize="20sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/imageView34" />
+                app:layout_constraintTop_toBottomOf="@+id/imgId" />
 
             <com.google.android.material.imageview.ShapeableImageView
-                android:id="@+id/imageView34"
+                android:id="@+id/imgId"
                 android:layout_width="150dp"
                 android:layout_height="150dp"
                 android:layout_marginTop="8dp"
                 android:scaleType="centerCrop"
-                android:src="@drawable/mealplan"
+                android:src="@drawable/abs"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
@@ -401,7 +411,7 @@
                 app:cardElevation="2dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/textView71">
+                app:layout_constraintTop_toBottomOf="@+id/workout">
 
                 <androidx.constraintlayout.widget.ConstraintLayout
                     android:layout_width="match_parent"
@@ -443,9 +453,9 @@
                 android:layout_height="wrap_content"
                 android:clickable="true"
                 app:backgroundTint="@color/white"
-                app:layout_constraintBottom_toBottomOf="@+id/imageView34"
-                app:layout_constraintEnd_toEndOf="@+id/imageView34"
-                app:layout_constraintStart_toEndOf="@+id/imageView34"
+                app:layout_constraintBottom_toBottomOf="@+id/imgId"
+                app:layout_constraintEnd_toEndOf="@+id/imgId"
+                app:layout_constraintStart_toEndOf="@+id/imgId"
                 app:srcCompat="@drawable/baseline_edit_24" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>

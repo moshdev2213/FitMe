@@ -46,7 +46,7 @@
                         android:layout_height="match_parent">
 
                         <TextView
-                            android:id="@+id/textView24"
+                            android:id="@+id/tvBodyPartDetail"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginStart="16dp"
@@ -68,9 +68,9 @@
                             android:layout_height="wrap_content"
                             android:layout_marginEnd="16dp"
                             android:src="@drawable/baseline_arrow_forward_ios_24"
-                            app:layout_constraintBottom_toBottomOf="@+id/textView24"
+                            app:layout_constraintBottom_toBottomOf="@+id/tvBodyPartDetail"
                             app:layout_constraintEnd_toEndOf="parent"
-                            app:layout_constraintTop_toTopOf="@+id/textView24" />
+                            app:layout_constraintTop_toTopOf="@+id/tvBodyPartDetail" />
                     </androidx.constraintlayout.widget.ConstraintLayout>
                 </com.google.android.material.card.MaterialCardView>
 
@@ -139,7 +139,7 @@
                         android:layout_height="match_parent">
 
                         <TextView
-                            android:id="@+id/textView24"
+                            android:id="@+id/tvBodyPartDetail"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginStart="16dp"
@@ -161,9 +161,9 @@
                             android:layout_height="wrap_content"
                             android:layout_marginEnd="16dp"
                             android:src="@drawable/baseline_arrow_forward_ios_24_white"
-                            app:layout_constraintBottom_toBottomOf="@+id/textView24"
+                            app:layout_constraintBottom_toBottomOf="@+id/tvBodyPartDetail"
                             app:layout_constraintEnd_toEndOf="parent"
-                            app:layout_constraintTop_toTopOf="@+id/textView24" />
+                            app:layout_constraintTop_toTopOf="@+id/tvBodyPartDetail" />
                     </androidx.constraintlayout.widget.ConstraintLayout>
                 </com.google.android.material.card.MaterialCardView>
 
@@ -263,7 +263,7 @@
                         android:layout_height="match_parent">
 
                         <TextView
-                            android:id="@+id/textView24"
+                            android:id="@+id/tvBodyPartDetail"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginStart="16dp"
@@ -285,9 +285,9 @@
                             android:layout_height="wrap_content"
                             android:layout_marginEnd="16dp"
                             android:src="@drawable/baseline_arrow_forward_ios_24"
-                            app:layout_constraintBottom_toBottomOf="@+id/textView24"
+                            app:layout_constraintBottom_toBottomOf="@+id/tvBodyPartDetail"
                             app:layout_constraintEnd_toEndOf="parent"
-                            app:layout_constraintTop_toTopOf="@+id/textView24" />
+                            app:layout_constraintTop_toTopOf="@+id/tvBodyPartDetail" />
                     </androidx.constraintlayout.widget.ConstraintLayout>
                 </com.google.android.material.card.MaterialCardView>
 

@@ -44,7 +44,7 @@
                     android:layout_height="match_parent">
 
                     <TextView
-                        android:id="@+id/textView87"
+                        android:id="@+id/edtcnfrm"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="16dp"
@@ -86,7 +86,7 @@
                     android:layout_height="match_parent">
 
                     <TextView
-                        android:id="@+id/textView87"
+                        android:id="@+id/edtcnfrm"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="16dp"
@@ -319,7 +319,7 @@
             </com.google.android.material.textfield.TextInputLayout>
 
             <TextView
-                android:id="@+id/textView71"
+                android:id="@+id/workout"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
@@ -330,10 +330,10 @@
                 android:textSize="20sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/imageView34" />
+                app:layout_constraintTop_toBottomOf="@+id/imgId" />
 
             <com.google.android.material.imageview.ShapeableImageView
-                android:id="@+id/imageView34"
+                android:id="@+id/imgId"
                 android:layout_width="150dp"
                 android:layout_height="150dp"
                 android:layout_marginTop="8dp"
@@ -356,7 +356,7 @@
                 app:cardElevation="2dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/textView71">
+                app:layout_constraintTop_toBottomOf="@+id/workout">
 
                 <androidx.constraintlayout.widget.ConstraintLayout
                     android:layout_width="match_parent"
@@ -398,9 +398,9 @@
                 android:layout_height="wrap_content"
                 android:clickable="true"
                 app:backgroundTint="@color/white"
-                app:layout_constraintBottom_toBottomOf="@+id/imageView34"
-                app:layout_constraintEnd_toEndOf="@+id/imageView34"
-                app:layout_constraintStart_toEndOf="@+id/imageView34"
+                app:layout_constraintBottom_toBottomOf="@+id/imgId"
+                app:layout_constraintEnd_toEndOf="@+id/imgId"
+                app:layout_constraintStart_toEndOf="@+id/imgId"
                 app:srcCompat="@drawable/baseline_edit_24" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>

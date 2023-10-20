@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cvWrkOutCard"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="16dp"
+    android:layout_marginTop="8dp"
+    android:layout_marginEnd="16dp"
+    android:layout_marginBottom="0dp"
+    android:clickable="true"
+    app:cardBackgroundColor="@color/cardBorder"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="0dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tvWrkCarbs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:fontFamily="@font/montserrat_medium"
+            android:text="Carbs 72% 🍞"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            app:layout_constraintBottom_toBottomOf="@+id/tvWrkFat"
+            app:layout_constraintEnd_toStartOf="@+id/tvWrkFat"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintHorizontal_chainStyle="spread_inside"
+            app:layout_constraintStart_toEndOf="@+id/imgWrkThumb"
+            app:layout_constraintTop_toTopOf="@+id/tvWrkFat" />
+
+        <TextView
+            android:id="@+id/tvWrkCal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="@font/montserrat_medium"
+            android:text="72Kcal 🔥"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/tvWrkFat"
+            app:layout_constraintTop_toBottomOf="@+id/tvWorkTargetMuscle" />
+
+        <TextView
+            android:id="@+id/tvWrkFat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat_medium"
+            android:text="Fat 72% 💧"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            app:layout_constraintBottom_toBottomOf="@+id/tvWrkCal"
+            app:layout_constraintEnd_toStartOf="@+id/tvWrkCal"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/tvWrkCarbs"
+            app:layout_constraintTop_toTopOf="@+id/tvWrkCal" />
+
+        <TextView
+            android:id="@+id/tvWrkOutName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:fontFamily="@font/montserrat_bold"
+            android:text="Dumbell Curl"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/imgWrkThumb"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tvWrkOutBdyPart"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="16dp"
+            android:fontFamily="@font/montserrat"
+            android:text="Body Part : "
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/imgWrkThumb"
+            app:layout_constraintTop_toBottomOf="@+id/tvWrkOutName" />
+
+        <TextView
+            android:id="@+id/tvWorkTargetMuscle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="16dp"
+            android:alpha="0.5"
+            android:fontFamily="@font/montserrat"
+            android:text="FitMe Featured Workouts"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/imgWrkThumb"
+            app:layout_constraintTop_toBottomOf="@+id/tvWrkOutBdyPart" />
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/imgWrkThumb"
+            android:layout_width="100dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="8dp"
+            android:scaleType="centerCrop"
+            app:layout_constraintBottom_toBottomOf="@+id/tvWrkCarbs"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/tvWrkOutName"
+            app:shapeAppearance="@style/roundedImageView"
+            app:srcCompat="@drawable/dumbellcurl" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.google.android.material.card.MaterialCardView>

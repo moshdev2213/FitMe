@@ -2,6 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -11,35 +14,49 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.FitMeAdmin"
+        android:usesCleartextTraffic="true"
         tools:targetApi="31">
         <activity
+            android:name=".Activity.WorkoutAdd"
+            android:exported="false"
+            android:label="@string/title_activity_workout_add"
+            android:theme="@style/Theme.FitMeAdmin" />
+        <activity
             android:name=".Activity.WorkoutEdit"
-            android:exported="true" >
-
-        </activity>
+            android:exported="true" />
         <activity
             android:name=".Activity.MealEdit"
-            android:exported="true" >
-
-        </activity>
+            android:exported="true" />
         <activity
             android:name=".Activity.UserEdit"
-            android:exported="true" >
-
-        </activity>
+            android:exported="true" />
         <activity
             android:name=".Activity.TrainerEdit"
-            android:exported="true" >
-
-        </activity>
+            android:exported="true" />
         <activity
             android:name=".Activity.WorkoutDetail"
-            android:exported="true" >
-
-        </activity>
+            android:exported="true" />
         <activity
-            android:name=".Activity.UserDetail"
-            android:exported="true" >
+            android:name=".Activity.SignIn"
+            android:exported="true" />
+        <activity
+            android:name=".Activity.MealDetails"
+            android:exported="true" />
+        <activity
+            android:name=".Activity.TrainerDetail"
+            android:exported="true" />
+        <activity
+            android:name=".Activity.ProfileActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activity.MealPlans"
+            android:exported="true" />
+        <activity
+            android:name=".Activity.Trainers"
+            android:exported="true" />
+        <activity
+            android:name=".Activity.Home"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -47,45 +64,11 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".Activity.MealDetails"
-            android:exported="true" >
-
-        </activity>
-        <activity
-            android:name=".Activity.TrainerDetail"
-            android:exported="true" >
-
-        </activity>
-        <activity
-            android:name=".Activity.ProfileActivity"
-            android:exported="true" >
-
-        </activity>
-        <activity
-            android:name=".Activity.MealPlans"
-            android:exported="true" >
-
-        </activity>
-        <activity
-            android:name=".Activity.Trainers"
-            android:exported="true" >
-
-        </activity>
-        <activity
-            android:name=".Activity.Home"
-            android:exported="true">
-
-        </activity>
-        <activity
             android:name=".Activity.ForgotPassword"
-            android:exported="true" >
-
-        </activity>
+            android:exported="true" />
         <activity
-            android:name=".Activity.SignIn"
-            android:exported="true" >
-
-        </activity>
+            android:name=".Activity.UserDetail"
+            android:exported="true" />
 
         <meta-data
             android:name="preloaded_fonts"

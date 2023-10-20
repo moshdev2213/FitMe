@@ -45,7 +45,7 @@
                     android:layout_height="match_parent">
 
                     <TextView
-                        android:id="@+id/textView87"
+                        android:id="@+id/edtcnfrm"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="16dp"
@@ -88,7 +88,7 @@
                     android:layout_height="match_parent">
 
                     <TextView
-                        android:id="@+id/textView87"
+                        android:id="@+id/canD"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="16dp"
@@ -155,7 +155,7 @@
                 android:layout_marginStart="16dp"
                 android:layout_marginTop="16dp"
                 android:layout_marginEnd="16dp"
-                android:hint="Rating"
+                android:hint="protein"
                 app:endIconMode="clear_text"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.5"
@@ -164,6 +164,7 @@
                 app:layout_constraintTop_toBottomOf="@+id/textInputLayout06">
 
                 <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/protin"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:inputType="number|numberDecimal" />
@@ -185,6 +186,7 @@
                 app:layout_constraintTop_toBottomOf="@+id/textInputLayout06">
 
                 <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/weitD"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:inputType="number|numberDecimal" />
@@ -198,15 +200,16 @@
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="8dp"
                 android:layout_marginEnd="8dp"
-                android:hint="Cholestrol"
+                android:hint="serve"
                 app:endIconMode="clear_text"
                 app:layout_constraintEnd_toStartOf="@+id/textInputLayoutCholo"
                 app:layout_constraintHorizontal_bias="0.5"
                 app:layout_constraintStart_toEndOf="@+id/textInputLayoutCarbs"
                 app:layout_constraintTop_toBottomOf="@+id/textInputLayout5"
-                app:suffixText="g">
+                >
 
                 <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/served"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:inputType="number"
@@ -226,9 +229,10 @@
                 app:layout_constraintHorizontal_bias="0.5"
                 app:layout_constraintStart_toEndOf="@+id/textInputLayoutCalo"
                 app:layout_constraintTop_toBottomOf="@+id/textInputLayout5"
-                app:suffixText="g">
+                >
 
                 <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/calD"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:inputType="number"
@@ -248,9 +252,10 @@
                 app:layout_constraintHorizontal_bias="0.5"
                 app:layout_constraintStart_toEndOf="@+id/textInputLayoutCholo"
                 app:layout_constraintTop_toBottomOf="@+id/textInputLayout5"
-                app:suffixText="g">
+                >
 
                 <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/fatd"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:inputType="number"
@@ -275,6 +280,7 @@
                 app:layout_constraintTop_toBottomOf="@+id/textInputLayout09">
 
                 <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/descD"
                     android:layout_width="match_parent"
                     android:layout_height="200dp"
                     android:gravity="top"
@@ -286,38 +292,23 @@
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/textInputLayout06"
                 style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="16dp"
+                android:layout_width="371dp"
+                android:layout_height="61dp"
                 android:layout_marginTop="8dp"
                 android:hint="Name"
                 app:endIconMode="clear_text"
-                app:layout_constraintEnd_toStartOf="@+id/spinnerGenderSelect"
-                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_chainStyle="spread_inside"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textInputLayout004"
                 app:startIconDrawable="@drawable/baseline_no_meals_24">
 
                 <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/named"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:inputType="text" />
             </com.google.android.material.textfield.TextInputLayout>
-
-            <Spinner
-                android:id="@+id/spinnerGenderSelect"
-                android:layout_width="0dp"
-                android:layout_height="0dp"
-                android:layout_marginStart="16dp"
-                android:layout_marginEnd="16dp"
-                android:background="@drawable/dropdown_background_outline"
-                android:entries="@array/meal_category"
-                app:layout_constraintBottom_toBottomOf="@+id/textInputLayout06"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.5"
-                app:layout_constraintStart_toEndOf="@+id/textInputLayout06"
-                app:layout_constraintTop_toTopOf="@+id/textInputLayout06" />
 
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/textInputLayoutCarbs"
@@ -333,9 +324,10 @@
                 app:layout_constraintHorizontal_chainStyle="spread_inside"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textInputLayout5"
-                app:suffixText="g">
+                >
 
                 <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/carbD"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:inputType="number"
@@ -349,7 +341,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
                 android:layout_marginEnd="16dp"
-                android:hint="Purchases"
+                android:hint="Type"
                 app:endIconMode="clear_text"
                 app:layout_constraintBottom_toBottomOf="@+id/textInputLayout3"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -359,6 +351,7 @@
                 app:layout_constraintTop_toTopOf="@+id/textInputLayout3">
 
                 <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/typ"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:inputType="number" />
@@ -376,17 +369,18 @@
                 app:layout_constraintHorizontal_bias="0.5"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/materialCardView4"
-                app:startIconDrawable="@drawable/baseline_monetization_on_24">
+                >
 
                 <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/priced"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:enabled="false"
+                    android:enabled="true"
                     android:inputType="number|numberDecimal" />
             </com.google.android.material.textfield.TextInputLayout>
 
             <TextView
-                android:id="@+id/textView71"
+                android:id="@+id/workout"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
@@ -397,10 +391,10 @@
                 android:textSize="20sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/imageView34" />
+                app:layout_constraintTop_toBottomOf="@+id/imgId" />
 
             <com.google.android.material.imageview.ShapeableImageView
-                android:id="@+id/imageView34"
+                android:id="@+id/imgId"
                 android:layout_width="150dp"
                 android:layout_height="150dp"
                 android:layout_marginTop="8dp"
@@ -423,7 +417,7 @@
                 app:cardElevation="2dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/textView71">
+                app:layout_constraintTop_toBottomOf="@+id/workout">
 
                 <androidx.constraintlayout.widget.ConstraintLayout
                     android:layout_width="match_parent"
@@ -465,9 +459,9 @@
                 android:layout_height="wrap_content"
                 android:clickable="true"
                 app:backgroundTint="@color/white"
-                app:layout_constraintBottom_toBottomOf="@+id/imageView34"
-                app:layout_constraintEnd_toEndOf="@+id/imageView34"
-                app:layout_constraintStart_toEndOf="@+id/imageView34"
+                app:layout_constraintBottom_toBottomOf="@+id/imgId"
+                app:layout_constraintEnd_toEndOf="@+id/imgId"
+                app:layout_constraintStart_toEndOf="@+id/imgId"
                 app:srcCompat="@drawable/baseline_edit_24" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>

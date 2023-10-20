@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.WorkoutAdd">
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/materialCardView15"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="2dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/materialCardView5"
+        tools:ignore="UnknownIdInLayout">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/materialCardView2"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="16dp"
+                android:clickable="true"
+                app:cardBackgroundColor="@color/primary"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="2dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toEndOf="@+id/materialCardView6"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/addcnfm"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginEnd="16dp"
+                        android:layout_marginBottom="8dp"
+                        android:fontFamily="@font/montserrat_medium"
+                        android:text="Add Detail"
+                        android:textColor="@color/white"
+                        android:textSize="18sp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_chainStyle="packed"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/materialCardView6"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp"
+                android:clickable="true"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="2dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/materialCardView2"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintHorizontal_chainStyle="spread_inside"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:strokeColor="@color/bg_danger"
+                app:strokeWidth="2dp">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/cbtn2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/cancelbt"
+                        android:layout_width="137dp"
+                        android:layout_height="26dp"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginEnd="16dp"
+                        android:layout_marginBottom="8dp"
+                        android:fontFamily="@font/montserrat_medium"
+                        android:text="Cancel"
+                        android:textAlignment="center"
+                        android:textColor="@color/bg_danger"
+                        android:textSize="18sp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_chainStyle="packed"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+    <ImageView
+        android:id="@+id/imbBackBtn4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView82"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView82"
+        app:srcCompat="@drawable/baseline_arrow_back_24" />
+
+    <TextView
+        android:id="@+id/textView82"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="Workout Add"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:fillViewport="true"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/materialCardView15"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView82">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textInputLayout11"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:hint="gifUrl"
+                app:endIconMode="clear_text"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintHorizontal_chainStyle="spread_inside"
+                app:layout_constraintStart_toEndOf="@+id/textInputLayout09"
+                app:layout_constraintTop_toBottomOf="@+id/textInputLayout06">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="number|numberDecimal" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textInputLayout09"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:hint="Name"
+                app:endIconMode="clear_text"
+                app:layout_constraintEnd_toStartOf="@+id/textInputLayout11"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintHorizontal_chainStyle="spread_inside"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textInputLayout06">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/nameId"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="text" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textInputLayoutCalo"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:hint="Fat"
+                app:endIconMode="clear_text"
+                app:layout_constraintEnd_toStartOf="@+id/textInputLayoutCholo"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toEndOf="@+id/textInputLayoutCarbs"
+                app:layout_constraintTop_toBottomOf="@+id/textInputLayout5"
+                app:suffixText="%">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/fatidadd"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:maxLength="4" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textInputLayoutCholo"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="16dp"
+                android:hint="Calories"
+                app:endIconMode="clear_text"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/textInputLayoutCalo"
+                app:layout_constraintTop_toBottomOf="@+id/textInputLayout5"
+                app:suffixText="Kcal">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/calariesadd"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:maxLength="4" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textInputLayout03"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="16dp"
+                android:hint="Workout Description"
+                app:endIconMode="clear_text"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_chainStyle="spread_inside"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textInputLayout09">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/descriptadd"
+                    android:layout_width="match_parent"
+                    android:layout_height="144dp"
+                    android:gravity="top"
+                    android:inputType="textMultiLine"
+                    android:maxLines="10"
+                    android:minLines="3" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textInputLayout06"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:hint="equipment"
+                app:endIconMode="clear_text"
+                app:layout_constraintEnd_toStartOf="@+id/spinnerGenderSelect"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintHorizontal_chainStyle="spread_inside"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textInputLayoutCalo"
+                app:startIconDrawable="@drawable/baseline_fitness_center_24">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/eqId"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="text" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/spinnerGenderSelect"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+
+                android:entries="@array/workout_category"
+                android:hint="Body Part"
+                app:layout_constraintBottom_toBottomOf="@+id/textInputLayout06"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toEndOf="@+id/textInputLayout06"
+                app:layout_constraintTop_toTopOf="@+id/textInputLayout06" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textInputLayoutCarbs"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:hint="Carbs"
+                app:endIconMode="clear_text"
+                app:layout_constraintEnd_toStartOf="@+id/textInputLayoutCalo"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintHorizontal_chainStyle="spread_inside"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textInputLayout5"
+                app:suffixText="%">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/carbssadd"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:maxLength="4" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textInputLayout5"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:hint="Duration"
+                app:endIconMode="clear_text"
+                app:layout_constraintBottom_toBottomOf="@+id/textInputLayout3"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintHorizontal_chainStyle="spread_inside"
+                app:layout_constraintStart_toEndOf="@+id/textInputLayout3"
+                app:layout_constraintTop_toTopOf="@+id/textInputLayout3"
+                app:suffixText="min">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/durationTadd"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="number" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textInputLayout3"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:hint="Target Muscle"
+                app:layout_constraintEnd_toStartOf="@+id/textInputLayout5"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/materialCardView4"
+                >
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/tmuscleadd"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:inputType="text" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <TextView
+                android:id="@+id/workout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:fontFamily="@font/montserrat_medium"
+                android:text="workout@34244"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imgId" />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/imgId"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="8dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/mealplan"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:shapeAppearance="@style/circledImageView" />
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/materialCardView4"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:clickable="true"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="2dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/workout">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/wid"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:fontFamily="@font/montserrat_bold"
+                        android:text="Workout ID"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toStartOf="@+id/imageView35"
+                        app:layout_constraintHorizontal_bias="0.5"
+                        app:layout_constraintHorizontal_chainStyle="spread_inside"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <ImageView
+                        android:id="@+id/imageView35"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="16dp"
+                        app:layout_constraintBottom_toBottomOf="@+id/textView70"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.5"
+                        app:layout_constraintStart_toEndOf="@+id/textView70"
+                        app:layout_constraintTop_toTopOf="@+id/textView70"
+                        app:srcCompat="@drawable/baseline_qr_code_24" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/floatingActionButton3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                app:backgroundTint="@color/white"
+                app:layout_constraintBottom_toBottomOf="@+id/imgId"
+                app:layout_constraintEnd_toEndOf="@+id/imgId"
+                app:layout_constraintStart_toEndOf="@+id/imgId"
+                app:srcCompat="@drawable/baseline_edit_24" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

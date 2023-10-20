@@ -4,7 +4,7 @@
             "outputFile": "com.example.fitmeadmin.app-mergeDebugResources-28:/values-pt/values-pt.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\user\\.gradle\\caches\\transforms-3\\9b59ab12ff2cf6ddfff3065340a0bf56\\transformed\\appcompat-1.6.1\\res\\values-pt\\values-pt.xml",
+                    "source": "C:\\Gradle\\gradle-8.0.2-bin\\gradle-8.0.2\\bin\\caches\\transforms-3\\a49422cb3de83d9b25eafeb5c6a85f96\\transformed\\appcompat-1.6.1\\res\\values-pt\\values-pt.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\user\\.gradle\\caches\\transforms-3\\256c6597bc3e6f8192abd6f9b27a26ab\\transformed\\core-1.9.0\\res\\values-pt\\values-pt.xml",
+                    "source": "C:\\Gradle\\gradle-8.0.2-bin\\gradle-8.0.2\\bin\\caches\\transforms-3\\ce2067283f002348e46e135c2f5efa2c\\transformed\\core-1.9.0\\res\\values-pt\\values-pt.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

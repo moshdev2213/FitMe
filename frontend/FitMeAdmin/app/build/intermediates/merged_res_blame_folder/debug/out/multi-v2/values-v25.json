@@ -4,7 +4,7 @@
             "outputFile": "com.example.fitmeadmin.app-mergeDebugResources-28:/values-v25/values-v25.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\user\\.gradle\\caches\\transforms-3\\9b59ab12ff2cf6ddfff3065340a0bf56\\transformed\\appcompat-1.6.1\\res\\values-v25\\values-v25.xml",
+                    "source": "C:\\Gradle\\gradle-8.0.2-bin\\gradle-8.0.2\\bin\\caches\\transforms-3\\a49422cb3de83d9b25eafeb5c6a85f96\\transformed\\appcompat-1.6.1\\res\\values-v25\\values-v25.xml",
                     "from": {
                         "startLines": "2,3,4,6",
                         "startColumns": "4,4,4,4",

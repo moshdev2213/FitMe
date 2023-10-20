@@ -51,8 +51,17 @@
     <color name="shimmerLight">#E5E7EB</color>
     <color name="shimmerMain">#D1D5DB</color>
     <color name="white">#FFFFFFFF</color>
+    <item name="cvWrkOutCard" type="id"/>
+    <item name="imgWrkThumb" type="id"/>
+    <item name="tvWorkTargetMuscle" type="id"/>
+    <item name="tvWrkCal" type="id"/>
+    <item name="tvWrkCarbs" type="id"/>
+    <item name="tvWrkFat" type="id"/>
+    <item name="tvWrkOutBdyPart" type="id"/>
+    <item name="tvWrkOutName" type="id"/>
     <string name="app_name">FitMe Admin</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_workout_add">WorkoutAdd</string>
     <style name="Base.Theme.FitMeAdmin" parent="Theme.MaterialComponents.Light.NoActionBar">
         <item name="android:navigationBarColor">@color/black</item>
         <item name="android:statusBarColor">@color/white</item>

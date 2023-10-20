@@ -4,17 +4,7 @@
             "outputFile": "com.example.fitmeadmin.app-mergeDebugResources-28:/values-watch-v20/values-watch-v20.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\user\\.gradle\\caches\\transforms-3\\549489899561fd4d1d11a0c59402f3af\\transformed\\core-splashscreen-1.0.1\\res\\values-watch-v20\\values-watch-v20.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,129,205,280,357,428,496,566",
-                        "endColumns": "73,75,74,76,70,67,69,67",
-                        "endOffsets": "124,200,275,352,423,491,561,629"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\user\\.gradle\\caches\\transforms-3\\9b59ab12ff2cf6ddfff3065340a0bf56\\transformed\\appcompat-1.6.1\\res\\values-watch-v20\\values-watch-v20.xml",
+                    "source": "C:\\Gradle\\gradle-8.0.2-bin\\gradle-8.0.2\\bin\\caches\\transforms-3\\a49422cb3de83d9b25eafeb5c6a85f96\\transformed\\appcompat-1.6.1\\res\\values-watch-v20\\values-watch-v20.xml",
                     "from": {
                         "startLines": "2,5,8",
                         "startColumns": "4,4,4",
@@ -30,6 +20,16 @@
                         "endLines": "12,15,18",
                         "endColumns": "12,12,12",
                         "endOffsets": "788,959,1132"
+                    }
+                },
+                {
+                    "source": "C:\\Gradle\\gradle-8.0.2-bin\\gradle-8.0.2\\bin\\caches\\transforms-3\\97eb130529d028003233ce3316367d57\\transformed\\jetified-core-splashscreen-1.0.1\\res\\values-watch-v20\\values-watch-v20.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,129,205,280,357,428,496,566",
+                        "endColumns": "73,75,74,76,70,67,69,67",
+                        "endOffsets": "124,200,275,352,423,491,561,629"
                     }
                 }
             ]

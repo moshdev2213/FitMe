@@ -4,7 +4,7 @@
             "outputFile": "com.example.fitmeadmin.app-mergeDebugResources-28:/values-v23/values-v23.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\user\\.gradle\\caches\\transforms-3\\5a5c5e5c7026544de9ccf8875773e4ef\\transformed\\material-1.5.0\\res\\values-v23\\values-v23.xml",
+                    "source": "C:\\Gradle\\gradle-8.0.2-bin\\gradle-8.0.2\\bin\\caches\\transforms-3\\5159941d9342d8d6891a430a12cdd97e\\transformed\\material-1.5.0\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2,5,8,13,17,20,23,26,31,34,38",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\user\\.gradle\\caches\\transforms-3\\5f56787e84ee9daeafb51689cc5f9686\\transformed\\cardview-v7-28.0.0\\res\\values-v23\\values-v23.xml",
+                    "source": "C:\\Gradle\\gradle-8.0.2-bin\\gradle-8.0.2\\bin\\caches\\transforms-3\\628cf4a95d96783d40aa9105c17e9c51\\transformed\\cardview-1.0.0\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -42,7 +42,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\user\\.gradle\\caches\\transforms-3\\9b59ab12ff2cf6ddfff3065340a0bf56\\transformed\\appcompat-1.6.1\\res\\values-v23\\values-v23.xml",
+                    "source": "C:\\Gradle\\gradle-8.0.2-bin\\gradle-8.0.2\\bin\\caches\\transforms-3\\a49422cb3de83d9b25eafeb5c6a85f96\\transformed\\appcompat-1.6.1\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,20,34,35,36,39,43,44,45,46",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",

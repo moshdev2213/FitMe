@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="tvWrkFat" type="id" />
+    <item name="imgWrkThumb" type="id" />
+    <item name="tvWrkCal" type="id" />
+    <item name="cvWrkOutCard" type="id" />
+    <item name="tvWrkCarbs" type="id" />
+    <item name="tvWorkTargetMuscle" type="id" />
+    <item name="tvWrkOutName" type="id" />
+    <item name="tvWrkOutBdyPart" type="id" />
+</resources>

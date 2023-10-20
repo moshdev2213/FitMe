@@ -30,13 +30,13 @@
             android:layout_height="match_parent">
 
             <TextView
-                android:id="@+id/textView78"
+                android:id="@+id/edtbtn"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
                 android:layout_marginBottom="8dp"
                 android:fontFamily="@font/montserrat_bold"
-                android:text="Delete"
+                android:text="          Delete          "
                 android:textColor="@color/bg_danger"
                 android:textSize="16sp"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -67,17 +67,17 @@
             android:layout_height="match_parent">
 
             <ImageView
-                android:id="@+id/imageView39"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:id="@+id/edtnav"
+                android:layout_width="60dp"
+                android:layout_height="22dp"
                 android:layout_marginEnd="16dp"
                 android:src="@drawable/baseline_arrow_forward_ios_24_white"
-                app:layout_constraintBottom_toBottomOf="@+id/textView78"
+                app:layout_constraintBottom_toBottomOf="@+id/edtbtn"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintTop_toTopOf="@+id/textView78" />
+                app:layout_constraintTop_toTopOf="@+id/edtbtn" />
 
             <TextView
-                android:id="@+id/textView78"
+                android:id="@+id/delbtnn"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
@@ -89,7 +89,7 @@
                 android:textColor="@color/white"
                 android:textSize="16sp"
                 app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toStartOf="@+id/textView15"
+
                 app:layout_constraintHorizontal_bias="0.5"
                 app:layout_constraintHorizontal_chainStyle="packed"
                 app:layout_constraintStart_toStartOf="parent"
@@ -141,7 +141,6 @@
                     app:layout_constraintStart_toStartOf="parent">
 
                     <TextView
-                        android:id="@+id/textView24"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="8dp"
@@ -154,7 +153,7 @@
                         app:layout_constraintTop_toTopOf="parent" />
 
                     <TextView
-                        android:id="@+id/tvDocExpDetail"
+                        android:id="@+id/serve"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="8dp"
@@ -166,7 +165,7 @@
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toStartOf="@+id/imageView37"
                         app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toBottomOf="@+id/textView24" />
+                        />
 
                     <ImageView
                         android:id="@+id/imageView37"
@@ -260,10 +259,10 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.087"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/imageView22" />
+                app:layout_constraintTop_toBottomOf="@+id/imgMainWrkBanner" />
 
             <TextView
-                android:id="@+id/textView85"
+                android:id="@+id/targeting"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
@@ -304,7 +303,7 @@
                     app:layout_constraintStart_toStartOf="parent">
 
                     <TextView
-                        android:id="@+id/textView24"
+                        android:id="@+id/tvBodyPartDetail"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="16dp"
@@ -317,7 +316,7 @@
                         app:layout_constraintTop_toTopOf="parent" />
 
                     <TextView
-                        android:id="@+id/tvDocExpDetail"
+                        android:id="@+id/bodypart"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="16dp"
@@ -329,7 +328,7 @@
                         android:textSize="24sp"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toBottomOf="@+id/textView24" />
+                        app:layout_constraintTop_toBottomOf="@+id/tvBodyPartDetail" />
 
                 </androidx.constraintlayout.widget.ConstraintLayout>
             </androidx.cardview.widget.CardView>
@@ -358,7 +357,7 @@
                     app:layout_constraintStart_toStartOf="parent">
 
                     <TextView
-                        android:id="@+id/textView24"
+                        android:id="@+id/tvBodyPartDetail"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="16dp"
@@ -371,7 +370,7 @@
                         app:layout_constraintTop_toTopOf="parent" />
 
                     <TextView
-                        android:id="@+id/tvDocJoinedDetail"
+                        android:id="@+id/tvExrDurationDetail"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="16dp"
@@ -383,7 +382,7 @@
                         android:textSize="24sp"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toBottomOf="@+id/textView24" />
+                        app:layout_constraintTop_toBottomOf="@+id/tvBodyPartDetail" />
 
                 </androidx.constraintlayout.widget.ConstraintLayout>
             </androidx.cardview.widget.CardView>
@@ -407,7 +406,7 @@
                     android:layout_height="match_parent">
 
                     <TextView
-                        android:id="@+id/tvDocDetailText5"
+                        android:id="@+id/tvExDescDetail"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="8dp"
@@ -424,7 +423,7 @@
                         app:layout_constraintTop_toBottomOf="@+id/materialCardView13" />
 
                     <TextView
-                        android:id="@+id/textView75"
+                        android:id="@+id/priced"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="8dp"
@@ -434,7 +433,7 @@
                         android:textColor="@color/primary"
                         android:textSize="20sp"
                         app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toBottomOf="@+id/imageView36" />
+                        app:layout_constraintTop_toBottomOf="@+id/imgTargetMuscle" />
 
                     <TextView
                         android:id="@+id/textView76"
@@ -445,9 +444,9 @@
                         android:text="Rating 4.8"
                         android:textColor="@color/cardBorderText"
                         android:textSize="16sp"
-                        app:layout_constraintBottom_toBottomOf="@+id/textView75"
+                        app:layout_constraintBottom_toBottomOf="@+id/priced"
                         app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintTop_toTopOf="@+id/textView75" />
+                        app:layout_constraintTop_toTopOf="@+id/priced" />
 
                     <com.google.android.material.card.MaterialCardView
                         android:id="@+id/materialCardView13"
@@ -461,14 +460,14 @@
                         app:layout_constraintEnd_toStartOf="@+id/materialCardView12"
                         app:layout_constraintHorizontal_bias="0.5"
                         app:layout_constraintStart_toEndOf="@+id/materialCardView11"
-                        app:layout_constraintTop_toBottomOf="@+id/textView75">
+                        app:layout_constraintTop_toBottomOf="@+id/priced">
 
                         <androidx.constraintlayout.widget.ConstraintLayout
                             android:layout_width="match_parent"
                             android:layout_height="match_parent">
 
                             <TextView
-                                android:id="@+id/textView73"
+                                android:id="@+id/fatd"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginStart="16dp"
@@ -503,7 +502,7 @@
                             android:layout_height="match_parent">
 
                             <TextView
-                                android:id="@+id/textView73"
+                                android:id="@+id/fatdet"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginStart="16dp"
@@ -520,7 +519,7 @@
                     </com.google.android.material.card.MaterialCardView>
 
                     <com.google.android.material.imageview.ShapeableImageView
-                        android:id="@+id/imageView36"
+                        android:id="@+id/imgTargetMuscle"
                         android:layout_width="0dp"
                         android:layout_height="200dp"
                         android:scaleType="centerCrop"
@@ -549,8 +548,18 @@
                             android:layout_width="match_parent"
                             android:layout_height="match_parent">
 
+                            <ImageView
+                                android:id="@+id/edtnav2"
+                                android:layout_width="60dp"
+                                android:layout_height="22dp"
+                                android:layout_marginEnd="16dp"
+                                android:src="@drawable/baseline_arrow_forward_ios_24_white"
+                                app:layout_constraintBottom_toBottomOf="@+id/edtbtn"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintTop_toTopOf="@+id/edtbtn" />
+
                             <TextView
-                                android:id="@+id/textView73"
+                                android:id="@+id/calaries"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginStart="16dp"
@@ -569,7 +578,7 @@
             </com.google.android.material.card.MaterialCardView>
 
             <com.google.android.material.imageview.ShapeableImageView
-                android:id="@+id/imageView22"
+                android:id="@+id/imgMainWrkBanner"
                 android:layout_width="0dp"
                 android:layout_height="250dp"
                 android:layout_marginStart="16dp"
@@ -579,7 +588,7 @@
                 android:scaleType="centerCrop"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/textView85"
+                app:layout_constraintTop_toBottomOf="@+id/targeting"
                 app:shapeAppearance="@style/roundedImageView"
                 app:srcCompat="@drawable/dumbellcurl" />
         </androidx.constraintlayout.widget.ConstraintLayout>

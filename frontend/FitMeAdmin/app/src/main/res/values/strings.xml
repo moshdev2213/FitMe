@@ -22,4 +22,5 @@
         <item>Traps</item>
         <item>Abs</item>
     </string-array>
+    <string name="title_activity_workout_add">WorkoutAdd</string>
 </resources>
