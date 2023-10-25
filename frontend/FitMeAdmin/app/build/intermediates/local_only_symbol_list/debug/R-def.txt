@@ -107,6 +107,7 @@ id Inputpwd
 id addW
 id addbtn
 id addcnfm
+id age
 id bPart
 id barChartHome
 id barChartUsersFrag
@@ -138,6 +139,8 @@ id cardView12
 id cardView4
 id cardView6
 id cbtn2
+id charge
+id clickC
 id constraintLayout4
 id ctext
 id cvAddMealOpen
@@ -158,6 +161,7 @@ id cvTrainerActCard
 id cvTrainerNum
 id cvWrkOutCard
 id cvopenMealAct
+id delb
 id delbtn
 id delbtnn
 id descD
@@ -171,6 +175,8 @@ id edtcnfrm
 id edtnav
 id edtnav2
 id eqId
+id exp
+id experi
 id fatd
 id fatdet
 id fatid
@@ -180,6 +186,8 @@ id floatingActionButton2
 id floatingActionButton3
 id fragmentProfileClayout
 id frame_layout
+id from
+id gender
 id general
 id home
 id horizontalScrollView
@@ -265,8 +273,10 @@ id priced
 id proM
 id protin
 id radar_chart
-id recyclerView
+id rvPay
+id rvU
 id rvWrkOutList
+id rvtrain
 id scFood
 id scrollView2
 id serve
@@ -274,6 +284,7 @@ id serveM
 id served
 id spinnerGenderSelect
 id targeting
+id tcard
 id textInputLayout
 id textInputLayout004
 id textInputLayout03
@@ -310,9 +321,6 @@ id textView27
 id textView28
 id textView29
 id textView3
-id textView30
-id textView31
-id textView32
 id textView33
 id textView34
 id textView35
@@ -335,7 +343,6 @@ id textView5
 id textView50
 id textView51
 id textView52
-id textView53
 id textView54
 id textView55
 id textView56
@@ -404,7 +411,7 @@ id tvWrkFat
 id tvWrkOutBdyPart
 id tvWrkOutName
 id typ
-id typeM
+id type
 id users
 id view
 id view2

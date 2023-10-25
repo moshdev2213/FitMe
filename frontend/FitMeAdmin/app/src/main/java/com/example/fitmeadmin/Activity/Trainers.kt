@@ -1,21 +1,39 @@
 package com.example.fitmeadmin.Activity
 
+import android.content.Intent
 import android.graphics.Color
 import android.graphics.LinearGradient
 import android.graphics.Shader
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ImageView
+import android.widget.Toast
 import androidx.core.content.ContextCompat
+import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.RecyclerView
+import com.example.fitmeadmin.APIServices.MealService
+import com.example.fitmeadmin.APIServices.TrainerAPI
+import com.example.fitmeadmin.Adapter.MealAdapter
+import com.example.fitmeadmin.Adapter.TrainerAdapter
+import com.example.fitmeadmin.EntityDao.MealItem
+import com.example.fitmeadmin.EntityDao.MealRes
+import com.example.fitmeadmin.EntityDao.TrainerItem
+import com.example.fitmeadmin.EntityDao.TrainerRes
 import com.example.fitmeadmin.R
+import com.example.fitmeadmin.RetrofitService.RetrofitService
 import com.github.mikephil.charting.charts.LineChart
 import com.github.mikephil.charting.data.Entry
 import com.github.mikephil.charting.data.LineData
 import com.github.mikephil.charting.data.LineDataSet
+import retrofit2.Call
+import retrofit2.Callback
+import retrofit2.Response
 
 class Trainers : AppCompatActivity() {
     private lateinit var trainer_line_chart:LineChart
     private lateinit var btnBackTrainer:ImageView
+    private lateinit var rvtrainer:RecyclerView
+    private lateinit var trainerAdapter: TrainerAdapter
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_trainers)
@@ -75,6 +93,65 @@ class Trainers : AppCompatActivity() {
 // Rename the description label
         trainer_line_chart.description.text = ""
         trainer_line_chart.animateY(1000)
+
+        initRecyclerView()
+
+
+
     }
+
+    private fun initRecyclerView() {
+        rvtrainer = findViewById(R.id.rvtrain)
+
+        // Use this as the context
+        val context = this
+
+        rvtrainer.layoutManager = LinearLayoutManager(context)
+
+        trainerAdapter = TrainerAdapter({ tarinerItem ->
+            trainerCardClick(tarinerItem)
+        }, context)
+
+        rvtrainer.adapter = trainerAdapter
+        fetchtrainerdetails()
+    }
+
+    private fun trainerCardClick(tarinerItem: TrainerItem) {
+        val bundle = Bundle().apply {
+            putSerializable("trainer", tarinerItem)
+        }
+
+        val intent = Intent(this, TrainerDetail::class.java)
+        intent.putExtras(bundle)
+        startActivity(intent)
+    }
+
+    private fun fetchtrainerdetails() {
+        val retrofitService = RetrofitService()
+        val getList = retrofitService.getRetrofit().create(TrainerAPI::class.java)
+        val call: Call<TrainerRes> = getList.getAllTrainers()
+
+        call.enqueue(object : Callback<TrainerRes> {
+            override fun onResponse(call: Call<TrainerRes>, response: Response<TrainerRes>) {
+                if (response.isSuccessful) {
+                    if (response.body() != null) {
+                        val trainRes = response.body()
+                        val trainerItem = trainRes?.items  // select items
+                        trainerAdapter.setList(trainerItem!!)
+                        // Handle your UI elements here, if needed.
+                    }
+                } else {
+                    // Use requireContext() to get the context
+                    Toast.makeText(this@Trainers, "Invalid response", Toast.LENGTH_SHORT).show()
+                }
+            }
+
+            override fun onFailure(call: Call<TrainerRes>, t: Throwable) {
+                // Use requireContext() to get the context
+                Toast.makeText(this@Trainers, "Server Error", Toast.LENGTH_SHORT).show()
+            }
+        })
+    }
+
 
 }

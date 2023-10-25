@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ImageView
 import android.widget.TextView
+import android.widget.Toast
 import com.bumptech.glide.Glide
 import com.bumptech.glide.load.engine.DiskCacheStrategy
 import com.example.fitmeadmin.EntityDao.ExerciseItem
@@ -79,6 +80,7 @@ class MealDetails : AppCompatActivity() {
 
         cancel.setOnClickListener {
             finish()
+            Toast.makeText(this@MealDetails, "Deleted Successfully", Toast.LENGTH_SHORT).show()
         }
 
         edit.setOnClickListener {

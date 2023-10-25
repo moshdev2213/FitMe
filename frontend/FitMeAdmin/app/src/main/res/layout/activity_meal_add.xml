@@ -281,14 +281,15 @@
                 app:layout_constraintHorizontal_chainStyle="spread_inside"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textInputLayoutCalo"
-                app:startIconDrawable="@drawable/baseline_no_meals_24">
-
+                >
                 <com.google.android.material.textfield.TextInputEditText
-                    android:id="@+id/typeM"
+                    android:id="@+id/type"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+
                     android:inputType="text" />
             </com.google.android.material.textfield.TextInputLayout>
+
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/spinnerGenderSelect"

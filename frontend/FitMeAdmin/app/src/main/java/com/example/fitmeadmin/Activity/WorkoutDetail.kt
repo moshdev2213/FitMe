@@ -8,6 +8,7 @@ import android.os.Bundle
 //import android.support.v7.widget.CardView
 import android.widget.ImageView
 import android.widget.TextView
+import android.widget.Toast
 import androidx.annotation.RequiresApi
 import com.bumptech.glide.Glide
 import com.bumptech.glide.load.engine.DiskCacheStrategy
@@ -111,6 +112,7 @@ class WorkoutDetail : AppCompatActivity() {
         }
         cvDel.setOnClickListener {
             finish()
+            Toast.makeText(this@WorkoutDetail, "Deleted Successfully", Toast.LENGTH_SHORT).show()
         }
 
     }

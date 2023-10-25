@@ -57,7 +57,7 @@ class WorkoutFragment : Fragment() {
             startActivity(Intent(requireContext(),MealPlans::class.java))
         }
         addbtn.setOnClickListener {
-            startActivity(Intent(requireContext(),MealPlans::class.java))
+            startActivity(Intent(requireContext(),Trainers::class.java))
         }
 
         addworkout.setOnClickListener {

@@ -69,10 +69,10 @@
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintHorizontal_chainStyle="spread_inside"
                         app:layout_constraintStart_toEndOf="@+id/imageView26"
-                        app:layout_constraintTop_toBottomOf="@+id/textView53" />
+                        app:layout_constraintTop_toBottomOf="@+id/clickC" />
 
                     <TextView
-                        android:id="@+id/textView53"
+                        android:id="@+id/clickC"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="8dp"
@@ -96,7 +96,7 @@
                         android:scaleType="centerCrop"
                         android:src="@drawable/trainerbannner"
                         app:layout_constraintBottom_toBottomOf="parent"
-                        app:layout_constraintEnd_toStartOf="@+id/textView53"
+                        app:layout_constraintEnd_toStartOf="@+id/clickC"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent"
                         app:shapeAppearance="@style/roundedImageView" />
@@ -277,6 +277,7 @@
                 app:srcCompat="@drawable/baseline_person_4_24" />
 
             <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rvtrain"
                 android:layout_width="0dp"
                 android:layout_height="0dp"
                 app:layout_constraintBottom_toBottomOf="parent"
