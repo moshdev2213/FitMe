@@ -16,13 +16,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="24ae4237-97e0-44ef-a6b7-33eacbf7cad4" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FitMeUser/app/src/main/java/com/example/fitme/Activity/Home.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../FitMeUser/app/src/main/java/com/example/fitme/Activity/Home.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FitMeUser/app/src/main/java/com/example/fitme/Activity/SignIn.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../FitMeUser/app/src/main/java/com/example/fitme/Activity/SignIn.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FitMeUser/app/src/main/java/com/example/fitme/Fragment/IndexFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../FitMeUser/app/src/main/java/com/example/fitme/Fragment/IndexFragment.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FitMeUser/app/src/main/res/layout/activity_workout_list.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FitMeUser/app/src/main/res/layout/activity_workout_list.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FitMeUser/app/src/main/res/layout/fragment_index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FitMeUser/app/src/main/res/layout/fragment_index.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FitMeUser/app/src/main/res/layout/workout_item.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FitMeUser/app/src/main/res/layout/workout_item.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.0/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.0/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/R.jar" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/R.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FitMeUser/.idea/other.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FitMeUser/app/src/main/java/com/example/fitme/APIServices/MealService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../FitMeUser/app/src/main/java/com/example/fitme/APIServices/MealService.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FitMeUser/app/src/main/java/com/example/fitme/Activity/EditProfile.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../FitMeUser/app/src/main/java/com/example/fitme/Activity/EditProfile.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FitMeUser/app/src/main/java/com/example/fitme/Fragment/ProfileFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../FitMeUser/app/src/main/java/com/example/fitme/Fragment/ProfileFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FitMeUser/app/src/main/res/layout/activity_edit_profile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FitMeUser/app/src/main/res/layout/activity_edit_profile.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FitMeUser/app/src/main/res/layout/fragment_profile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FitMeUser/app/src/main/res/layout/fragment_profile.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FitMeUser/app/src/main/res/layout/shimmer_fragment_profile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FitMeUser/app/src/main/res/layout/shimmer_fragment_profile.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

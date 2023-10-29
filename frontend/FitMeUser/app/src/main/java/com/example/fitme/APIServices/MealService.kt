@@ -8,5 +8,6 @@ import retrofit2.http.GET
 interface MealService {
     @GET("/api/collections/meal/records")
     fun getAllMeals(
+
     ): Call<MealRes>
 }
